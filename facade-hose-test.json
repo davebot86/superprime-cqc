@@ -39,6 +39,26 @@
      "source": "PER ITP 7.1–7.2"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "BEFORE TESTING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Test locations agreed with the design team and recorded on the 3D model/drawings?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 1.1–1.2"
+    },
+    {
+     "ref": "2.2",
+     "q": "Internal finishes protected and observers in place inside during the test?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 7.1"
+    }
+   ]
   }
  ]
 }

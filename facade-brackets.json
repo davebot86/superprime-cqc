@@ -46,6 +46,26 @@
      "source": "PER ITP 4.4"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "SETTING OUT",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Control points and datums verified before installation?",
+     "evidence": "cert",
+     "trade": "PER",
+     "source": "PER ITP 3.5"
+    },
+    {
+     "ref": "2.2",
+     "q": "As-built survey of the frame issued and any out-of-tolerance inserts remediated per SWI0001?",
+     "evidence": "cert",
+     "trade": "PER",
+     "source": "PER ITP 3.1; bracket checklist 2.1"
+    }
+   ]
   }
  ]
 }

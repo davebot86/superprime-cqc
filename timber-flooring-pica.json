@@ -46,6 +46,33 @@
      "source": "Flooring ITP – expansion"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "COMPLETION",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Materials delivered undamaged and stored acclimatising in the room?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Flooring ITP – deliveries"
+    },
+    {
+     "ref": "2.2",
+     "q": "Floor completed to the latest drawing, with photos at 100% completion?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Flooring ITP – completion"
+    },
+    {
+     "ref": "2.3",
+     "q": "Finished floor protected?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Flooring ITP – completion"
+    }
+   ]
   }
  ]
 }

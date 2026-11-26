@@ -26,20 +26,47 @@
     },
     {
      "ref": "1.2",
-     "q": "Devices in the positions on the drawings, heads protected during works?",
+     "q": "Devices in the drawing positions and labelled; heads protected during works?",
      "evidence": "photo",
      "trade": "PHF",
-     "source": "PHF ITP"
+     "source": "PHF ITP 13.2"
     },
     {
      "ref": "1.3",
-     "q": "Circuit testing recorded and witnessed?",
-     "evidence": "cert",
+     "q": "Supplies correctly fused and labelled with installation date?",
+     "evidence": "photo",
      "trade": "PHF",
-     "source": "PHF ITP 78"
+     "source": "PHF ITP 25.2–25.4"
     },
     {
      "ref": "1.4",
+     "q": "Cables terminated in all control and ancillary equipment?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF ITP 26.2"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "TESTING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Cable insulation resistance measurements logged?",
+     "evidence": "cert",
+     "trade": "PHF",
+     "source": "PHF ITP 38.2"
+    },
+    {
+     "ref": "2.2",
+     "q": "Device operation tested and results recorded, signalling to the ARC proved?",
+     "evidence": "cert",
+     "trade": "PHF",
+     "source": "PHF ITP 39.2"
+    },
+    {
+     "ref": "2.3",
      "q": "Cause and effect tested with smoke control and lifts?",
      "evidence": "cert",
      "trade": "PHF",

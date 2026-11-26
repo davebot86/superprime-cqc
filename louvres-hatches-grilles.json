@@ -15,35 +15,109 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "SET OUT & SUPPORT STEEL",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is the substructure as per Emtec drawings?",
+     "q": "Set-out position and level agreed within ±2 mm?",
      "evidence": "photo",
      "trade": "Emtec",
-     "source": "Emtec ITP 13"
+     "source": "Emtec checklist 1.01"
     },
     {
      "ref": "1.2",
-     "q": "Torque/pull-out tests done on fixings and witnessed?",
-     "evidence": "cert",
+     "q": "Galvanised columns/brackets fixed to the opening: undamaged, aligned, correct fixing type and quantity, within ±5 mm?",
+     "evidence": "photo",
      "trade": "Emtec",
-     "source": "Emtec ITP 12 (W)"
+     "source": "Emtec checklist 1.02–1.03"
     },
     {
      "ref": "1.3",
+     "q": "Support metalwork torque tested to the manufacturer (10% of fixings) and recorded?",
+     "evidence": "cert",
+     "trade": "Emtec",
+     "source": "Emtec checklist – torque test; ITP 12 (W)"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "LOUVRES",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Mullions/top hats fixed to purlins within ±2 mm?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.06"
+    },
+    {
+     "ref": "2.2",
+     "q": "Blades clipped in with snap connections fully engaged, aligned within ±2 mm, dummy blades fixed?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.07–1.08"
+    },
+    {
+     "ref": "2.3",
+     "q": "Stainless bird mesh fixed to the back of the louvres?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.09"
+    },
+    {
+     "ref": "2.4",
+     "q": "Louvre doors fixed, working, ironmongery functional?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.10–1.11"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "HATCHES & GRILLES",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Access panel / grille fixed to its frame within ±5 mm, Z-frame aligned?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec hatch/grille checklist 1.03–1.04"
+    },
+    {
+     "ref": "3.2",
+     "q": "Hinges, locks and ironmongery checked and working?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec hatch checklist 1.05"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "FINISH",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Flashings sealed with the specified silicone, neat and undamaged?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.12"
+    },
+    {
+     "ref": "4.2",
+     "q": "Free from dents and scratches, protected (Correx) where needed?",
+     "evidence": "photo",
+     "trade": "Emtec",
+     "source": "Emtec checklist 1.07, 2.01"
+    },
+    {
+     "ref": "4.3",
      "q": "Is there an approved benchmark for this item?",
      "evidence": "none",
      "trade": "Emtec",
      "source": "Emtec ITP 14 (H)"
-    },
-    {
-     "ref": "1.4",
-     "q": "Is it installed within ±5 mm tolerance, with blades/finish undamaged?",
-     "evidence": "photo",
-     "trade": "Emtec",
-     "source": "Emtec ITP 15, 18"
     }
    ]
   }

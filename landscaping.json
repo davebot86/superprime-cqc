@@ -15,35 +15,55 @@
  "sections": [
   {
    "id": "1",
-   "title": "WORKS",
+   "title": "DRAINAGE & DUCTS",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is paving laid to line, level and falls, with joints filled?",
+     "q": "Ducting runs installed to drawings before backfill?",
      "evidence": "photo",
      "trade": "MAY",
-     "source": "Maylim ITP – paving"
+     "source": "Maylim ITP 2.2"
     },
     {
      "ref": "1.2",
-     "q": "Are kerbs and edgings straight and bedded?",
-     "evidence": "photo",
+     "q": "Drainage runs laid and tested before backfill?",
+     "evidence": "cert",
      "trade": "MAY",
-     "source": "Maylim ITP – kerbs"
+     "source": "Maylim ITP 2.3–2.4 (H)"
     },
     {
      "ref": "1.3",
-     "q": "Planting and soils as specified, with trees staked and irrigation where required?",
+     "q": "ACO channel the right size/type, to line and level (BS EN 1610)?",
      "evidence": "photo",
      "trade": "MAY",
-     "source": "Maylim ITP – soft landscaping"
+     "source": "Maylim ITP 2.5–2.8 (H)"
     },
     {
      "ref": "1.4",
-     "q": "Are drainage channels and gullies falling and clear?",
+     "q": "Sump units installed to drawings?",
      "evidence": "photo",
      "trade": "MAY",
-     "source": "Maylim ITP – drainage"
+     "source": "Maylim ITP 2.7"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "HARD & SOFT",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Paving to line, level and falls with joints filled; kerbs straight?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – paving & kerbs"
+    },
+    {
+     "ref": "2.2",
+     "q": "Planting and soils as specified, trees staked, irrigation where required?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – soft landscaping"
     }
    ]
   }

@@ -46,6 +46,33 @@
      "source": "Decorating ITPs – completion"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "DETAIL",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Mist coat applied to new plaster before finish coats?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Decorating ITPs"
+    },
+    {
+     "ref": "2.2",
+     "q": "Woodwork filled, sanded and finished with no brush marks?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Decorating ITPs"
+    },
+    {
+     "ref": "2.3",
+     "q": "Wallcovering batch numbers consistent within each room?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Wells Interiors ITP – material check"
+    }
+   ]
   }
  ]
 }

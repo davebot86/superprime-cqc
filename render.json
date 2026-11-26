@@ -39,6 +39,33 @@
      "source": "NAL ITP – finish"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "DETAIL",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Render beads and stop ends straight and plumb at corners and openings?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "NAL ITP"
+    },
+    {
+     "ref": "2.2",
+     "q": "Render not applied in rain, frost or below 5°C, and protected while curing?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "NAL ITP"
+    },
+    {
+     "ref": "2.3",
+     "q": "Drip details and DPC lines kept clear?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "NAL ITP"
+    }
+   ]
   }
  ]
 }

@@ -15,25 +15,45 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "TRACE HEATING",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is trace heating fixed along the pipe as specified and tested before lagging?",
-     "evidence": "cert",
+     "q": "Heating cable inspected for damage before fixing?",
+     "evidence": "photo",
      "trade": "Argus",
-     "source": "Argus ITP 00003 11"
+     "source": "Argus ITP 00003 checklist 3.1"
     },
     {
      "ref": "1.2",
-     "q": "Is lagging the specified type and thickness, with no gaps or compression?",
+     "q": "Cable the right type/rating, fixed along the pipe as specified?",
      "evidence": "photo",
      "trade": "Argus",
-     "source": "Argus ITP 00003 checklist 3.11"
+     "source": "Argus ITP 00003 2.1, 11"
     },
     {
      "ref": "1.3",
-     "q": "Are joints sealed, cladding weathered where external, and warning labels fitted?",
+     "q": "Insulation resistance tested before lagging?",
+     "evidence": "cert",
+     "trade": "Argus",
+     "source": "Argus ITP 00003 11"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "LAGGING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Lagging the specified type and thickness, no gaps or compression?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus ITP 00003 3.11"
+    },
+    {
+     "ref": "2.2",
+     "q": "Joints sealed, external cladding weathered, warning labels fitted?",
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus ITP 00003 12"

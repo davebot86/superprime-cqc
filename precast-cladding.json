@@ -15,32 +15,52 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "BEFORE INSTALLATION",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are units undamaged, the right mark/finish, and matching the approved benchmark?",
-     "evidence": "photo",
+     "q": "Visual sample / mock-up accepted for this finish?",
+     "evidence": "none",
      "trade": "TPL",
-     "source": "Thorp ITP – delivery & benchmark"
+     "source": "Thorp ITP 1.2 (H)"
     },
     {
      "ref": "1.2",
-     "q": "Are fixings/brackets installed as per drawings, shimmed within limits and torqued?",
-     "evidence": "cert",
+     "q": "Unit carries its panel reference and has no damage; brick inserts unchipped and pointed?",
+     "evidence": "photo",
      "trade": "TPL",
-     "source": "Thorp ITP – fixings"
+     "source": "Thorp ITP 2.1, 2.10"
     },
     {
      "ref": "1.3",
-     "q": "Are joint widths even and within tolerance, with alignment between units?",
-     "evidence": "photo",
+     "q": "Concrete cube results (7 and 28 day) and cover checks (±5 mm) on file?",
+     "evidence": "cert",
      "trade": "TPL",
-     "source": "Thorp ITP – installation tolerances"
+     "source": "Thorp ITP 2.4, 2.8–2.9"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Fixings/brackets installed to drawings, shimmed within limits and torqued?",
+     "evidence": "cert",
+     "trade": "TPL",
+     "source": "Thorp ITP – installation"
     },
     {
-     "ref": "1.4",
-     "q": "Are joints sealed (backer rod and sealant) neatly and continuously?",
+     "ref": "2.2",
+     "q": "Joint widths even and within tolerance, units aligned with neighbours?",
+     "evidence": "photo",
+     "trade": "TPL",
+     "source": "Thorp ITP – tolerances"
+    },
+    {
+     "ref": "2.3",
+     "q": "Joints sealed with backer rod and sealant, neatly and continuously?",
      "evidence": "photo",
      "trade": "TPL",
      "source": "Thorp ITP – jointing"

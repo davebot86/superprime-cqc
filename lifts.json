@@ -1,0 +1,84 @@
+{
+ "id": "lifts",
+ "title": "Lifts (Mitsubishi) – Shaft & Landings",
+ "short": "Lifts",
+ "group": "Lifts",
+ "activity": "Lift shafts, landings and installation",
+ "fieldOrg": "Mitsubishi Electric",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-MIT-ZZ-ZZ-IP-X-66001 C01",
+ "location": {
+  "areaLabel": "Lift",
+  "areaHint": "e.g. Block 6 Lift 1"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "SHAFT READINESS",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Shaft walls at least 140 mm thick (or to suit landing components) with no cavities?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – shaft check 11"
+    },
+    {
+     "ref": "1.2",
+     "q": "Safety screening in place for any gaps over 150 mm?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – shaft check 17"
+    },
+    {
+     "ref": "1.3",
+     "q": "400 V supply to the top of the shaft, separator screens installed?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – shaft checklist"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "LANDINGS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Landing push cut-outs at the drawn positions (from the adjacent wall to centre of plate)?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – landing checks 3–4"
+    },
+    {
+     "ref": "2.2",
+     "q": "1500 × 1500 mm clear in front of each lift entrance, including wall finish?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – landing check 5"
+    },
+    {
+     "ref": "2.3",
+     "q": "Opening nibs and heads within tolerance (e.g. nib positive max +25 mm)?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – opening survey"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "HANDOVER",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Lift tested and commissioned with certificate before handover?",
+     "evidence": "cert",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – testing"
+    }
+   ]
+  }
+ ]
+}

@@ -46,6 +46,33 @@
      "source": "PER ITP 6.1, 6.4"
     }
    ]
+  },
+  {
+   "id": "2",
+   "title": "HANDOVER",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Benchmark for this facade type accepted?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 5.1"
+    },
+    {
+     "ref": "2.2",
+     "q": "Units protected after installation (protection of works form)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 9.1"
+    },
+    {
+     "ref": "2.3",
+     "q": "Area handed over to other trades with inspection record?",
+     "evidence": "cert",
+     "trade": "PER",
+     "source": "PER ITP 9.2"
+    }
+   ]
   }
  ]
 }

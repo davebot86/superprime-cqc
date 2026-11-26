@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are smoke dampers/vents installed to the tested detail and fire stopped?",
+     "q": "Smoke dampers/vents installed to the tested detail and fire stopped?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "PBS Colt ITP"
@@ -33,6 +33,26 @@
     },
     {
      "ref": "1.3",
+     "q": "CO detectors installed in conduit with guards at the specified height (car park)?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS Colt ITP – CO detection"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "COMMISSIONING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Fans/vents operate on test; airflows recorded?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS Colt ITP"
+    },
+    {
+     "ref": "2.2",
      "q": "Cause and effect tested with the fire alarm and witnessed?",
      "evidence": "cert",
      "trade": "PBS",

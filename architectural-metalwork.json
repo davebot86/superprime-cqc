@@ -19,38 +19,58 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is there an approved benchmark for this item?",
+     "q": "Approved benchmark for this item?",
      "evidence": "none",
      "trade": "CMF",
      "source": "CMF ITP 2.7 (H)"
     },
     {
      "ref": "1.2",
-     "q": "Is setting out to the approved site drawings, within ±5 mm?",
+     "q": "Setting out to approved site drawings within ±5 mm?",
      "evidence": "photo",
      "trade": "CMF",
      "source": "CMF ITP 2.3"
     },
     {
      "ref": "1.3",
-     "q": "Are fixings into RC drilled and installed to the fixing supplier's instructions?",
+     "q": "Fixings into RC drilled and installed to the fixing supplier's instructions?",
      "evidence": "photo",
      "trade": "CMF",
      "source": "CMF ITP 2.4"
     },
     {
      "ref": "1.4",
-     "q": "Holding-down bolts torque-checked and recorded?",
+     "q": "Holding-down bolts torque checked and recorded?",
      "evidence": "cert",
      "trade": "CMF",
-     "source": "CMF ITP – torque testing"
-    },
+     "source": "CMF ITP – torque check sheet"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "FINISH",
+   "questions": [
     {
-     "ref": "1.5",
-     "q": "Is the finish undamaged and protected?",
+     "ref": "2.1",
+     "q": "Mastic seal installed where detailed?",
      "evidence": "photo",
      "trade": "CMF",
-     "source": "CMF ITP 00001 – protection"
+     "source": "CMF checklist 5"
+    },
+    {
+     "ref": "2.2",
+     "q": "Tek screws installed and capped where detailed?",
+     "evidence": "photo",
+     "trade": "CMF",
+     "source": "CMF checklist 9"
+    },
+    {
+     "ref": "2.3",
+     "q": "Paint/galvanising undamaged, polished surfaces protected?",
+     "evidence": "photo",
+     "trade": "CMF",
+     "source": "CMF ITP 00001 checklist"
     }
    ]
   }
