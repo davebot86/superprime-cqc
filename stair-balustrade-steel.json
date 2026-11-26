@@ -3,7 +3,7 @@
  "title": "Staircase, Glass Balustrade & Steelwork",
  "short": "Stair & Balustrade",
  "group": "Metalwork & external",
- "activity": "Staircase, glass balustrade and structural steel",
+ "activity": "Steel staircases, landings, treads, glass balustrades and handrails",
  "fieldOrg": "Alpine Group",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,42 +15,137 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "STRUCTURE",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Anchors fully embedded and tight, resin cured before loading?",
+     "q": "Stringers/spine beams in position, on line, level and plumb?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine ITP – chemical anchors"
+     "source": "Alpine stair ITP ALG-00002 install 2.1–2.4"
     },
     {
      "ref": "1.2",
-     "q": "Bolts tight, with torque marks on the nuts?",
-     "evidence": "cert",
+     "q": "All connections complete – correct bolts, washers, nuts, tightened with torque marks?",
+     "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine ITP – mechanical fixings torque"
+     "source": "Alpine stair ITP ALG-00002 install 2.5–2.7"
     },
     {
      "ref": "1.3",
-     "q": "Are components level, landings level and twist within tolerance?",
+     "q": "Anchors fully embedded and tight, edge distances kept, resin cured before loading?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine ITP – installation tolerances"
+     "source": "Alpine stair ITP ALG-00002 install 8.4–8.6"
     },
     {
      "ref": "1.4",
-     "q": "Glass undamaged, clamps/channel fully fixed?",
+     "q": "Site welds complete, coating damage touched up?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine ITP – glass balustrade"
+     "source": "Alpine stair ITP ALG-00002 install 2.8, 2.13"
     },
     {
      "ref": "1.5",
-     "q": "Anchors fully embedded and tight, no packing beyond limits?",
+     "q": "Stair stable – no movement when walked?",
+     "evidence": "none",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 handover 1.6"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "TREADS & LANDINGS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Rise and going consistent through the flight (measure 3 steps)?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine ITP – anchors"
+     "source": "Alpine stair ITP ALG-00002 install 4.4–4.5; handover 2.2–2.3"
+    },
+    {
+     "ref": "2.2",
+     "q": "Treads level, secure, nosings aligned, joints/gaps even?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 4.6–4.10"
+    },
+    {
+     "ref": "2.3",
+     "q": "Landings at the right level, decking fixed, edge trims complete?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 3.2–3.8"
+    },
+    {
+     "ref": "2.4",
+     "q": "Headroom clear over the full flight?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 handover 2.5"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "BALUSTRADE, GLASS & HANDRAIL",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Balustrade and handrail height correct; no movement when pushed?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 5.3–5.4, 7.2, 7.5"
+    },
+    {
+     "ref": "3.2",
+     "q": "Guarding continuous – no unintended gaps?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 5.7"
+    },
+    {
+     "ref": "3.3",
+     "q": "Glass seated in the channel, setting blocks and retention complete, gaskets/sealant finished?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 6.4–6.10"
+    },
+    {
+     "ref": "3.4",
+     "q": "Glass free from chips/scratches, panels aligned with even gaps?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 6.3, 6.8–6.9"
+    },
+    {
+     "ref": "3.5",
+     "q": "Handrail smooth and continuous, joints neat, ends/returns finished?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 7.3–7.7"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "FINISH",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Paint/powder coat, stainless and timber free from damage; exposed fixings finished?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 handover 5.1–5.10"
+    },
+    {
+     "ref": "4.2",
+     "q": "Glass and finished treads protected; adjacent finishes undamaged?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine stair ITP ALG-00002 install 6.11, 9.9; handover 5.11"
     }
    ]
   }

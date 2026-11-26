@@ -93,6 +93,40 @@
      "source": "SBC ITP – head restraints, temperature"
     }
    ]
+  },
+  {
+   "id": "4",
+   "title": "DETAIL",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Point at the same level within ±10 mm across the wall?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC brick/block ITP 21002 – tolerances"
+    },
+    {
+     "ref": "4.2",
+     "q": "DPC/cavity tray laps at least 20 mm onto surrounding elements?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC brick/block ITP 21002 – DPC"
+    },
+    {
+     "ref": "4.3",
+     "q": "Wall ties and restraint fixings at the right centres, embedded in the joint?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC brick/block ITP 21002 – construction"
+    },
+    {
+     "ref": "4.4",
+     "q": "Brick/block protected from rain and frost overnight, no washed-out mortar?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC brick/block ITP 21002 – conditions"
+    }
+   ]
   }
  ]
 }

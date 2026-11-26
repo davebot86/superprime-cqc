@@ -3,7 +3,7 @@
  "title": "Apartment Electrical Second Fix",
  "short": "Electrical 2nd Fix",
  "group": "MEP – electrical",
- "activity": "Accessories, lighting, AV/IT and controls",
+ "activity": "Apartment electrical second fix: accessories, lighting, boards, AV/IT and controls",
  "fieldOrg": "Borough Engineering Services",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,35 +15,117 @@
  "sections": [
   {
    "id": "1",
-   "title": "SECOND FIX",
+   "title": "BEFORE 2ND FIX",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are sockets, switches and accessories level, at the set-out heights and to the finish schedule?",
+     "q": "All points cut out and cables accessible?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough WP4 ITP 24"
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.3"
     },
     {
      "ref": "1.2",
-     "q": "Are light fittings in position, aligned with the ceiling layout and working?",
+     "q": "Fire barriers (putty pads) fitted in back boxes where required?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough WP4 ITP 24–25"
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.4"
     },
     {
      "ref": "1.3",
-     "q": "Are AV/IT and data outlets fitted, labelled and tested?",
-     "evidence": "cert",
+     "q": "Wiring labelled/sleeved before terminating?",
+     "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough WP4 ITP 23, 37–38"
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.5–2.6"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "ACCESSORIES & LIGHTING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Sockets and switches square, level, at the set-out height and tight to the wall?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.7, 2.11"
     },
     {
-     "ref": "1.4",
-     "q": "KNX / lighting control tested and working?",
-     "evidence": "cert",
+     "ref": "2.2",
+     "q": "Kitchen grid switch and hob switch fitted?",
+     "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough WP4 ITP 33"
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.8"
+    },
+    {
+     "ref": "2.3",
+     "q": "Ceiling fittings secure, LED cove/strip aligned, drivers accessible?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.12–2.13"
+    },
+    {
+     "ref": "2.4",
+     "q": "Smoke detectors fitted with their covers on during works?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.16"
+    },
+    {
+     "ref": "2.5",
+     "q": "Bonding to pipework present and correctly positioned?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.14"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "BOARDS & CONTROLS",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Consumer unit level, circuits match the DB chart, locked off?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.17–2.18"
+    },
+    {
+     "ref": "3.2",
+     "q": "BMS/FCU controls fitted and protected?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.9"
+    },
+    {
+     "ref": "3.3",
+     "q": "KNX keypads/touch panels mounted level and working?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – AV 4.4"
+    },
+    {
+     "ref": "3.4",
+     "q": "Data outlets, AV faceplates and TV brackets fitted, aligned and labelled?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – AV 2.2–2.3, 4.1, 4.6"
+    },
+    {
+     "ref": "3.5",
+     "q": "In-ceiling speakers fitted flush and aligned?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – AV 4.3"
+    },
+    {
+     "ref": "3.6",
+     "q": "Comms rack level and secure, patch panels labelled, cables dressed?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – AV 3.1–3.6"
     }
    ]
   }

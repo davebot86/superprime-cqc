@@ -3,7 +3,7 @@
  "title": "Facade – SFS, Closures, Gutters & Balconies (PER)",
  "short": "Facade Closures",
  "group": "Facade & envelope",
- "activity": "SFS, Siderise, gutters, veils, spandrels, profiles",
+ "activity": "SFS, VCL, Siderise, membranes, gutters, balconies, balustrades, veils and soffits",
  "fieldOrg": "Permasteelisa UK",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,42 +15,137 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "SFS & CLOSURES",
    "questions": [
     {
      "ref": "1.1",
      "q": "SFS (Stanta) plumb, on setting-out and fully fixed?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 6.7"
+     "source": "PER ITP 31-0001 6.7 – PUK-QC-14"
     },
     {
      "ref": "1.2",
-     "q": "Are fire/acoustic closures (Siderise) continuous and tight at slab edges?",
+     "q": "VCL taped with the correct tapes, joints sealed?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 6.5"
+     "source": "PER ITP 31-0001 PUK-QC-41 2.1"
     },
     {
      "ref": "1.3",
-     "q": "Are gutters falling to outlets, joints sealed, outlets clear?",
+     "q": "Rockwool and breather membrane complete, no gaps?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 6.6"
+     "source": "PER ITP 31-0001 PUK-QC-41 2.4–2.5"
     },
     {
      "ref": "1.4",
-     "q": "Are veils, balcony/spandrel panels and bottom profiles fixed and aligned?",
+     "q": "Siderise fire/acoustic closures continuous and tight at slab edges?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 6.8, 6.9, 6.11"
+     "source": "PER ITP 31-0001 – closures"
     },
     {
      "ref": "1.5",
-     "q": "Are waterproofing details at upstands complete before closing?",
+     "q": "Obex membrane applied at heads, sills and junctions, lapped as drawn?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER pre-installation checklist 7.3"
+     "source": "PER ITP 31-0001 SWI0032"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "GUTTERS & COPINGS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Surespan walls and insulation in before the gutter?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-07 2.2–2.3"
+    },
+    {
+     "ref": "2.2",
+     "q": "Gutter fixed and falling to outlets, outlets clear?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-07 3.1"
+    },
+    {
+     "ref": "2.3",
+     "q": "Sealant joints primed and tooled (SikaHyflex 250), membranes by others lapped in?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-07 3.2–3.6"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "BALCONIES & BALUSTRADES",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Balcony centred in the bay, level, pressings aligned with finished floor?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-17 4.1"
+    },
+    {
+     "ref": "3.2",
+     "q": "Balcony fixings torqued with threadlocker; balcony-to-precast joint sealed?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-17 4.2, 4.4"
+    },
+    {
+     "ref": "3.3",
+     "q": "Membrane by others in at the balcony step (5 cm fold)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-31 2.2"
+    },
+    {
+     "ref": "3.4",
+     "q": "Balustrade glass plumb and secured, kite mark bottom-left from inside, handrail joint mid-glass?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-31 3.3–3.7"
+    },
+    {
+     "ref": "3.5",
+     "q": "Finishing profiles fixed, joints sealed, no damage to glass or handrail?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-31 3.5–4.2"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "VEILS & SOFFITS",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Veils adjusted in tolerance, Obex separator on the lower bracket?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-12 3.1–3.2"
+    },
+    {
+     "ref": "4.2",
+     "q": "Veil joints sealed (Dowsil 791), every shingle screwed, clips sealed?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-12 4.2–4.4"
+    },
+    {
+     "ref": "4.3",
+     "q": "Soffit panels engaged and locked, square to grid, undamaged?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 PUK-QC-41 2.6–2.8"
     }
    ]
   }

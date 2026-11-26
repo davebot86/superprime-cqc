@@ -3,7 +3,7 @@
  "title": "Public Health – Drainage & Domestic Water",
  "short": "Drainage & Water",
  "group": "MEP – risers & landlord",
- "activity": "Soil, waste, rainwater and domestic water",
+ "activity": "Soil, waste, rainwater and domestic water – install, test and access",
  "fieldOrg": "Price Building Services",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,48 +15,96 @@
  "sections": [
   {
    "id": "1",
-   "title": "BEFORE CLOSE-UP",
+   "title": "INSTALLATION",
    "questions": [
     {
      "ref": "1.1",
      "q": "Installation matches the benchmark?",
-     "evidence": "none",
+     "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS PH ITP 2.1 (H)"
+     "source": "PBS ITP 00002 – benchmark"
     },
     {
      "ref": "1.2",
-     "q": "Pipework well supported (no sagging); drainage falling the right way with no back-falls?",
+     "q": "Pipework installed to the PBS construction drawing, coordinated with other services?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS PH ITP 4.3"
+     "source": "PBS ITP 00002 4.3"
+    },
+    {
+     "ref": "1.3",
+     "q": "Brackets solid and at even centres, no sagging; bracket pull tests done where required?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 4.2–4.3"
+    },
+    {
+     "ref": "1.4",
+     "q": "Drainage falling the right way with no back-falls; joints fully home?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 5.2–5.4"
+    },
+    {
+     "ref": "1.5",
+     "q": "Open ends capped/taped to keep debris out?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 4.3"
+    },
+    {
+     "ref": "1.6",
+     "q": "Fire sleeves/collars fitted where pipes pass through fire walls and floors?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 4.3"
     }
    ]
   },
   {
    "id": "2",
-   "title": "TESTING & LABELS",
+   "title": "TESTING (BEFORE BOXING IN)",
    "questions": [
     {
      "ref": "2.1",
-     "q": "Domestic water pressure tested before boxing in?",
-     "evidence": "cert",
+     "q": "Domestic water pressure tested (1.5× working pressure)?",
+     "evidence": "none",
      "trade": "PBS",
-     "source": "PBS PH ITP"
+     "source": "PBS ITP 00002 5.5"
     },
     {
      "ref": "2.2",
-     "q": "Drainage air/water tested before boxing in?",
-     "evidence": "cert",
+     "q": "Soil/waste/rainwater air or water tested?",
+     "evidence": "none",
      "trade": "PBS",
-     "source": "PBS PH ITP"
+     "source": "PBS ITP 00002 5.1–5.5"
     },
     {
      "ref": "2.3",
+     "q": "System flushed after the test?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 5.7"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "ACCESS & LABELLING",
+   "questions": [
+    {
+     "ref": "3.1",
      "q": "Pipe IDs and flow direction labelled; rodding/access points accessible?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS PH ITP"
+     "source": "PBS ITP 00002 6.2"
+    },
+    {
+     "ref": "3.2",
+     "q": "Insulation complete on cold and hot pipes, no gaps at fittings?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00002 5.5"
     }
    ]
   }

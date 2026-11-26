@@ -59,6 +59,40 @@
      "source": "Argus ITP 00003 12"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "CABLE DETAIL",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Cable not crossing over itself anywhere along the pipe?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus trace heating ITP AFP-00003 3.4"
+    },
+    {
+     "ref": "3.2",
+     "q": "Power connection kit and end seal fitted neatly?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus trace heating ITP AFP-00003 3.5"
+    },
+    {
+     "ref": "3.3",
+     "q": "Thermostat/probe in the right location on the pipe?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus trace heating ITP AFP-00003 3.6"
+    },
+    {
+     "ref": "3.4",
+     "q": "Access panels provided at sensor and termination locations?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus trace heating ITP AFP-00003 3.13"
+    }
+   ]
   }
  ]
 }

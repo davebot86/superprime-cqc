@@ -3,7 +3,7 @@
  "title": "Fire Doors",
  "short": "Fire Doors",
  "group": "Doors & joinery",
- "activity": "Fire door leaf, frame, seals and ironmongery",
+ "activity": "Fire door leaf, frame, gaps, seals, ironmongery and signage",
  "fieldOrg": "Atlantic Contracts",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,55 +15,103 @@
  "sections": [
   {
    "id": "1",
-   "title": "DOOR & FRAME",
+   "title": "FRAME & LEAF",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is the certification label on top of the leaf present and undamaged?",
+     "q": "Certification label on top of the leaf present and undamaged?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic ITP door checklist 2.4"
+     "source": "Atlantic fire door ITP ATL-00001 2.4, 13.1"
     },
     {
      "ref": "1.2",
-     "q": "Is the leaf plumb, level and square with a consistent gap to the frame?",
+     "q": "Leaf plumb, level and square?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic ITP 2.2–2.3"
+     "source": "Atlantic fire door ITP ATL-00001 2.2"
     },
     {
      "ref": "1.3",
-     "q": "Are frame-to-wall fixings the right number, type and position?",
+     "q": "Gaps even all round – top, sides and meeting stiles, bottom gap as detailed?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic ITP 3.4"
+     "source": "Atlantic fire door ITP ATL-00001 2.3, 11.1"
+    },
+    {
+     "ref": "1.4",
+     "q": "Frame fixings the right number and position, frame-to-wall gap filled?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 3.4"
+    },
+    {
+     "ref": "1.5",
+     "q": "Frame-to-wall mastic at least 10 mm deep?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 10.2"
     }
    ]
   },
   {
    "id": "2",
-   "title": "SEALS & IRONMONGERY",
+   "title": "SEALS",
    "questions": [
     {
      "ref": "2.1",
-     "q": "Are intumescent seals full length on all sides, flush in their grooves and undamaged?",
+     "q": "Intumescent seals full length on all sides of door and frame, flush in their grooves?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic ITP 4.3–4.6"
+     "source": "Atlantic fire door ITP ATL-00001 4.3–4.4"
     },
     {
      "ref": "2.2",
-     "q": "Does the smoke seal fill the gap between door and frame on all sides?",
-     "evidence": "photo",
+     "q": "Smoke seal fills the gap all round and engages fully when the door is shut?",
+     "evidence": "none",
      "trade": "Atlantic",
-     "source": "Atlantic ITP 4.5"
+     "source": "Atlantic fire door ITP ATL-00001 4.5, 12.1"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "IRONMONGERY",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Latch engages securely with the keep; intumescent pads behind the lock and keep?",
+     "evidence": "none",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 5.3, 5.5"
     },
     {
-     "ref": "2.3",
-     "q": "Does the latch engage securely, and is ironmongery suitable for the fire rating?",
+     "ref": "3.2",
+     "q": "Hinges fixed with all screws (correct fixings), intumescent pads fitted?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic ITP 5.1–5.4"
+     "source": "Atlantic fire door ITP ATL-00001 6.1–6.2"
+    },
+    {
+     "ref": "3.3",
+     "q": "Closer fitted with correct fixings – door closes and latches from fully open?",
+     "evidence": "none",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 7.1–7.3"
+    },
+    {
+     "ref": "3.4",
+     "q": "Other ironmongery (vision panels, grilles, letterplates) factory-fitted, glass/beads secure and undamaged?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 9.6–9.7"
+    },
+    {
+     "ref": "3.5",
+     "q": "Fire door signage fitted and secure?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic fire door ITP ATL-00001 8.1"
     }
    ]
   }

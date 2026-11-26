@@ -3,7 +3,7 @@
  "title": "Mechanical Services (PBS)",
  "short": "Mechanical",
  "group": "MEP – risers & landlord",
- "activity": "LTHW/CHW pipework, ductwork, plant",
+ "activity": "LTHW/CHW pipework, ductwork and plant – install, test, insulation",
  "fieldOrg": "Price Building Services",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,55 +15,89 @@
  "sections": [
   {
    "id": "1",
-   "title": "BEFORE CLOSE-UP",
+   "title": "INSTALLATION",
    "questions": [
     {
      "ref": "1.1",
      "q": "Installation matches the benchmark?",
-     "evidence": "none",
+     "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS mech ITP 2.1 (H)"
+     "source": "PBS ITP 00001 2.1"
     },
     {
      "ref": "1.2",
-     "q": "Installed neatly, coordinated with other services, access to valves kept?",
+     "q": "Installed to the PBS construction drawing, coordinated, access to valves kept?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS mech ITP 1.5, 4.3"
+     "source": "PBS ITP 00001 4.3"
     },
     {
      "ref": "1.3",
-     "q": "Pipework pressure tested before insulation?",
-     "evidence": "cert",
+     "q": "Brackets solid at even centres, pipework plumb and level, expansion allowed for?",
+     "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS mech ITP"
+     "source": "PBS ITP 00001 4.3–4.4"
     },
     {
      "ref": "1.4",
-     "q": "Ductwork leakage tested (DW/143) where required?",
-     "evidence": "cert",
+     "q": "Open ends capped, drain cocks and air vents fitted at low/high points?",
+     "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS ductwork ITP 00010"
+     "source": "PBS ITP 00001 4.3"
+    },
+    {
+     "ref": "1.5",
+     "q": "Fire sleeves/collars fitted at fire walls and floors?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00001 4.3"
     }
    ]
   },
   {
    "id": "2",
-   "title": "FINISH",
+   "title": "TESTING",
    "questions": [
     {
      "ref": "2.1",
-     "q": "Insulation complete; valves operable when lagged, drain cocks accessible?",
-     "evidence": "photo",
+     "q": "Pipework pressure tested (at least working pressure) before insulation?",
+     "evidence": "none",
      "trade": "PBS",
-     "source": "PBS mech ITP"
+     "source": "PBS ITP 00001 5.3"
     },
     {
      "ref": "2.2",
-     "q": "Services labelled and plant accessible for maintenance?",
+     "q": "System flushed (free flush) after testing?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "PBS ITP 00001 5.7"
+    },
+    {
+     "ref": "2.3",
+     "q": "Ductwork leakage tested (DW/143) where required?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "PBS ITP 00001 5.10"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "INSULATION & ACCESS",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Insulation and trace heating inspected before cladding; valves operable when lagged?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS mech ITP"
+     "source": "PBS ITP 00001 5.5"
+    },
+    {
+     "ref": "3.2",
+     "q": "Services labelled, flow direction shown, plant accessible for maintenance?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS ITP 00001 6.3"
     }
    ]
   }

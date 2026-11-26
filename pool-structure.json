@@ -1,0 +1,139 @@
+{
+ "id": "pool-structure",
+ "title": "Pool Structure, Render & Water Test (Riding School – Neuman Aqua)",
+ "short": "Pool",
+ "group": "Pools & leisure",
+ "activity": "Swimming pool: setting out, pipework test, rebar, sprayed shell, render, membrane, 7-day water test",
+ "fieldOrg": "NAL",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-NAL-RS-XX-IP-X-00001 C01",
+ "location": {
+  "areaLabel": "Pool / tank",
+  "areaHint": "e.g. main pool, balance tank"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "SETTING OUT & PIPEWORK",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Pool structure set out to the drawings and site grid?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 3"
+    },
+    {
+     "ref": "1.2",
+     "q": "Circulation pipework and built-in items (inlets, sumps, lights) set out to the drawings?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 items 6–7"
+    },
+    {
+     "ref": "1.3",
+     "q": "Pipework pressure tested (2 bar) before the concrete is sprayed?",
+     "evidence": "none",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 8 – hold point"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "REINFORCEMENT & SHELL",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Rebar the right size and number, tied, on spacers/chairs, cover right, no heavy rust?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – pre-pour checklist"
+    },
+    {
+     "ref": "2.2",
+     "q": "Starter bars and splices in the right position, size and number?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – pre-pour checklist"
+    },
+    {
+     "ref": "2.3",
+     "q": "Sprayed shell: no honeycombing, cracks, air pockets or exposed rebar?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 11 – concrete visual check"
+    },
+    {
+     "ref": "2.4",
+     "q": "Shell dimensions match the drawing?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 11"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "RENDER",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Render dimensions match the drawing?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – render check sheet"
+    },
+    {
+     "ref": "3.2",
+     "q": "Render flat – within ±3 mm over 1 m?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 13 – render check sheet"
+    },
+    {
+     "ref": "3.3",
+     "q": "No cracks or gaps, sharp corners formed?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – render check sheet"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "MEMBRANE & WATER TEST",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Membrane in two perpendicular coats, no patches or bubbles?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 15"
+    },
+    {
+     "ref": "4.2",
+     "q": "Pool filled at max 1.0 m depth per 24 h, to within 25 mm of the outlet level?",
+     "evidence": "none",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – water test procedure 1"
+    },
+    {
+     "ref": "4.3",
+     "q": "7-day test: no measurable drop (after evaporation) and no damp patches on accessible faces?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 item 16; procedure 3–5"
+    },
+    {
+     "ref": "4.4",
+     "q": "Any failure reported straight away, repaired and re-tested?",
+     "evidence": "none",
+     "trade": "NAL",
+     "source": "Neuman Aqua pool ITP NAL-00001 – procedure 6–8"
+    }
+   ]
+  }
+ ]
+}

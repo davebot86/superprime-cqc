@@ -22,48 +22,62 @@
      "q": "Barrier labelled Siderise, the right type for the location (horizontal/vertical), undamaged?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 8.1"
+     "source": "CLM cavity barrier ITP CLM-00002 8.1"
     },
     {
      "ref": "1.2",
      "q": "In position, tight to both faces of the cavity, no gaps at joints?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 3, 8.1"
+     "source": "CLM cavity barrier ITP CLM-00002 8.1"
     },
     {
      "ref": "1.3",
      "q": "Fixing brackets impaled at even centres, with end brackets within 300 mm of each end?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 8.1"
+     "source": "Siderise installation guide (CLM benchmark)"
     },
     {
      "ref": "1.4",
-     "q": "Are joints butted and sealed, with no gaps at junctions or around brackets and services?",
+     "q": "Joints butted and taped, no gaps at junctions, corners or around brackets and services?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 8.1"
+     "source": "CLM cavity barrier ITP CLM-00002 8.1"
     },
     {
      "ref": "1.5",
      "q": "Fixings steel (no plastic plugs or clips)?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 8.1"
+     "source": "Siderise installation guide (CLM benchmark)"
+    },
+    {
+     "ref": "1.6",
+     "q": "Matches the benchmark for this barrier type?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM cavity barrier ITP CLM-00002 8.0"
     }
    ]
   },
   {
    "id": "2",
-   "title": "RECORD",
+   "title": "BEFORE COVER-UP",
    "questions": [
     {
      "ref": "2.1",
      "q": "Barrier labelled, with photos taken before it is covered?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 00002 9"
+     "source": "CLM cavity barrier ITP CLM-00002 8.1 – OneTrace record"
+    },
+    {
+     "ref": "2.2",
+     "q": "Barrier not damaged or displaced by following trades (cladding, services)?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM cavity barrier ITP CLM-00002 8.1"
     }
    ]
   }

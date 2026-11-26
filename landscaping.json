@@ -79,6 +79,54 @@
      "source": "Maylim ITP – surface tolerances"
     }
    ]
+  },
+  {
+   "id": "4",
+   "title": "EARTHWORKS, DUCTS & PAVING",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Excavation to the right depth; import fill compacted in layers?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 3.2–3.5"
+    },
+    {
+     "ref": "4.2",
+     "q": "Void formers and insulation in as designed?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 3.6"
+    },
+    {
+     "ref": "4.3",
+     "q": "Ducts the right size, at the right depth, warning tape laid above (UKPN ducts to their arrangement)?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 4.2–4.6"
+    },
+    {
+     "ref": "4.4",
+     "q": "Paving matches the benchmark; bedding and grout as specified, joint widths even?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 6.2–6.7, 7.7"
+    },
+    {
+     "ref": "4.5",
+     "q": "Street furniture, bollards, handrails and precast elements fixed and aligned?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 7.3–7.6"
+    },
+    {
+     "ref": "4.6",
+     "q": "In-situ concrete: rebar checked before the pour, cured, no cracking?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim landscaping ITP MAY-00001 5.3–5.5"
+    }
+   ]
   }
  ]
 }

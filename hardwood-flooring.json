@@ -66,6 +66,54 @@
      "source": "AJK ITP – protection"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "DETAILS & FINISH",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Liquid DPM applied where moisture readings needed it?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 item 15"
+    },
+    {
+     "ref": "3.2",
+     "q": "Joint at metal trims 2 mm (timber-to-stone/tile and timber-to-timber); 10 mm at timber-to-plywood?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 – trims & joints"
+    },
+    {
+     "ref": "3.3",
+     "q": "Entrance door threshold grooves correct and level (±1 mm)?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 item 20"
+    },
+    {
+     "ref": "3.4",
+     "q": "Stair nosings and metal trims fitted neat and secure?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 – stair nosing & metal trim"
+    },
+    {
+     "ref": "3.5",
+     "q": "Floor protection (Floorprotec breather) laid straight after the floor?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 item 23"
+    },
+    {
+     "ref": "3.6",
+     "q": "Timber moisture still 6–9% after installation, no cupping or gaps opening?",
+     "evidence": "none",
+     "trade": "AJK",
+     "source": "AJK flooring ITP 00002 – testing post-installation"
+    }
+   ]
   }
  ]
 }

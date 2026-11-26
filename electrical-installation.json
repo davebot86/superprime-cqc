@@ -3,7 +3,7 @@
  "title": "Electrical – Containment & Cabling",
  "short": "Electrical",
  "group": "MEP – electrical",
- "activity": "Containment, cabling, labelling and testing",
+ "activity": "Apartment electrical first fix – containment and cabling before close-up",
  "fieldOrg": "Borough Engineering Services",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,42 +15,90 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "CONTAINMENT",
    "questions": [
     {
      "ref": "1.1",
      "q": "Containment level and neat, brackets at max 1100 mm centres?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough ITP – containment inspection"
+     "source": "Borough checklist 2.3"
     },
     {
      "ref": "1.2",
-     "q": "Are cables supported with fire-rated, non-combustible (metal) clips at correct spacing?",
+     "q": "Conduits in the partitions in the right locations, draw wires in where needed?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough ITP – cabling inspection"
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.1, 2.3"
     },
     {
      "ref": "1.3",
-     "q": "Are cables labelled at both ends and circuits identified?",
+     "q": "Back boxes fitted level, at the set-out height, nothing missing?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough ITP – cable inspection"
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.2"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "CABLING (BEFORE BOARDING)",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Cables secured with metal clips/bands (no plastic-only fixings), correctly spaced?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.6"
     },
     {
-     "ref": "1.4",
-     "q": "Are earth bonding and danger notices complete?",
+     "ref": "2.2",
+     "q": "Lighting and other drops coiled neatly in position above the ceiling, not lying loose?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough ITP – earthing"
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.8–2.9"
     },
     {
-     "ref": "1.5",
-     "q": "Containment brackets at max 1100 mm centres?",
+     "ref": "2.3",
+     "q": "Kitchen, bedroom (incl. wardrobe lights and blind boxes) and utility cupboard points all wired?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough checklist 2.3"
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.10–2.18"
+    },
+    {
+     "ref": "2.4",
+     "q": "Controls cabling in: BMS/FCU, MVHR boost/humidistat, UFH floor sensors, KNX, blinds?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.19–2.20; controls 2.10–2.14"
+    },
+    {
+     "ref": "2.5",
+     "q": "Data/TV, fibre and video entry (Cat6) cables in position and coiled?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – ELV 2.5–2.12"
+    },
+    {
+     "ref": "2.6",
+     "q": "Fire alarm first-fix cables in with fire-rated (metal) ties?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.22"
+    },
+    {
+     "ref": "2.7",
+     "q": "Main earth run to the mechanical cupboard; sub-main pulled to the electrical cupboard?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.21, 2.23"
+    },
+    {
+     "ref": "2.8",
+     "q": "Dead test done before the walls and ceilings are closed?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.24"
     }
    ]
   }

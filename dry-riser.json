@@ -59,6 +59,33 @@
      "source": "Argus ITP 00002 14"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "INLET & FILLING",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Inlet box at ground level accessible, labelled \"DRY RISER INLET\" and the door/glass intact?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus dry riser ITP AFP-00002 – installation"
+    },
+    {
+     "ref": "3.2",
+     "q": "Permit to fill issued before the water test?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "Argus dry riser ITP AFP-00002 – MPX permit to fill"
+    },
+    {
+     "ref": "3.3",
+     "q": "Pipe brackets tight, pipe plumb, fire stopping complete where it passes through floors?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus dry riser ITP AFP-00002 – installation"
+    }
+   ]
   }
  ]
 }

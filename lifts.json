@@ -80,6 +80,47 @@
      "source": "Mitsubishi ITP – rail installation"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "PIT, LANDING DOORS & FINISH",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Pit dry and clean, sump covered, pit ladder fixed?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi lift ITP 66001 – pre-installation checks"
+    },
+    {
+     "ref": "3.2",
+     "q": "Storage area at least 10 m² next to the shaft, dry and tidy?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi lift ITP 66001 – builders work checklist"
+    },
+    {
+     "ref": "3.3",
+     "q": "Landing doors in line when closed, even gaps around and under the doors?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi lift ITP 66001 – landing door checks"
+    },
+    {
+     "ref": "3.4",
+     "q": "Doors line up with the jambs when open; architraves and sills undamaged?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi lift ITP 66001 – landing door checks"
+    },
+    {
+     "ref": "3.5",
+     "q": "Landing push plates fitted level at the set-out position; car finishes protected?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi lift ITP 66001 – landing push cut-outs"
+    }
+   ]
   }
  ]
 }

@@ -73,6 +73,54 @@
      "source": "PHF ITP – commissioning"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "DEVICES & PANEL",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Detectors within 600 mm (smoke) / 150 mm (heat) of the ceiling – not dropped too low?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP 39.2.11"
+    },
+    {
+     "ref": "3.2",
+     "q": "No detectors next to air inlets/fans or light fittings; no rooms missing a detector?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP 39.2.11"
+    },
+    {
+     "ref": "3.3",
+     "q": "Call points at exits/stair doors and not wrongly positioned?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP 39.2.10"
+    },
+    {
+     "ref": "3.4",
+     "q": "Sounders positioned as the layout, all the same tone?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP 16.2.1"
+    },
+    {
+     "ref": "3.5",
+     "q": "Panel cabling neat, mains supply and aux connections labelled, batteries dated?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP – panel checklist 25.2–25.4"
+    },
+    {
+     "ref": "3.6",
+     "q": "Aspirating pipework clipped at least every 1.2 m, sampling holes clear?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF fire alarm ITP – ASD checklist"
+    }
+   ]
   }
  ]
 }

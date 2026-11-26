@@ -66,6 +66,47 @@
      "source": "Argus ITP – MPX authorisation"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "VALVES & MONITORING",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Permit to fill issued before the system was filled/tested?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "Argus sprinkler ITP AFP-00001 – permit to fill"
+    },
+    {
+     "ref": "3.2",
+     "q": "Zone/floor isolation valves labelled, strapped open and tamper switches connected?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus sprinkler ITP AFP-00001 – isolation valve tamper"
+    },
+    {
+     "ref": "3.3",
+     "q": "Flow switch fitted and its operation proved (alarm signal to the fire alarm panel)?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "Argus sprinkler ITP AFP-00001 – flow switch operation (CP16)"
+    },
+    {
+     "ref": "3.4",
+     "q": "Drain and test valves accessible and labelled?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus sprinkler ITP AFP-00001 – valve sets"
+    },
+    {
+     "ref": "3.5",
+     "q": "Head escutcheons/cover plates fitted tight to the ceiling, no paint on heads?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus sprinkler ITP AFP-00001 – installation"
+    }
+   ]
   }
  ]
 }

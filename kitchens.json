@@ -3,7 +3,7 @@
  "title": "Kitchens (Molteni / EDM)",
  "short": "Kitchens",
  "group": "Kitchens, wardrobes & joinery",
- "activity": "Kitchen units, worktops, appliances",
+ "activity": "Kitchen units, stone worktops, appliances – first fix, second fix and handover",
  "fieldOrg": "E.E Smith (ESC)",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,42 +15,143 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "BEFORE FITTING",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are carcasses level, plumb and fixed, with dimensions checked before fitting?",
+     "q": "Room ready – walls boarded and finished, services in the right positions for the kitchen layout?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "EDM kitchen ITP – dimension check"
+     "source": "Molteni kitchen ITP ESC-00014 – pre-installation dimension check"
     },
     {
      "ref": "1.2",
-     "q": "Are doors and drawers aligned with even gaps; scribes tight?",
+     "q": "Units checked for damage on delivery, damage logged before fitting?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "EDM kitchen ITP – doors/scribes"
+     "source": "Molteni kitchen ITP ESC-00014 – damage checks"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "FIRST FIX – CABINETRY",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Base and wall units level, plumb and fixed solid, aligned with each other?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – 1st fix: base/wall units"
     },
     {
-     "ref": "1.3",
-     "q": "Are worktop joints tight and flush, with a neat silicone finish?",
-     "evidence": "photo",
+     "ref": "2.2",
+     "q": "Doors and drawers aligned, even gaps, soft-close working?",
+     "evidence": "none",
      "trade": "ESC",
-     "source": "EDM kitchen ITP – worktop joints"
+     "source": "Molteni kitchen ITP ESC-00014 – 1st fix: doors"
     },
     {
-     "ref": "1.4",
-     "q": "Are appliances fitted, working and level?",
+     "ref": "2.3",
+     "q": "Scribes, surround, bookcase and finger rail tight and neat?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "EDM kitchen ITP – appliances"
+     "source": "Molteni kitchen ITP ESC-00014 – 1st fix: scribes, surround, finger rail"
     },
     {
-     "ref": "1.5",
-     "q": "Free from damage and protected?",
+     "ref": "2.4",
+     "q": "Socket and grid switch cut-outs neat and in the right place?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "EDM kitchen ITP – damage checks"
+     "source": "Molteni kitchen ITP ESC-00014 – 1st fix: sockets & gridswitch cut out"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "STONE WORKTOP & SPLASHBACK",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Worktop and island level and supported, joints tight and flush?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – stone worktop & joints"
+    },
+    {
+     "ref": "3.2",
+     "q": "Sink fitted and sealed, overflow connected, tap hole and air switch in the right place?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – sink, overflow, tap hole/air switch"
+    },
+    {
+     "ref": "3.3",
+     "q": "Splashback fitted, joints even, no chips or cracks in the stone?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – splashback"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "SECOND FIX & APPLIANCES",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "All appliances fitted and level, doors aligned with the furniture (dishwasher, fridge/freezer, ovens, hob, extractor, wine cooler, warming drawer)?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – 2nd fix components"
+    },
+    {
+     "ref": "4.2",
+     "q": "Each appliance switched on and working (functionality test)?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – appliance functionality check"
+    },
+    {
+     "ref": "4.3",
+     "q": "Tap working, no leaks under the sink, bin and cutlery tray fitted?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – 2nd fix: tap, bin, cutlery tray"
+    },
+    {
+     "ref": "4.4",
+     "q": "Kitchen LED lighting working and aligned?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – 2nd fix: LED light"
+    },
+    {
+     "ref": "4.5",
+     "q": "Plinths fitted and level, mastic neat and continuous?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – 2nd fix: plinth, mastic"
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "title": "HANDOVER",
+   "questions": [
+    {
+     "ref": "5.1",
+     "q": "Cleaned down and protected?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – clean down and protection"
+    },
+    {
+     "ref": "5.2",
+     "q": "Free from scratches, chips and damage?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Molteni kitchen ITP ESC-00014 – post-installation"
     }
    ]
   }

@@ -79,6 +79,40 @@
      "source": "LMG SCS ITP 00005"
     }
    ]
+  },
+  {
+   "id": "4",
+   "title": "DEVICES & ACCESS CONTROL",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Readers, door contacts and break-glass units installed and connected at each access door?",
+     "evidence": "photo",
+     "trade": "LMG",
+     "source": "LMG security ITP 00002–00005 – ACS device checklist 3–10"
+    },
+    {
+     "ref": "4.2",
+     "q": "Request-to-exit and mag lock/strike fitted and connected where scheduled?",
+     "evidence": "photo",
+     "trade": "LMG",
+     "source": "LMG security ITP 00002–00005 – ACS device checklist 6–14"
+    },
+    {
+     "ref": "4.3",
+     "q": "Camera power (PoE) live and the view agreed with the client?",
+     "evidence": "none",
+     "trade": "LMG",
+     "source": "LMG security ITP 00002–00005 – CCTV 3.2–3.4, 5.1"
+    },
+    {
+     "ref": "4.4",
+     "q": "Panic buttons and intruder devices cabled (grade 3 star wiring)?",
+     "evidence": "photo",
+     "trade": "LMG",
+     "source": "Borough security cabling checklist 2.12–2.13"
+    }
+   ]
   }
  ]
 }
