@@ -19,14 +19,14 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Approved benchmark for this item?",
+     "q": "Matches the benchmark (finish, fixings, alignment)?",
      "evidence": "none",
      "trade": "CMF",
      "source": "CMF ITP 2.7 (H)"
     },
     {
      "ref": "1.2",
-     "q": "Setting out to approved site drawings within ±5 mm?",
+     "q": "Set out within ±5 mm, plumb and level?",
      "evidence": "photo",
      "trade": "CMF",
      "source": "CMF ITP 2.3"
@@ -40,7 +40,7 @@
     },
     {
      "ref": "1.4",
-     "q": "Holding-down bolts torque checked and recorded?",
+     "q": "Holding-down bolts tight, with torque marks on the nuts?",
      "evidence": "cert",
      "trade": "CMF",
      "source": "CMF ITP – torque check sheet"

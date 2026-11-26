@@ -64,13 +64,6 @@
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic ITP 5.1–5.4"
-    },
-    {
-     "ref": "2.4",
-     "q": "Is the third-party certificate available for this door?",
-     "evidence": "cert",
-     "trade": "Atlantic",
-     "source": "Atlantic ITP 1.12"
     }
    ]
   }

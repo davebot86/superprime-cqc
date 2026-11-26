@@ -67,30 +67,17 @@
     },
     {
      "ref": "2.4",
-     "q": "Landing sills at least 25 mm above the finished floor (BS 9999)?",
+     "q": "Landing sills at least 25 mm above the finished floor?",
      "evidence": "photo",
      "trade": "MIT",
      "source": "Mitsubishi ITP 34, 47"
     },
     {
      "ref": "2.5",
-     "q": "Guide rails within ±0.5 mm of drawing (DBG) and brackets pinned at the top?",
+     "q": "Guide rails plumb, brackets tight and pinned at the top?",
      "evidence": "cert",
      "trade": "MIT",
      "source": "Mitsubishi ITP – rail installation"
-    }
-   ]
-  },
-  {
-   "id": "3",
-   "title": "HANDOVER",
-   "questions": [
-    {
-     "ref": "3.1",
-     "q": "Lift tested and commissioned with certificate before handover?",
-     "evidence": "cert",
-     "trade": "MIT",
-     "source": "Mitsubishi ITP – testing"
     }
    ]
   }

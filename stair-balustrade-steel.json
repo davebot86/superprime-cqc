@@ -19,14 +19,14 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are anchors at the specified embedment, with curing time observed before loading?",
+     "q": "Anchors fully embedded and tight, resin cured before loading?",
      "evidence": "photo",
      "trade": "Alpine",
      "source": "Alpine ITP – chemical anchors"
     },
     {
      "ref": "1.2",
-     "q": "Bolts torqued to the specified values and witnessed?",
+     "q": "Bolts tight, with torque marks on the nuts?",
      "evidence": "cert",
      "trade": "Alpine",
      "source": "Alpine ITP – mechanical fixings torque"
@@ -40,31 +40,17 @@
     },
     {
      "ref": "1.4",
-     "q": "Is the glass the approved type, undamaged, with clamps/channel fixed as detailed?",
+     "q": "Glass undamaged, clamps/channel fully fixed?",
      "evidence": "photo",
      "trade": "Alpine",
      "source": "Alpine ITP – glass balustrade"
     },
     {
      "ref": "1.5",
-     "q": "Are weld inspection records available for site welds?",
-     "evidence": "cert",
-     "trade": "Alpine",
-     "source": "Alpine ITP – weld testing"
-    },
-    {
-     "ref": "1.6",
-     "q": "Anchors at 150 mm embedment (vertical and horizontal) as fabrication drawings?",
+     "q": "Anchors fully embedded and tight, no packing beyond limits?",
      "evidence": "photo",
      "trade": "Alpine",
      "source": "Alpine ITP – anchors"
-    },
-    {
-     "ref": "1.7",
-     "q": "Welds in material ≥8 mm thick radiographed/ultrasonic tested as specified?",
-     "evidence": "cert",
-     "trade": "Alpine",
-     "source": "Alpine ITP – NDT"
     }
    ]
   }

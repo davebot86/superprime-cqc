@@ -46,7 +46,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Fixings/brackets installed to drawings, shimmed within limits and torqued?",
+     "q": "Fixings/brackets fully fixed, shims within limits, torque marks on nuts?",
      "evidence": "cert",
      "trade": "TPL",
      "source": "Thorp ITP – installation"
@@ -67,14 +67,14 @@
     },
     {
      "ref": "2.4",
-     "q": "Anchor load tests passed at the specified loads (e.g. Fischer M16 FIS V tensile to 15.6 kN / 10 kN, FAZ II to 7.5 kN)?",
+     "q": "Anchor load tests done before panels are hung?",
      "evidence": "cert",
      "trade": "TPL",
      "source": "Thorp ITP – fixing test report"
     },
     {
      "ref": "2.5",
-     "q": "Water/hose test at the agreed locations (22 ±2 L/min) passed?",
+     "q": "Water/hose test done at the agreed locations before internal finishes?",
      "evidence": "cert",
      "trade": "TPL",
      "source": "Thorp ITP – water test"

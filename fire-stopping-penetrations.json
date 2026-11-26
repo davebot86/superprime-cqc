@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is there an approved benchmark for this seal type and wall/floor build-up?",
+     "q": "Seal matches the benchmark for this seal type?",
      "evidence": "none",
      "trade": "CLM",
      "source": "CLM ITP 8.0 (H&A)"
@@ -83,14 +83,14 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Is the seal labelled and recorded on OneTrace?",
+     "q": "Seal labelled, with photos taken?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 9"
     },
     {
      "ref": "3.2",
-     "q": "Is the CLM operative FIRAS-registered (card seen)?",
+     "q": "CLM operative on site has their FIRAS card?",
      "evidence": "none",
      "trade": "CLM",
      "source": "CLM ITP 1 (H)"

@@ -33,7 +33,7 @@
     },
     {
      "ref": "1.3",
-     "q": "Pattern and grade as per the approved sample?",
+     "q": "Pattern and grade match the sample?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Flooring ITP – materials"
@@ -60,7 +60,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Floor completed to the latest drawing, with photos at 100% completion?",
+     "q": "Floor complete, photos taken at 100%?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Flooring ITP – completion"

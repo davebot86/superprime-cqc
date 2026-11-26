@@ -64,13 +64,6 @@
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 9.1"
-    },
-    {
-     "ref": "2.3",
-     "q": "Area handed over to other trades with inspection record?",
-     "evidence": "cert",
-     "trade": "PER",
-     "source": "PER ITP 9.2"
     }
    ]
   },
@@ -80,21 +73,21 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Frame within ±2 mm in all three directions (in/out, left/right, top/bottom)?",
+     "q": "Frame plumb, level and on line with its neighbours?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER window checklist – tolerances"
     },
     {
      "ref": "3.2",
-     "q": "Profiles flush at corners – max 0.2 mm step on the outside?",
+     "q": "Profiles flush at corners, no visible step or gap?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER window checklist 3.4"
     },
     {
      "ref": "3.3",
-     "q": "Frame diagonals within 1 mm of each other?",
+     "q": "Frame square – diagonals equal?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER window checklist 3.6"

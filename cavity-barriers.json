@@ -19,21 +19,21 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is the barrier the specified Siderise product and rating for this location?",
+     "q": "Barrier labelled Siderise, the right type for the location (horizontal/vertical), undamaged?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 00002 8.1"
     },
     {
      "ref": "1.2",
-     "q": "Is it positioned per the fire strategy drawing and tight to both faces of the cavity?",
+     "q": "In position, tight to both faces of the cavity, no gaps at joints?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 00002 3, 8.1"
     },
     {
      "ref": "1.3",
-     "q": "Are fixing brackets impaled at the specified centres, with end brackets within 300 mm of each end?",
+     "q": "Fixing brackets impaled at even centres, with end brackets within 300 mm of each end?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 00002 8.1"
@@ -47,7 +47,7 @@
     },
     {
      "ref": "1.5",
-     "q": "Are fixings non-combustible as specified?",
+     "q": "Fixings steel (no plastic plugs or clips)?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 00002 8.1"
@@ -60,7 +60,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Is the barrier labelled and recorded on OneTrace, with photos before it is covered?",
+     "q": "Barrier labelled, with photos taken before it is covered?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 00002 9"

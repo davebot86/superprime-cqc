@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Positioned and levelled to setting-out, packers as specified?",
+     "q": "Positioned and levelled to setting-out, packers solid and fully bearing?",
      "evidence": "photo",
      "trade": "SBE",
      "source": "SBE on-site ITP 00003"
@@ -60,14 +60,7 @@
     },
     {
      "ref": "2.4",
-     "q": "Off-site: water system air test 0.5 bar 30 min, then water 6 bar 60 min; siphons tested at 3.8 mbar for 3 min?",
-     "evidence": "cert",
-     "trade": "SBE",
-     "source": "SBE off-site ITP"
-    },
-    {
-     "ref": "2.5",
-     "q": "Pod fixing bolts protruding the specified amount (11 / 21 mm ±2 mm)?",
+     "q": "Pod fixing bolts all in, tight and none missing?",
      "evidence": "photo",
      "trade": "SBE",
      "source": "SBE off-site checklist"

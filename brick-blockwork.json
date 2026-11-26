@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Approved sample panel / benchmark for this wall type?",
+     "q": "Wall matches the sample panel / benchmark (bond, joints, colour)?",
      "evidence": "none",
      "trade": "SBC",
      "source": "SBC ITP – sample panel (H)"
@@ -60,14 +60,14 @@
     },
     {
      "ref": "2.4",
-     "q": "Cavities clean, ties at the specified spacing and clean, insulation tight?",
+     "q": "Cavities clean, ties in and clean (no mortar bridging), insulation tight?",
      "evidence": "photo",
      "trade": "SBC",
      "source": "SBC ITP – ties & cavities"
     },
     {
      "ref": "2.5",
-     "q": "DPCs and cavity trays lapped, lintels with the specified bearing (150 mm unless approved)?",
+     "q": "DPCs and cavity trays lapped, lintels with at least 150 mm bearing each end?",
      "evidence": "photo",
      "trade": "SBC",
      "source": "SBC ITP – DPCs & lintels"
@@ -80,7 +80,7 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Movement joints at the specified spacing with the correct sealant?",
+     "q": "Movement joints in, clean and sealed?",
      "evidence": "photo",
      "trade": "SBC",
      "source": "SBC ITP – movement joints"

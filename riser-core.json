@@ -15,13 +15,6 @@
    "questions": [
     {
      "ref": "0.1",
-     "q": "Are drawings and tech subs at Status A, and is the benchmark for this riser type accepted?",
-     "evidence": "none",
-     "trade": "All",
-     "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; CLM ITP [SJWS-CLM-X...00001[C02]]"
-    },
-    {
-     "ref": "0.2",
      "q": "Is the riser wall type and fire rating confirmed from the fire strategy (120 min to stair lobby risers, with an E60Sa door)?",
      "evidence": "none",
      "trade": "MEA",
@@ -42,7 +35,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Is the first fixing no more than 50 mm from the track end, and is the head detail to British Gypsum spec with the correct stud gauge?",
+     "q": "Is the first fixing no more than 50 mm from the track end, and is the deflection head fitted?",
      "evidence": "photo",
      "trade": "MEA",
      "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; Field 1540, 11294"
@@ -111,7 +104,7 @@
     },
     {
      "ref": "2.6",
-     "q": "Is the dry riser cabinet opening built to suit the approved box?",
+     "q": "Is the dry riser cabinet opening the right size for the box?",
      "evidence": "none",
      "trade": "MEA / Borough",
      "source": "Tech sub BRS-05-00119 [SJWS-BRS-0...-00119_C02]"
@@ -151,7 +144,7 @@
    "questions": [
     {
      "ref": "4.1",
-     "q": "Is the equipment approved and in its drawn position, with ladder or tray signed off and containment adequate?",
+     "q": "Is the equipment in position, with ladder/tray fixed and containment adequate?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "F401 Electrical Riser checklist [SJWS-BRS-Z...00001[C03]]"
@@ -185,7 +178,7 @@
    "questions": [
     {
      "ref": "5.1",
-     "q": "Is there a signed pressure test certificate (1.5× working pressure, calibrated gauge) before insulation?",
+     "q": "Has the pipework been pressure tested before insulation?",
      "evidence": "cert",
      "trade": "PBS",
      "source": "PBS ITP [SJWS-PBS-X...-00001_C02]"
@@ -287,7 +280,7 @@
     },
     {
      "ref": "8.2",
-     "q": "Is the cable testing recorded (circuit testing witnessed)?",
+     "q": "Are cables tested before covering or fire stopping?",
      "evidence": "cert",
      "trade": "PHF",
      "source": "PHF ITP items 78 [SJWS-PHF-X...-00001-C01]"
@@ -300,28 +293,28 @@
    "questions": [
     {
      "ref": "9.1",
-     "q": "Have MEA, the MEP trade and CLM all signed that the opening is ready?",
+     "q": "Is the opening ready for fire stopping (services complete, supported, gaps right)?",
      "evidence": "photo",
      "trade": "All",
      "source": "Proposed hold point"
     },
     {
      "ref": "9.2",
-     "q": "Is CLM FIRAS-registered, with the correct fire rating confirmed against the fire strategy drawings?",
+     "q": "CLM operative on site has their FIRAS card, and the fire rating label matches the wall?",
      "evidence": "none",
      "trade": "CLM",
      "source": "CLM ITP 1, 3 [SJWS-CLM-X...00001[C02]]"
     },
     {
      "ref": "9.3",
-     "q": "Is the fire stopping to the tested detail, with the OneTrace record and seal label?",
+     "q": "Does the fire stopping match the benchmark, with the seal label fitted?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP [SJWS-CLM-X...00001[C02]]"
     },
     {
      "ref": "9.4",
-     "q": "Where the riser meets a floating floor or the top of a void, has a detail been issued and the void fire stopped?",
+     "q": "Where the riser meets a floating floor or the top of a void, is the void fire stopped?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "Field 5043, 4004 [Issues Exp...5_08_14_44]"
@@ -368,14 +361,14 @@
    "questions": [
     {
      "ref": "11.1",
-     "q": "Is the Selo Quadra+ or Ligna installed to BS EN 16034 by a third-party accredited installer?",
+     "q": "Is the door frame fixed solid, with the door label/plug in place and undamaged?",
      "evidence": "none",
      "trade": "Door installer",
      "source": "EPR door spec [SJWS-EPR-X...-0001[P02]]"
     },
     {
      "ref": "11.2",
-     "q": "Are frame gaps filled with intumescent acrylic as certified, and frame sealant joints formed?",
+     "q": "Are frame gaps filled with intumescent acrylic and sealant joints formed?",
      "evidence": "photo",
      "trade": "Door installer",
      "source": "Selo TS [SJWS-MEA-Z...-00018_C01]; EPR spec [SJWS-EPR-X...-0001[C00]]"
@@ -403,7 +396,7 @@
     },
     {
      "ref": "11.6",
-     "q": "Was the door fitted after wet trades had dried? Is third-party verification in place?",
+     "q": "Was the door fitted after wet trades had dried (no swelling or water marks)?",
      "evidence": "cert",
      "trade": "Door installer",
      "source": "EPR spec [SJWS-EPR-X...-0001[C00]]"
@@ -416,7 +409,7 @@
    "questions": [
     {
      "ref": "12.1",
-     "q": "Is the grating the approved Blue Diamond GRP, cut to ±5 mm, clipped, with no rocking?",
+     "q": "Is the grating GRP, cut to ±5 mm, clipped, with no rocking?",
      "evidence": "photo",
      "trade": "GCL",
      "source": "Tech sub GCL-26116 [SJWS-GCL-Z...-26116_C00]"
@@ -436,7 +429,7 @@
    "questions": [
     {
      "ref": "13.1",
-     "q": "Is the roof riser opening weatherproofed with the approved Jones system, and the riser dry with no staining?",
+     "q": "Is the roof riser opening weatherproofed, and the riser dry with no staining?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "Tech sub BRS-00182 [SJWS-BRS-Z...-00182_C02]; Field 4874"

@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Are brackets positioned per SWI0001 and within design tolerance?",
+     "q": "Brackets on setting-out and within ±2 mm?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 4.1; bracket checklist 2.6"
@@ -40,7 +40,7 @@
     },
     {
      "ref": "1.4",
-     "q": "Anchor pull-out tests done at the agreed rate and recorded?",
+     "q": "Anchor pull-out tests done before the cladding goes on?",
      "evidence": "cert",
      "trade": "PER",
      "source": "PER ITP 4.4"
@@ -57,13 +57,6 @@
      "evidence": "cert",
      "trade": "PER",
      "source": "PER ITP 3.5"
-    },
-    {
-     "ref": "2.2",
-     "q": "As-built survey of the frame issued and any out-of-tolerance inserts remediated per SWI0001?",
-     "evidence": "cert",
-     "trade": "PER",
-     "source": "PER ITP 3.1; bracket checklist 2.1"
     }
    ]
   }

@@ -26,14 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Spray-bar test certificate issued by the independent tester?",
-     "evidence": "cert",
-     "trade": "PER",
-     "source": "PER ITP 7.2"
-    },
-    {
-     "ref": "1.3",
-     "q": "Any failed location re-tested after repair and recorded?",
+     "q": "Any failed location repaired and re-tested before closing up?",
      "evidence": "cert",
      "trade": "PER",
      "source": "PER ITP 7.1–7.2"
@@ -46,13 +39,6 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Test locations agreed with the design team and recorded on the 3D model/drawings?",
-     "evidence": "none",
-     "trade": "PER",
-     "source": "PER ITP 1.1–1.2"
-    },
-    {
-     "ref": "2.2",
      "q": "Internal finishes protected and observers in place inside during the test?",
      "evidence": "photo",
      "trade": "PER",

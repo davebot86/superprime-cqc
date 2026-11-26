@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is containment installed level and neat, with brackets at the specified centres?",
+     "q": "Containment level and neat, brackets at max 1100 mm centres?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough ITP – containment inspection"
@@ -51,26 +51,6 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough checklist 2.3"
-    }
-   ]
-  },
-  {
-   "id": "2",
-   "title": "TESTING",
-   "questions": [
-    {
-     "ref": "2.1",
-     "q": "Are test results recorded for this area (insulation resistance / continuity)?",
-     "evidence": "cert",
-     "trade": "Borough",
-     "source": "Borough ITP – electrical testing"
-    },
-    {
-     "ref": "2.2",
-     "q": "Emergency lighting tested and recorded?",
-     "evidence": "cert",
-     "trade": "Borough",
-     "source": "Borough WP3 ITP 15"
     }
    ]
   }

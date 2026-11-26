@@ -64,13 +64,6 @@
      "evidence": "cert",
      "trade": "LDP",
      "source": "LDP ITP 3.1"
-    },
-    {
-     "ref": "2.4",
-     "q": "Manufacturer's site inspection report received?",
-     "evidence": "cert",
-     "trade": "LDP",
-     "source": "LDP ITP 4.1"
     }
    ]
   }

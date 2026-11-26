@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Sub-floor moisture recorded: cement-based ≤75% RH; anhydrite ≤0.5% CM or 75% RH?",
+     "q": "Sub-floor moisture test done and dry before laying (≤75% RH)?",
      "evidence": "cert",
      "trade": "AJK",
      "source": "AJK ITP – sub-floor moisture"
@@ -40,7 +40,7 @@
     },
     {
      "ref": "1.4",
-     "q": "Is the substrate flat to the straightedge tolerance (BS 8204-1)?",
+     "q": "Substrate flat – no more than 3 mm gap under a 2 m straightedge?",
      "evidence": "photo",
      "trade": "AJK",
      "source": "AJK ITP – flatness"

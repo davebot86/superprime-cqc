@@ -19,21 +19,21 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Dry-lay approved before installation?",
+     "q": "Dry-lay checked before fixing?",
      "evidence": "none",
      "trade": "ESC",
      "source": "EDM stone ITP 9 (A,H)"
     },
     {
      "ref": "1.2",
-     "q": "Stone matches the approved benchmark/sample for colour and veining?",
+     "q": "Stone matches the benchmark for colour and veining?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "EDM stone ITP 5 (A,H)"
     },
     {
      "ref": "1.3",
-     "q": "Uncoupling membrane laid where specified?",
+     "q": "Uncoupling membrane laid under the stone, no gaps?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "EDM stone ITP 14"

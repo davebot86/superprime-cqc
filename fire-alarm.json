@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Devices in the drawing positions and labelled; heads protected during works?",
+     "q": "Devices fitted and labelled, heads covered during dusty works?",
      "evidence": "photo",
      "trade": "PHF",
      "source": "PHF ITP 13.2"
@@ -51,13 +51,6 @@
      "evidence": "photo",
      "trade": "PHF",
      "source": "PHF ITP checklist – detector siting (BS 5839-1)"
-    },
-    {
-     "ref": "1.6",
-     "q": "Detector elements within 600 mm (smoke) / 150 mm (heat) of the ceiling?",
-     "evidence": "photo",
-     "trade": "PHF",
-     "source": "PHF ITP 39.2.11"
     }
    ]
   },
@@ -74,13 +67,6 @@
     },
     {
      "ref": "2.2",
-     "q": "Device operation tested and results recorded, signalling to the ARC proved?",
-     "evidence": "cert",
-     "trade": "PHF",
-     "source": "PHF ITP 39.2"
-    },
-    {
-     "ref": "2.3",
      "q": "Cause and effect tested with smoke control and lifts?",
      "evidence": "cert",
      "trade": "PHF",

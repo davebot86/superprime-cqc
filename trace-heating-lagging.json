@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Cable the right type/rating, fixed along the pipe as specified?",
+     "q": "Cable fixed tight along the pipe, no kinks, lagging over it undamaged?",
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus ITP 00003 2.1, 11"
@@ -46,7 +46,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Lagging the specified type and thickness, no gaps or compression?",
+     "q": "Lagging continuous, joints taped, no gaps or squashed sections?",
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus ITP 00003 3.11"

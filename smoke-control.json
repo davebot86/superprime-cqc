@@ -19,14 +19,14 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Benchmark / sample floor signed off?",
+     "q": "Installation matches the benchmark floor?",
      "evidence": "none",
      "trade": "PBS",
      "source": "Colt ITP 6 (W1)"
     },
     {
      "ref": "1.2",
-     "q": "Openings and upstands prepared to the assembly drawings so the vents/dampers fit?",
+     "q": "Openings and upstands the right size so vents/dampers fit?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt ITP 12"
@@ -53,7 +53,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Containment bonded, square cut, de-burred, with end caps; routes as the Colt drawing?",
+     "q": "Containment bonded, square cut, de-burred, with end caps?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt shaft inspection sheet"
@@ -102,7 +102,7 @@
     },
     {
      "ref": "2.9",
-     "q": "Labels to BS 7671 Reg 537.2, no damage, area clean?",
+     "q": "Labels fitted, no damage, area clean?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt shaft inspection sheet"
@@ -142,31 +142,10 @@
    "questions": [
     {
      "ref": "4.1",
-     "q": "Installation certificate issued (BS 7346-8)?",
-     "evidence": "cert",
-     "trade": "PBS",
-     "source": "Colt ITP 17"
-    },
-    {
-     "ref": "4.2",
-     "q": "Static tests (SAT 1) and functional tests (SAT 2) completed and recorded?",
-     "evidence": "cert",
-     "trade": "PBS",
-     "source": "Colt ITP 19–20"
-    },
-    {
-     "ref": "4.3",
      "q": "Cause and effect (SAT 3) tested with the fire alarm and witnessed?",
      "evidence": "cert",
      "trade": "PBS",
      "source": "Colt ITP 21"
-    },
-    {
-     "ref": "4.4",
-     "q": "Commissioning certificate issued and client demonstration done?",
-     "evidence": "cert",
-     "trade": "PBS",
-     "source": "Colt ITP 23, 25"
     }
    ]
   }

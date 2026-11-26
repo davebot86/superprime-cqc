@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are head spacing, positions and levels correct to the approved layout and structure?",
+     "q": "Heads evenly spaced, at the right level, clear of obstructions?",
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus ITP checklist (a)"
@@ -53,7 +53,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Hydraulic test 15 bar for 120 min witnessed by MPX, with CP14 certificate signed?",
+     "q": "Pipework hydraulic tested (15 bar) before boxing in?",
      "evidence": "cert",
      "trade": "Argus",
      "source": "Argus ITP – BS EN 12845 test, CP14"
@@ -64,20 +64,6 @@
      "evidence": "none",
      "trade": "Argus",
      "source": "Argus ITP – MPX authorisation"
-    },
-    {
-     "ref": "2.4",
-     "q": "Pump tests and control valve tests completed satisfactorily?",
-     "evidence": "cert",
-     "trade": "Argus",
-     "source": "Argus ITP completion checklist"
-    },
-    {
-     "ref": "2.5",
-     "q": "All corrective actions from the site inspection checklist (CP11) closed and signed?",
-     "evidence": "cert",
-     "trade": "Argus",
-     "source": "Argus ITP completion checklist"
     }
    ]
   }

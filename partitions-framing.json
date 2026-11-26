@@ -19,14 +19,14 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is the wall type, location and fire/acoustic rating as per the approved wall type drawings?",
+     "q": "Wall type label matches the wall (fire/acoustic rating marked)?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – setting out & wall type"
     },
     {
      "ref": "1.2",
-     "q": "Is the deflection head to the approved detail, with the 20 mm deflection allowance?",
+     "q": "Deflection head fitted with the 20 mm gap kept clear?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – deflection head"
@@ -40,7 +40,7 @@
     },
     {
      "ref": "1.4",
-     "q": "Are stud centres and extra framing at openings as per the wall type drawings?",
+     "q": "Studs at even centres, with extra studs/framing around openings?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – stud centres"
@@ -53,7 +53,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Are pattresses and noggins in for all fixtures (per ERR 22-series drawings)?",
+     "q": "Pattresses and noggins in for fixtures (WCs, basins, rails, TVs) before boarding?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – pattresses/noggins"
@@ -67,7 +67,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Are service openings per the BWIC drawings and framed out?",
+     "q": "Service openings framed out?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – service openings; BPG001",
@@ -88,7 +88,7 @@
     },
     {
      "ref": "3.2",
-     "q": "Door frame-to-wall gaps over 10 mm sealed with approved acrylic intumescent?",
+     "q": "Door frame-to-wall gaps over 10 mm sealed with intumescent acrylic?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP checklist – riser door 1"

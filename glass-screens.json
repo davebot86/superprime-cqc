@@ -33,7 +33,7 @@
     },
     {
      "ref": "1.3",
-     "q": "Fire-rated glass (where specified) matches the approved submission?",
+     "q": "Fire-rated glass (where needed) shows its etched mark?",
      "evidence": "cert",
      "trade": "ESC",
      "source": "Integrity Glass ITP 2.7"
@@ -46,7 +46,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Glass undamaged, the approved type, with safety marking visible?",
+     "q": "Glass undamaged, with safety marking visible?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Integrity Glass ITP 4.3"

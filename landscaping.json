@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Ducting runs installed to drawings before backfill?",
+     "q": "Ducting runs in and photographed before backfill?",
      "evidence": "photo",
      "trade": "MAY",
      "source": "Maylim ITP 2.2"
@@ -33,14 +33,14 @@
     },
     {
      "ref": "1.3",
-     "q": "ACO channel the right size/type, to line and level (BS EN 1610)?",
+     "q": "ACO channel to line and level, joints tight, grating seated?",
      "evidence": "photo",
      "trade": "MAY",
      "source": "Maylim ITP 2.5–2.8 (H)"
     },
     {
      "ref": "1.4",
-     "q": "Sump units installed to drawings?",
+     "q": "Sump units installed and photographed before backfill?",
      "evidence": "photo",
      "trade": "MAY",
      "source": "Maylim ITP 2.7"
@@ -60,7 +60,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Planting and soils as specified, trees staked, irrigation where required?",
+     "q": "Trees staked and tied, planting healthy, irrigation in where shown?",
      "evidence": "photo",
      "trade": "MAY",
      "source": "Maylim ITP – soft landscaping"
