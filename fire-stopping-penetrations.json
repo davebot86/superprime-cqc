@@ -1,0 +1,101 @@
+{
+ "id": "fire-stopping-penetrations",
+ "title": "Fire Stopping – Penetration Seals",
+ "short": "Fire Stopping",
+ "group": "Fire stopping & compartmentation",
+ "activity": "Batts, sealant joints, collars and wraps",
+ "fieldOrg": "CLM Fireproofing",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-CLM-XX-XX-IP-X-00001 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Corridor wall E1, riser R2"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE SEALING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is there an approved benchmark for this seal type and wall/floor build-up?",
+     "evidence": "none",
+     "trade": "CLM",
+     "source": "CLM ITP 8.0 (H&A)"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are service-to-service and service-to-edge spacings within the CLM table? Use the Spacing guide.",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 8.1; CLM schedule SJWS-CLM-XX-XX-SH-X-00003",
+     "tool": "spacing"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are services clear of the 200 mm door head zone and the critical stud zones?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "BPG001 / project no-go zones",
+     "tool": "spacing"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is the seal type right for the opening (FSI tight to soffit, Quelfire where services are ≥100 mm below soffit)?",
+     "evidence": "none",
+     "trade": "CLM",
+     "source": "CLM schedule; v3 spacing check",
+     "tool": "spacing"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "THE SEAL",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Is the batt tight around every service and sealed on both sides, with no gaps?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 8.1"
+    },
+    {
+     "ref": "2.2",
+     "q": "Are sealant joints to depth (2:1 ratio) and within tested width limits?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 8.2"
+    },
+    {
+     "ref": "2.3",
+     "q": "Are collars and wraps the right type for the pipe and fitted to the tested detail?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 8.3–8.4"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "RECORD",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Is the seal labelled and recorded on OneTrace?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 9"
+    },
+    {
+     "ref": "3.2",
+     "q": "Is the CLM operative FIRAS-registered (card seen)?",
+     "evidence": "none",
+     "trade": "CLM",
+     "source": "CLM ITP 1 (H)"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "id": "stair-balustrade-steel",
+ "title": "Staircase, Glass Balustrade & Steelwork",
+ "short": "Stair & Balustrade",
+ "group": "Metalwork & external",
+ "activity": "Staircase, glass balustrade and structural steel",
+ "fieldOrg": "Alpine Group",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ALG-RS-ZZ-IP-X-00002 C03",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Riding School main stair"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are anchors at the specified embedment, with curing time observed before loading?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine ITP – chemical anchors"
+    },
+    {
+     "ref": "1.2",
+     "q": "Bolts torqued to the specified values and witnessed?",
+     "evidence": "cert",
+     "trade": "Alpine",
+     "source": "Alpine ITP – mechanical fixings torque"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are components level, landings level and twist within tolerance?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine ITP – installation tolerances"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is the glass the approved type, undamaged, with clamps/channel fixed as detailed?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine ITP – glass balustrade"
+    },
+    {
+     "ref": "1.5",
+     "q": "Are weld inspection records available for site welds?",
+     "evidence": "cert",
+     "trade": "Alpine",
+     "source": "Alpine ITP – weld testing"
+    }
+   ]
+  }
+ ]
+}

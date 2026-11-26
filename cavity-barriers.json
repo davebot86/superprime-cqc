@@ -1,0 +1,71 @@
+{
+ "id": "cavity-barriers",
+ "title": "Cavity Barriers – Siderise",
+ "short": "Cavity Barriers",
+ "group": "Fire stopping & compartmentation",
+ "activity": "Siderise cavity fire barriers",
+ "fieldOrg": "CLM Fireproofing",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-CLM-XX-XX-IP-X-00002 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Elevation N, L05 slab edge"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the barrier the specified Siderise product and rating for this location?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 8.1"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is it positioned per the fire strategy drawing and tight to both faces of the cavity?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 3, 8.1"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are fixing brackets impaled at the specified centres, with end brackets within 300 mm of each end?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 8.1"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are joints butted and sealed, with no gaps at junctions or around brackets and services?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 8.1"
+    },
+    {
+     "ref": "1.5",
+     "q": "Are fixings non-combustible as specified?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 8.1"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "RECORD",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Is the barrier labelled and recorded on OneTrace, with photos before it is covered?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM ITP 00002 9"
+    }
+   ]
+  }
+ ]
+}

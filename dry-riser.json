@@ -1,0 +1,64 @@
+{
+ "id": "dry-riser",
+ "title": "Dry Riser",
+ "short": "Dry Riser",
+ "group": "Fire protection systems",
+ "activity": "Dry riser pipework, valves and test",
+ "fieldOrg": "Argus Fire Protection",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-AFP-ZZ-XX-IP-X-00002 C00",
+ "location": {
+  "areaLabel": "Riser",
+  "areaHint": "e.g. Stair core North"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the pipe galvanised to spec, with brackets at the correct centres (one within 1 m of each mechanical joint)?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus drawing / ITP"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is each landing valve ≥750 mm above FFL, labelled \"DRY RISER OUTLET\" and the pipe bonded?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "HLE schematic"
+    },
+    {
+     "ref": "1.3",
+     "q": "Is the air release valve above the highest landing valve and isolation valves padlocked open?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus drawing notes"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "TESTING & HANDOVER",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Air test 0.5 bar for 15 min, then water test 12 bar for 10 min, witnessed by MPX?",
+     "evidence": "cert",
+     "trade": "Argus",
+     "source": "Argus ITP 00002 – pressure testing"
+    },
+    {
+     "ref": "2.2",
+     "q": "Is the outlet cabinet complete, glass intact and surround made good?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus ITP 00002 14"
+    }
+   ]
+  }
+ ]
+}

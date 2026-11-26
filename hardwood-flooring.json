@@ -1,0 +1,71 @@
+{
+ "id": "hardwood-flooring",
+ "title": "Hardwood Flooring",
+ "short": "Hardwood Flooring",
+ "group": "Finishes",
+ "activity": "Timber flooring – conditions, substrate and laying",
+ "fieldOrg": "AJK Woodflooring",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-AJK-XX-XX-IP-X-00002 C02",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. Block 7 L02 Apt 3"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE LAYING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are room conditions within 18–22°C and 40–60% RH?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK ITP – target conditions"
+    },
+    {
+     "ref": "1.2",
+     "q": "Sub-floor moisture recorded: cement-based ≤75% RH; anhydrite ≤0.5% CM or 75% RH?",
+     "evidence": "cert",
+     "trade": "AJK",
+     "source": "AJK ITP – sub-floor moisture"
+    },
+    {
+     "ref": "1.3",
+     "q": "Timber moisture content 6–9% confirmed with a calibrated meter?",
+     "evidence": "cert",
+     "trade": "AJK",
+     "source": "AJK ITP – moisture content (H)"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is the substrate flat to the straightedge tolerance (BS 8204-1)?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK ITP – flatness"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "LAYING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are joints staggered and expansion gaps kept at all perimeters and thresholds?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK ITP – installation"
+    },
+    {
+     "ref": "2.2",
+     "q": "Is the finished floor protected after laying?",
+     "evidence": "photo",
+     "trade": "AJK",
+     "source": "AJK ITP – protection"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "ceilings",
+ "title": "Ceilings (MF)",
+ "short": "Ceilings",
+ "group": "Drylining & ceilings",
+ "activity": "MF ceilings, bulkheads and access panels",
+ "fieldOrg": "Errigal",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ERR-XX-XX-IP-X-00001 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Corridor L03 east"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "GRID",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are perimeter channels at the correct fixing type and centres, and aligned?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 6"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are hanger fixings suitable for the substrate (pull-out tested where required)?",
+     "evidence": "cert",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 8; pull test (H)"
+    },
+    {
+     "ref": "1.3",
+     "q": "Is MF5 furring channel at the correct spacing per the K10 spec?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 14"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "BOARDING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Have MEP trades signed off the void before boarding?",
+     "evidence": "none",
+     "trade": "Errigal",
+     "source": "Errigal ITP – hold point"
+    },
+    {
+     "ref": "2.2",
+     "q": "Are boards lightly butted, screws at ≤150 mm centres, no unsupported joints?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 7, 17"
+    },
+    {
+     "ref": "2.3",
+     "q": "Are bulkheads, grille openings and access panels in the right positions?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 10"
+    },
+    {
+     "ref": "2.4",
+     "q": "Is the finished ceiling level, joints aligned and free from damage?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – ceilings 19"
+    }
+   ]
+  }
+ ]
+}

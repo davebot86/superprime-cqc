@@ -1,0 +1,79 @@
+{
+ "id": "partitions-framing",
+ "title": "Partitions – Framing (before boarding)",
+ "short": "Partition Framing",
+ "group": "Drylining & ceilings",
+ "activity": "Studs, tracks, deflection heads, pattresses",
+ "fieldOrg": "Errigal",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ERR-XX-XX-IP-X-00001 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Apartment 06.03.02"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "FRAMING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the wall type, location and fire/acoustic rating as per the approved wall type drawings?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – setting out & wall type"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is the deflection head to the approved detail, with the 20 mm deflection allowance?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – deflection head"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are head and base track fixings at the correct centres and first fixing distance from the track end?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – head/base tracks"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are stud centres and extra framing at openings as per the wall type drawings?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – stud centres"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "BEFORE FIRST SIDE CLOSES",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are pattresses and noggins in for all fixtures (per ERR 22-series drawings)?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – pattresses/noggins"
+    },
+    {
+     "ref": "2.2",
+     "q": "Are back boxes and hockey sticks in the coordinated positions, with acoustic boxes where required?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – back boxes"
+    },
+    {
+     "ref": "2.3",
+     "q": "Are service openings per the BWIC drawings and framed out?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP – service openings; BPG001",
+     "tool": "spacing"
+    }
+   ]
+  }
+ ]
+}

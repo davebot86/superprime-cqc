@@ -1,0 +1,58 @@
+{
+ "id": "architectural-metalwork",
+ "title": "Architectural Metalwork – Installation",
+ "short": "Metalwork",
+ "group": "Metalwork & external",
+ "activity": "Balustrades, screens and metalwork installation",
+ "fieldOrg": "CMF",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-CMF-XX-XX-IP-X-00002 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 6 roof terrace"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is there an approved benchmark for this item?",
+     "evidence": "none",
+     "trade": "CMF",
+     "source": "CMF ITP 2.7 (H)"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is setting out to the approved site drawings, within ±5 mm?",
+     "evidence": "photo",
+     "trade": "CMF",
+     "source": "CMF ITP 2.3"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are fixings into RC drilled and installed to the fixing supplier's instructions?",
+     "evidence": "photo",
+     "trade": "CMF",
+     "source": "CMF ITP 2.4"
+    },
+    {
+     "ref": "1.4",
+     "q": "Holding-down bolts torque-checked and recorded?",
+     "evidence": "cert",
+     "trade": "CMF",
+     "source": "CMF ITP – torque testing"
+    },
+    {
+     "ref": "1.5",
+     "q": "Is the finish undamaged and protected?",
+     "evidence": "photo",
+     "trade": "CMF",
+     "source": "CMF ITP 00001 – protection"
+    }
+   ]
+  }
+ ]
+}

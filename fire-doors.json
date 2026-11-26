@@ -1,0 +1,78 @@
+{
+ "id": "fire-doors",
+ "title": "Fire Doors",
+ "short": "Fire Doors",
+ "group": "Doors & joinery",
+ "activity": "Fire door leaf, frame, seals and ironmongery",
+ "fieldOrg": "Atlantic Contracts",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ATL-RS-ZZ-IP-X-00001 C00",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Apartment 06.03.02 entrance"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "DOOR & FRAME",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the certification label on top of the leaf present and undamaged?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP door checklist 2.4"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is the leaf plumb, level and square with a consistent gap to the frame?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 2.2–2.3"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are frame-to-wall fixings the right number, type and position?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 3.4"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "SEALS & IRONMONGERY",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are intumescent seals full length on all sides, flush in their grooves and undamaged?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 4.3–4.6"
+    },
+    {
+     "ref": "2.2",
+     "q": "Does the smoke seal fill the gap between door and frame on all sides?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 4.5"
+    },
+    {
+     "ref": "2.3",
+     "q": "Does the latch engage securely, and is ironmongery suitable for the fire rating?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 5.1–5.4"
+    },
+    {
+     "ref": "2.4",
+     "q": "Is the third-party certificate available for this door?",
+     "evidence": "cert",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 1.12"
+    }
+   ]
+  }
+ ]
+}

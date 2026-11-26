@@ -1,0 +1,44 @@
+{
+ "id": "trace-heating-lagging",
+ "title": "Trace Heating & Lagging",
+ "short": "Trace Heating",
+ "group": "Fire protection systems",
+ "activity": "Trace heating and pipe lagging",
+ "fieldOrg": "Argus Fire Protection",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-AFP-ZZ-XX-IP-X-00003 C01",
+ "location": {
+  "areaLabel": "Area",
+  "areaHint": "e.g. Car park L-1"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is trace heating fixed along the pipe as specified and tested before lagging?",
+     "evidence": "cert",
+     "trade": "Argus",
+     "source": "Argus ITP 00003 11"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is lagging the specified type and thickness, with no gaps or compression?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus ITP 00003 checklist 3.11"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are joints sealed, cladding weathered where external, and warning labels fitted?",
+     "evidence": "photo",
+     "trade": "Argus",
+     "source": "Argus ITP 00003 12"
+    }
+   ]
+  }
+ ]
+}

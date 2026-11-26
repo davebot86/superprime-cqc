@@ -479,5 +479,7 @@
   }
  ],
  "group": "Risers & cores",
- "activity": "Riser shaft walls, openings, services, fire stopping, doors"
+ "activity": "Riser shaft walls, openings, services, fire stopping, doors",
+ "fieldOrg": "Multiple – per question",
+ "itp": "MEA, CLM, PBS, Borough, Argus, PHF, GCL ITPs"
 }

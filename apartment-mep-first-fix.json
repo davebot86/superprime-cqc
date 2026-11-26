@@ -1,0 +1,78 @@
+{
+ "id": "apartment-mep-first-fix",
+ "title": "Apartment MEP – First Fix (pre-close)",
+ "short": "MEP First Fix",
+ "group": "MEP – apartments",
+ "activity": "Pipework, drainage, ductwork and testing before close-up",
+ "fieldOrg": "Briggs and Forrester",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-BAF-XX-XX-IP-X-00001 C02",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 06.03.02"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "PIPEWORK & DRAINAGE",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is pipework supported at the specified spacing with the correct clips?",
+     "evidence": "photo",
+     "trade": "BAF",
+     "source": "BAF ITP – supports"
+    },
+    {
+     "ref": "1.2",
+     "q": "Pressure test done (7 bar as spec) with a signed certificate before boxing in?",
+     "evidence": "cert",
+     "trade": "BAF",
+     "source": "BAF / Borough ITP – pipework pressure test"
+    },
+    {
+     "ref": "1.3",
+     "q": "Is waste pipework at a fall of 18 mm per 1 m, air tested and certified?",
+     "evidence": "cert",
+     "trade": "BAF",
+     "source": "BAF ITP – fall/gradient, air test"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is pipe insulation complete and neat, with no gaps?",
+     "evidence": "photo",
+     "trade": "BAF",
+     "source": "BAF ITP – insulation checklist"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "DUCTWORK & SPRINKLERS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are inlet and exhaust ducts fully insulated, with fire sleeves fitted per the BWIC drawings?",
+     "evidence": "photo",
+     "trade": "BAF",
+     "source": "BAF ITP – ductwork checklist"
+    },
+    {
+     "ref": "2.2",
+     "q": "Sprinkler pipework hydraulic test (15 bar, BS 9251) certified?",
+     "evidence": "cert",
+     "trade": "BAF",
+     "source": "Borough WP4 ITP 14 / BAF ITP"
+    },
+    {
+     "ref": "2.3",
+     "q": "Are isolation valves accessible after close-up?",
+     "evidence": "photo",
+     "trade": "BAF",
+     "source": "BAF ITP – final location"
+    }
+   ]
+  }
+ ]
+}

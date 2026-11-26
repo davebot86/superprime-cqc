@@ -1,0 +1,71 @@
+{
+ "id": "joinery",
+ "title": "Joinery Installation",
+ "short": "Joinery",
+ "group": "Doors & joinery",
+ "activity": "Fitted joinery, linings and panelling",
+ "fieldOrg": "Atlantic Contracts",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ATL-RS-ZZ-IP-X-00001 C00",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Apartment 06.03.02 kitchen"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE FIXING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Timber moisture 8–12% and storage conditions logged?",
+     "evidence": "cert",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – temperature, humidity & moisture check"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are datum levels set and background surfaces within tolerance?",
+     "evidence": "none",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – preparation"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "FIXING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Is joinery plumb, level and in line, within tolerance?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – fixing"
+    },
+    {
+     "ref": "2.2",
+     "q": "Is there at least a 10 mm perimeter gap (plus 2 mm per metre run) where required?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – perimeter gap"
+    },
+    {
+     "ref": "2.3",
+     "q": "Are fixings accurate and concealed, with cantilevers no more than 150 mm?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – fixing"
+    },
+    {
+     "ref": "2.4",
+     "q": "Is the work protected and free from damage?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP – completion"
+    }
+   ]
+  }
+ ]
+}
