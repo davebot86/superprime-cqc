@@ -1,0 +1,58 @@
+{
+ "id": "bathroom-first-fix",
+ "title": "Bathroom First Fix",
+ "short": "Bathroom 1st Fix",
+ "group": "MEP – apartments",
+ "activity": "Bathroom services before boarding and tiling",
+ "fieldOrg": "Borough Engineering Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-BRS-05-ZZ-IP-X-00001 C04",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.04.01 – Ensuite"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE BOARDING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are WC frames, basins and shower valves at the right heights and positions per the setting-out drawing?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 21"
+    },
+    {
+     "ref": "1.2",
+     "q": "Hot and cold pressure tested (7 bar, as spec) and certified?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP – pipework pressure test"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are wastes at the correct fall and air tested, with the SVP connection made?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 11–12"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are isolation valves accessible behind a panel or removable fitting?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 21"
+    },
+    {
+     "ref": "1.5",
+     "q": "Are electrical supplies (shaver, mirror, UFH, extract) in the right positions and zones?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 22"
+    }
+   ]
+  }
+ ]
+}

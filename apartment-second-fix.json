@@ -1,0 +1,58 @@
+{
+ "id": "apartment-second-fix",
+ "title": "Apartment Electrical Second Fix",
+ "short": "Electrical 2nd Fix",
+ "group": "MEP – electrical",
+ "activity": "Accessories, lighting, AV/IT and controls",
+ "fieldOrg": "Borough Engineering Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-BRS-05-ZZ-IP-X-00001 C04",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.04.01"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "SECOND FIX",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are sockets, switches and accessories level, at the set-out heights and to the finish schedule?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 24"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are light fittings in position, aligned with the ceiling layout and working?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 24–25"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are AV/IT and data outlets fitted, labelled and tested?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 23, 37–38"
+    },
+    {
+     "ref": "1.4",
+     "q": "KNX / lighting control tested and working?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 33"
+    },
+    {
+     "ref": "1.5",
+     "q": "Electrical test certificate available for this apartment?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 26"
+    }
+   ]
+  }
+ ]
+}

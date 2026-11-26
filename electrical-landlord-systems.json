@@ -1,0 +1,58 @@
+{
+ "id": "electrical-landlord-systems",
+ "title": "Electrical Landlord Systems",
+ "short": "Landlord Electrical",
+ "group": "MEP – electrical",
+ "activity": "Switchgear, generator, PV, EV charging, lightning protection",
+ "fieldOrg": "Borough Engineering Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-BRS-ZZ-ZZ-IP-X-00001 C03",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Basement LV room"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is LV switchgear installed, labelled and with its site acceptance test recorded?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP3 ITP 18"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are emergency lighting tests recorded for this area?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP3 ITP 15"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are EV chargers and PV panels installed and inspected (with their test sheets)?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP3 ITP 19–20"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is the lightning protection installed and tested?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP3 ITP 22, 25"
+    },
+    {
+     "ref": "1.5",
+     "q": "Generator tested to its test plan?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP3 ITP 27–28"
+    }
+   ]
+  }
+ ]
+}

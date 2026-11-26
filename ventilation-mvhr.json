@@ -1,0 +1,64 @@
+{
+ "id": "ventilation-mvhr",
+ "title": "Ventilation, MVHR & FCUs",
+ "short": "Ventilation",
+ "group": "MEP – apartments",
+ "activity": "Ductwork, MVHR units, FCUs and grilles",
+ "fieldOrg": "Borough Engineering Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-BRS-05-ZZ-IP-X-00001 C04",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.04.01"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "FIRST FIX",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is ductwork installed and supported to B&ES DW/144, joints sealed, with no crushed flex?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 15"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are fire dampers or sleeves fitted where ducts cross fire-rated walls, with access to them?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 16"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are FCU/MVHR units level and supported, with condensate drain falls and filter access clear?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 17"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "SECOND FIX & COMMISSIONING",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are grilles in the right positions, square and undamaged?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 19"
+    },
+    {
+     "ref": "2.2",
+     "q": "Are air flows commissioned and recorded (CIBSE Code A)?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 18, 20"
+    }
+   ]
+  }
+ ]
+}
