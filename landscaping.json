@@ -66,6 +66,19 @@
      "source": "Maylim ITP – soft landscaping"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "TOLERANCES",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Sub-base laid within ±10 mm, basecourse ±6 mm, surfaces ±6 mm of level?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – surface tolerances"
+    }
+   ]
   }
  ]
 }

@@ -51,6 +51,13 @@
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP ITP 00004 2.4"
+    },
+    {
+     "ref": "1.6",
+     "q": "Minimum upstands achieved: 75 mm at doors and windows, 150 mm elsewhere?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00004 pre-start"
     }
    ]
   }

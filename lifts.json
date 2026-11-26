@@ -64,6 +64,20 @@
      "evidence": "photo",
      "trade": "MIT",
      "source": "Mitsubishi ITP – opening survey"
+    },
+    {
+     "ref": "2.4",
+     "q": "Landing sills at least 25 mm above the finished floor (BS 9999)?",
+     "evidence": "photo",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP 34, 47"
+    },
+    {
+     "ref": "2.5",
+     "q": "Guide rails within ±0.5 mm of drawing (DBG) and brackets pinned at the top?",
+     "evidence": "cert",
+     "trade": "MIT",
+     "source": "Mitsubishi ITP – rail installation"
     }
    ]
   },

@@ -51,6 +51,20 @@
      "evidence": "cert",
      "trade": "Alpine",
      "source": "Alpine ITP – weld testing"
+    },
+    {
+     "ref": "1.6",
+     "q": "Anchors at 150 mm embedment (vertical and horizontal) as fabrication drawings?",
+     "evidence": "photo",
+     "trade": "Alpine",
+     "source": "Alpine ITP – anchors"
+    },
+    {
+     "ref": "1.7",
+     "q": "Welds in material ≥8 mm thick radiographed/ultrasonic tested as specified?",
+     "evidence": "cert",
+     "trade": "Alpine",
+     "source": "Alpine ITP – NDT"
     }
    ]
   }

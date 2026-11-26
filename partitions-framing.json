@@ -74,6 +74,33 @@
      "tool": "spacing"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "RISER DOORS & OPENINGS",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Head/base track fixings with at least 35 mm embedment?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – head & base tracks"
+    },
+    {
+     "ref": "3.2",
+     "q": "Door frame-to-wall gaps over 10 mm sealed with approved acrylic intumescent?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – riser door 1"
+    },
+    {
+     "ref": "3.3",
+     "q": "Door stop fixings: steel screws into studs by at least 35 mm?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – riser door 3"
+    }
+   ]
   }
  ]
 }

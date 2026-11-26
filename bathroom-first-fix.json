@@ -51,6 +51,20 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough WP4 ITP 22"
+    },
+    {
+     "ref": "1.6",
+     "q": "SVP air test 100 mbar for 3 min passed?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP – SVP testing"
+    },
+    {
+     "ref": "1.7",
+     "q": "Waste air test 38 mbar for 3 min passed at 1st fix?",
+     "evidence": "cert",
+     "trade": "Borough",
+     "source": "Borough WP4 ITP 11"
     }
    ]
   }

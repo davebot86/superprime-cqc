@@ -73,6 +73,40 @@
      "source": "Errigal ITP – line, level, plumb"
     }
    ]
+  },
+  {
+   "id": "3",
+   "title": "DETAIL",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Glasroc board joints staggered by at least 600 mm where required?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – boarding 8"
+    },
+    {
+     "ref": "3.2",
+     "q": "Plaster beads fixed with ≥75 mm steel fixings at ≤450 mm centres?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – beads 4"
+    },
+    {
+     "ref": "3.3",
+     "q": "Riser door perimeter gaps 3 mm (±1 mm), lock/cylinder working?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – riser door 2, 12"
+    },
+    {
+     "ref": "3.4",
+     "q": "Air temperature between +5°C and +30°C during boarding and jointing?",
+     "evidence": "photo",
+     "trade": "Errigal",
+     "source": "Errigal ITP checklist – conditions 2"
+    }
+   ]
   }
  ]
 }

@@ -37,6 +37,13 @@
      "evidence": "photo",
      "trade": "NAL",
      "source": "NAL ITP – finish"
+    },
+    {
+     "ref": "1.4",
+     "q": "Flatness within ±3 mm over 1 m?",
+     "evidence": "photo",
+     "trade": "NAL",
+     "source": "NAL ITP – flatness"
     }
    ]
   },

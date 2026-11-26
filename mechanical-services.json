@@ -64,6 +64,20 @@
      "evidence": "photo",
      "trade": "PBS",
      "source": "PBS mech ITP"
+    },
+    {
+     "ref": "2.3",
+     "q": "Water treatment / system flushing carried out and certified?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS mech ITP 5.9"
+    },
+    {
+     "ref": "2.4",
+     "q": "Commissioning records completed and approved?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS mech ITP 5.8"
     }
    ]
   }

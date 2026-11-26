@@ -44,6 +44,13 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough ITP – earthing"
+    },
+    {
+     "ref": "1.5",
+     "q": "Containment brackets at max 1100 mm centres?",
+     "evidence": "photo",
+     "trade": "Borough",
+     "source": "Borough checklist 2.3"
     }
    ]
   },

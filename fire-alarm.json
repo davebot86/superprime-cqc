@@ -44,6 +44,20 @@
      "evidence": "photo",
      "trade": "PHF",
      "source": "PHF ITP 26.2"
+    },
+    {
+     "ref": "1.5",
+     "q": "Detectors at least 500 mm from walls, beams and obstructions?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF ITP checklist – detector siting (BS 5839-1)"
+    },
+    {
+     "ref": "1.6",
+     "q": "Detector elements within 600 mm (smoke) / 150 mm (heat) of the ceiling?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF ITP 39.2.11"
     }
    ]
   },

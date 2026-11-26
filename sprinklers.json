@@ -64,6 +64,20 @@
      "evidence": "none",
      "trade": "Argus",
      "source": "Argus ITP – MPX authorisation"
+    },
+    {
+     "ref": "2.4",
+     "q": "Pump tests and control valve tests completed satisfactorily?",
+     "evidence": "cert",
+     "trade": "Argus",
+     "source": "Argus ITP completion checklist"
+    },
+    {
+     "ref": "2.5",
+     "q": "All corrective actions from the site inspection checklist (CP11) closed and signed?",
+     "evidence": "cert",
+     "trade": "Argus",
+     "source": "Argus ITP completion checklist"
     }
    ]
   }

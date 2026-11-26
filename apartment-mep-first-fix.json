@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Pressure test done (7 bar as spec) with a signed certificate before boxing in?",
+     "q": "Pipework pressure test done (7 bar as spec) with a signed certificate before boxing in?",
      "evidence": "cert",
      "trade": "BAF",
      "source": "BAF / Borough ITP – pipework pressure test"

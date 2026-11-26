@@ -64,6 +64,13 @@
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic ITP – completion"
+    },
+    {
+     "ref": "2.5",
+     "q": "Mastic depth at least 10 mm where joinery is sealed?",
+     "evidence": "photo",
+     "trade": "Atlantic",
+     "source": "Atlantic ITP 10.2"
     }
    ]
   }

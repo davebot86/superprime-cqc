@@ -78,6 +78,20 @@
      "evidence": "cert",
      "trade": "PGS",
      "source": "PGS / LAC screed ITPs"
+    },
+    {
+     "ref": "2.4",
+     "q": "Surface regularity: gap under a 2 m straightedge no more than 3 mm; level within ±7 mm of datum?",
+     "evidence": "photo",
+     "trade": "PGS",
+     "source": "PGS screed ITP"
+    },
+    {
+     "ref": "2.5",
+     "q": "Soundness test (BS 8204 ISCR, Category C) – indentation no more than 5 mm?",
+     "evidence": "cert",
+     "trade": "PGS",
+     "source": "PGS screed ITP"
     }
    ]
   }

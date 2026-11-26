@@ -37,6 +37,27 @@
      "evidence": "photo",
      "trade": "RJL",
      "source": "Door ITPs – fire doors"
+    },
+    {
+     "ref": "1.4",
+     "q": "Gaps between leaf and frame/head 2–4 mm?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "SJE door checklist 19"
+    },
+    {
+     "ref": "1.5",
+     "q": "Room conditions around 18°C before joinery installed (moisture check)?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "RJL ITP – conditions"
+    },
+    {
+     "ref": "1.6",
+     "q": "Handover / instruction to proceed received and preceding trades complete?",
+     "evidence": "none",
+     "trade": "RJL",
+     "source": "RJL ITP – pre-start"
     }
    ]
   },
