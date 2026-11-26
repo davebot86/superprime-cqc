@@ -1,0 +1,80 @@
+{
+ "id": "bathroom-pre-close",
+ "title": "Bathroom Pre-Close Critical Quality Check",
+ "short": "Bathroom Pre-Close",
+ "version": "0.1 example",
+ "status": "Example only – not agreed. Built to show James how a module works.",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 06.03.02 – Ensuite"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "SERVICES",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Has pipework been pressure tested, with a signed certificate before boxing in?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "Example – confirm against ITP / tech sub"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are isolation valves accessible through an access panel or behind a removable fitting?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Example – confirm against ITP / tech sub"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are waste runs at the correct falls, supported, and connected to the stack with no leaks?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Example – confirm against ITP / tech sub"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "BUILDERS WORK",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are noggins and pattresses in for WC frames, basins, rails and screens?",
+     "evidence": "photo",
+     "trade": "Dry liner",
+     "source": "Example – confirm against ITP / tech sub"
+    },
+    {
+     "ref": "2.2",
+     "q": "Is tanking complete to the specified height, with corners and penetrations sealed?",
+     "evidence": "photo",
+     "trade": "Tiler",
+     "source": "Example – confirm against ITP / tech sub"
+    },
+    {
+     "ref": "2.3",
+     "q": "Is the shower tray or wet-room former level, with the floor falling to the drain?",
+     "evidence": "photo",
+     "trade": "Tiler",
+     "source": "Example – confirm against ITP / tech sub"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "BEFORE CLOSE",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Are photos of all services taken before boarding?",
+     "evidence": "photo",
+     "trade": "All",
+     "source": "Example – confirm against ITP / tech sub"
+    }
+   ]
+  }
+ ]
+}
