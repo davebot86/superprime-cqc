@@ -33,32 +33,20 @@
     },
     {
      "ref": "1.3",
-     "q": "Gaps even all round – head, jambs and meeting stiles 2–4 mm; threshold 8–10 mm max (3 mm if smoke-rated \"s\" door without a threshold seal)?",
+     "q": "Gaps 3 mm max and even – head, jambs, meeting stiles and threshold (or threshold smoke seal fitted)? Over 3 mm: check the data sheet.",
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 2.3, 11.1",
      "guide": {
-      "title": "Fire door gaps – maximums",
+      "title": "Fire door gaps – pass line (tightest)",
       "rows": [
        [
-        "Head and both jambs",
-        "2–4 mm, even all round"
+        "Head, jambs, meeting stiles",
+        "3 mm max, even (£1 coin fits snug)"
        ],
        [
-        "Meeting stiles (pairs)",
-        "2–4 mm"
-       ],
-       [
-        "Threshold – fire only (FD30 / FD60)",
-        "typically 8–10 mm max"
-       ],
-       [
-        "Threshold – smoke control (FD30s / FD60s)",
-        "3 mm max, unless a drop-down / threshold smoke seal closes it"
-       ],
-       [
-        "Quick check",
-        "£1 coin ≈ 3 mm – should slide in, not rattle"
+        "Threshold",
+        "3 mm max – or a threshold/drop-down smoke seal fitted"
        ],
        [
         "Frame-to-wall mastic depth",
@@ -67,9 +55,13 @@
        [
         "Riser doors (Errigal)",
         "3 mm ±1 perimeter"
+       ],
+       [
+        "Over the pass line?",
+        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
        ]
       ],
-      "note": "The door manufacturer's data sheet / field of application is the final word – a door certified for 3 mm max fails at 4 mm. Check the 's' on the door label: smoke-rated doors need the 3 mm threshold or a smoke seal.",
+      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
       "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
      }
     },
@@ -87,27 +79,15 @@
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 10.2",
      "guide": {
-      "title": "Fire door gaps – maximums",
+      "title": "Fire door gaps – pass line (tightest)",
       "rows": [
        [
-        "Head and both jambs",
-        "2–4 mm, even all round"
+        "Head, jambs, meeting stiles",
+        "3 mm max, even (£1 coin fits snug)"
        ],
        [
-        "Meeting stiles (pairs)",
-        "2–4 mm"
-       ],
-       [
-        "Threshold – fire only (FD30 / FD60)",
-        "typically 8–10 mm max"
-       ],
-       [
-        "Threshold – smoke control (FD30s / FD60s)",
-        "3 mm max, unless a drop-down / threshold smoke seal closes it"
-       ],
-       [
-        "Quick check",
-        "£1 coin ≈ 3 mm – should slide in, not rattle"
+        "Threshold",
+        "3 mm max – or a threshold/drop-down smoke seal fitted"
        ],
        [
         "Frame-to-wall mastic depth",
@@ -116,9 +96,47 @@
        [
         "Riser doors (Errigal)",
         "3 mm ±1 perimeter"
+       ],
+       [
+        "Over the pass line?",
+        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
        ]
       ],
-      "note": "The door manufacturer's data sheet / field of application is the final word – a door certified for 3 mm max fails at 4 mm. Check the 's' on the door label: smoke-rated doors need the 3 mm threshold or a smoke seal.",
+      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
+      "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
+     }
+    },
+    {
+     "ref": "1.6",
+     "q": "Ask the fitter: what's the max gap, the threshold gap and the seal type for this door? Could they answer?",
+     "evidence": "none",
+     "trade": "Atlantic",
+     "source": "SuperPrime site practice – a fitter without the data sheet is a red flag",
+     "guide": {
+      "title": "Fire door gaps – pass line (tightest)",
+      "rows": [
+       [
+        "Head, jambs, meeting stiles",
+        "3 mm max, even (£1 coin fits snug)"
+       ],
+       [
+        "Threshold",
+        "3 mm max – or a threshold/drop-down smoke seal fitted"
+       ],
+       [
+        "Frame-to-wall mastic depth",
+        "at least 10 mm"
+       ],
+       [
+        "Riser doors (Errigal)",
+        "3 mm ±1 perimeter"
+       ],
+       [
+        "Over the pass line?",
+        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
+       ]
+      ],
+      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
       "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
      }
     }
@@ -142,27 +160,15 @@
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 4.5, 12.1",
      "guide": {
-      "title": "Fire door gaps – maximums",
+      "title": "Fire door gaps – pass line (tightest)",
       "rows": [
        [
-        "Head and both jambs",
-        "2–4 mm, even all round"
+        "Head, jambs, meeting stiles",
+        "3 mm max, even (£1 coin fits snug)"
        ],
        [
-        "Meeting stiles (pairs)",
-        "2–4 mm"
-       ],
-       [
-        "Threshold – fire only (FD30 / FD60)",
-        "typically 8–10 mm max"
-       ],
-       [
-        "Threshold – smoke control (FD30s / FD60s)",
-        "3 mm max, unless a drop-down / threshold smoke seal closes it"
-       ],
-       [
-        "Quick check",
-        "£1 coin ≈ 3 mm – should slide in, not rattle"
+        "Threshold",
+        "3 mm max – or a threshold/drop-down smoke seal fitted"
        ],
        [
         "Frame-to-wall mastic depth",
@@ -171,9 +177,13 @@
        [
         "Riser doors (Errigal)",
         "3 mm ±1 perimeter"
+       ],
+       [
+        "Over the pass line?",
+        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
        ]
       ],
-      "note": "The door manufacturer's data sheet / field of application is the final word – a door certified for 3 mm max fails at 4 mm. Check the 's' on the door label: smoke-rated doors need the 3 mm threshold or a smoke seal.",
+      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
       "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
      }
     }
