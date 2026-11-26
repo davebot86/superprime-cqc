@@ -1,9 +1,9 @@
 {
  "id": "facade-windows-doors",
- "title": "Facade – Windows & Doors (PER)",
- "short": "Facade Windows",
+ "title": "Facade – Windows (PER)",
+ "short": "Windows",
  "group": "Facade & envelope",
- "activity": "Schüco windows and facade doors",
+ "activity": "Windows: opening prep, installation, glazing, vents, sealing, sill and finish",
  "fieldOrg": "Permasteelisa UK",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,82 +15,164 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "BEFORE INSTALLATION",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Is the window within installation tolerance (line, level, plumb)?",
+     "q": "Precast around the opening complete, Compriband Illmod TP 600 in place?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER window checklist 2.7; ITP 6.1"
+     "source": "PER ITP 31-0001 – window installation checklist 2.2–2.3"
     },
     {
      "ref": "1.2",
-     "q": "Are corner joints sealed and glued to SWI 1002 (sealant visible at the pin holes)?",
+     "q": "Window undamaged and clean before fitting, external gaskets in place?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER window checklist 3.2–3.3"
+     "source": "PER ITP 31-0001 – window installation checklist 3.5–3.7"
     },
     {
      "ref": "1.3",
-     "q": "Do windows and doors open, close and lock correctly (functionality check)?",
-     "evidence": "photo",
+     "q": "Vent safety check done – vents opened and locking hardware secure?",
+     "evidence": "none",
      "trade": "PER",
-     "source": "PER ITP 6.1–6.3, 8.1"
-    },
-    {
-     "ref": "1.4",
-     "q": "Are labels/serials in place and internal closures complete?",
-     "evidence": "photo",
-     "trade": "PER",
-     "source": "PER ITP 6.1, 6.4"
+     "source": "PER ITP 31-0001 – window installation checklist 3.4"
     }
    ]
   },
   {
    "id": "2",
-   "title": "HANDOVER",
+   "title": "INSTALLATION",
    "questions": [
     {
      "ref": "2.1",
-     "q": "Benchmark for this facade type accepted?",
-     "evidence": "none",
+     "q": "Window lined, levelled and plumb, on line with its neighbours?",
+     "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 5.1"
+     "source": "PER ITP 31-0001 – window installation checklist 4.1"
     },
     {
      "ref": "2.2",
-     "q": "Units protected after installation (protection of works form)?",
+     "q": "Frame square – diagonals equal; profiles flush at corners?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER ITP 9.1"
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 3.4–3.6"
+    },
+    {
+     "ref": "2.3",
+     "q": "Bolted connections tight and sprayed?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 5.1"
+    },
+    {
+     "ref": "2.4",
+     "q": "Window complete with all site-attached parts?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 6.1"
     }
    ]
   },
   {
    "id": "3",
-   "title": "FRAME TOLERANCES",
+   "title": "GLAZING & VENTS",
    "questions": [
     {
      "ref": "3.1",
-     "q": "Frame plumb, level and on line with its neighbours?",
+     "q": "Glass undamaged and clean; kite mark bottom-left viewed from inside?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER window checklist – tolerances"
+     "source": "PER ITP 31-0001 – window installation checklist 5.2–5.3"
     },
     {
      "ref": "3.2",
-     "q": "Profiles flush at corners, no visible step or gap?",
+     "q": "Glazing beads all fitted and secure?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER window checklist 3.4"
+     "source": "PER ITP 31-0001 – window installation checklist 5.6"
     },
     {
      "ref": "3.3",
-     "q": "Frame square – diagonals equal?",
+     "q": "Leaves adjusted – open, close and lock smoothly?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 5.5, 5.8"
+    },
+    {
+     "ref": "3.4",
+     "q": "Window sensor fitted and tested working (where fitted)?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 5.9"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "SEALING & SILL",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Internal insulation and vapour barrier in and taped around the frame?",
      "evidence": "photo",
      "trade": "PER",
-     "source": "PER window checklist 3.6"
+     "source": "PER ITP 31-0001 – window installation checklist 6.2; PER ITP 31-0001 – PUK-QC-09-STK window glazing & finish out 4.1"
+    },
+    {
+     "ref": "4.2",
+     "q": "External perimeter seal continuous between frame and precast?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-09-STK window glazing & finish out 4.2; PER ITP 31-0001 – window installation checklist 7.1"
+    },
+    {
+     "ref": "4.3",
+     "q": "Sill EPDM/membrane in and sealed, lapped at the ends?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-09-STK window glazing & finish out 5.1"
+    },
+    {
+     "ref": "4.4",
+     "q": "Sill screw-fixed to the frame, continuous seal at the top and ends?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-09-STK window glazing & finish out 6.1–6.2"
+    },
+    {
+     "ref": "4.5",
+     "q": "Outer finishing profiles fitted with safety screws?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 7.2"
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "title": "FINISH & PROTECTION",
+   "questions": [
+    {
+     "ref": "5.1",
+     "q": "No damage inside or out after installation?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – window installation checklist 8.1"
+    },
+    {
+     "ref": "5.2",
+     "q": "Matches the benchmark for this facade type?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP – benchmark"
+    },
+    {
+     "ref": "5.3",
+     "q": "Units protected after installation?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP – protection of works"
     }
    ]
   }

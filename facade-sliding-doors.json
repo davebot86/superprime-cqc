@@ -1,0 +1,222 @@
+{
+ "id": "facade-sliding-doors",
+ "title": "Facade – Sliding Doors (PER Schüco)",
+ "short": "Sliding doors",
+ "group": "Facade & envelope",
+ "activity": "Schüco sliding doors: threshold, frame, vents, glazing, hardware, sealing, sensors and interfaces",
+ "fieldOrg": "Permasteelisa UK",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PER-XX-XX-IP-X-31-0001 C08",
+ "location": {
+  "areaLabel": "Door ref / elevation",
+  "areaHint": "e.g. W49, south elevation, grid C4"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE THE DOOR GOES IN",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Precast around the opening complete, brackets fixed per the door installation drawing?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 3.3; PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 2.2"
+    },
+    {
+     "ref": "1.2",
+     "q": "Threshold regulated, level and fixed solid (no rocking)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 3.4"
+    },
+    {
+     "ref": "1.3",
+     "q": "Bottom steel tube in and the Obex membrane lapped up behind it (W49/W54 type)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP – PUK-QC-15 5.1"
+    },
+    {
+     "ref": "1.4",
+     "q": "Compriband Illmod TP 600 in place around the opening?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 3.5"
+    },
+    {
+     "ref": "1.5",
+     "q": "Door pack checked – no damage to frames, vents or glass before installing?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 4.3"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "FRAME & FIXED VENT",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Frame level and plumb, diagonals equal (within 1 mm)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 4.1"
+    },
+    {
+     "ref": "2.2",
+     "q": "Corner joints: sealant/glue visible at the screw pin holes, profiles flush at corners?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 3.2–3.4"
+    },
+    {
+     "ref": "2.3",
+     "q": "Fixed vent clean and undamaged, end caps sealed?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 4.3–4.4"
+    },
+    {
+     "ref": "2.4",
+     "q": "External gasket in place and glued at the corners (no gaps or shrink-back)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 4.5"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "SLIDING VENT & GLAZING",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Sliding vent and fixed vent aligned at the central meeting point?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 5.4"
+    },
+    {
+     "ref": "3.2",
+     "q": "Glass undamaged and clean; kite mark (P4A) bottom-left viewed from inside?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.1–6.2; PER ITP 31-0001 – final post-installation check 2.4"
+    },
+    {
+     "ref": "3.3",
+     "q": "Glazing beads all fitted and secure?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.8"
+    },
+    {
+     "ref": "3.4",
+     "q": "Anti-lift-out device fitted?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.4"
+    },
+    {
+     "ref": "3.5",
+     "q": "Brush seal refitted and condensation collector caps fixed and sealed?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.5–6.6"
+    },
+    {
+     "ref": "3.6",
+     "q": "Drainage slots in the track clear (no debris, silicone or mortar)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "Site good practice – not an ITP line (confirm with PER)"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "OPERATION & SECURITY",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Slides smoothly full travel, no binding, closes fully onto the seals?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.7; PER ITP 31-0001 – final post-installation check 2.9"
+    },
+    {
+     "ref": "4.2",
+     "q": "Locks, handle and keys all working; door locks securely (RC2)?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist – locks and keys functioning"
+    },
+    {
+     "ref": "4.3",
+     "q": "Door alarm sensor fitted and tested working – door relocked after the test?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – PUK-QC-03-SLD sliding inspection 6.11; PER ITP 31-0001 – final post-installation check 2.8"
+    },
+    {
+     "ref": "4.4",
+     "q": "Sensor/automation conduit in, terminated and accessible for the follow-on trade?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 7.3"
+    },
+    {
+     "ref": "4.5",
+     "q": "Door contact installed and connected to the security system (LMG)?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "LMG security ITP – access control device checklist items 5, 10"
+    }
+   ]
+  },
+  {
+   "id": "5",
+   "title": "SEALING, FINISH & PROTECTION",
+   "questions": [
+    {
+     "ref": "5.1",
+     "q": "External perimeter seal continuous and tooled (SikaHyflex 250), no gaps at the threshold corners?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 7.1"
+    },
+    {
+     "ref": "5.2",
+     "q": "Internal seal around the frame (Kommerling GD116) complete?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – final post-installation check 2.7"
+    },
+    {
+     "ref": "5.3",
+     "q": "Sill membrane and pressings in, sealed at the ends?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – perimeter seals, sill membrane & sill"
+    },
+    {
+     "ref": "5.4",
+     "q": "No scratches or marks on the frame or glass?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – final post-installation check 2.2–2.3"
+    },
+    {
+     "ref": "5.5",
+     "q": "Protection on, door locked to stop unauthorised use?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 31-0001 – door installation checklist 7.4"
+    }
+   ]
+  }
+ ]
+}
