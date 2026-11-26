@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#15181C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="SuperPrime CQC">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-192.png">
+<title>SuperPrime CQC</title>
+<style>
+/* VOICE: calm, premium site tool. One job per screen, big targets, no clutter.
+   IDEA: a QA hold-point tag — numbered, stamped, signed.
+   PICTURE: the live question card is the screen.
+   COLOUR/TYPE: SuperPrime ink + warm paper + bronze accent; Kamerik 105 (falls back to Avenir Next on iPhone).
+   LAYOUT: single column, thumb-zone controls fixed at the bottom. */
+@font-face{font-family:"Kamerik 105";src:local("Kamerik 105"),local("Kamerik105-Book"),url("Kamerik105-Book.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Kamerik 105";src:local("Kamerik 105 Bold"),local("Kamerik105-Bold"),url("Kamerik105-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+:root{
+  /* Brand tokens — swap hex values here to match the SuperPrime brand kit */
+  --ink:#15181C;--ink2:#2A2F35;--paper:#F5F3EF;--card:#FFFFFF;--line:#E2DDD4;--muted:#6E6A63;
+  --accent:#9C7A4E;--accent-ink:#FFFFFF;
+  --yes:#2E7D4F;--no:#B3261E;--na:#6E6A63;--warn:#B26A00;
+  --font:"Kamerik 105","Avenir Next","Avenir","Helvetica Neue",system-ui,sans-serif;
+  --r:14px;--safeT:env(safe-area-inset-top,0px);--safeB:env(safe-area-inset-bottom,0px);
+}
+*{box-sizing:border-box;min-width:0;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.45 var(--font);overflow-x:clip}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.top{position:sticky;top:0;z-index:5;background:var(--ink);color:#fff;padding:calc(var(--safeT) + 10px) 16px 10px;display:flex;align-items:center;gap:12px}
+.top .brand{display:flex;flex-direction:column;line-height:1.05;flex:1}
+.wm{font-weight:700;letter-spacing:.18em;font-size:15px}
+.tag{font-size:12px;opacity:.7}
+.top .sp{font-size:12px;text-align:right;opacity:.85;line-height:1.2}
+.top .back{background:none;border:0;color:#fff;font-size:15px;padding:10px 6px;margin-left:-6px}
+main{max-width:720px;margin:0 auto;padding:16px 16px calc(120px + var(--safeB))}
+h1{font-size:26px;line-height:1.1;margin:8px 0 4px;font-weight:700}
+h2{font-size:18px;margin:22px 0 8px;font-weight:700}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:10px 0}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 18px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:600}
+.btn.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn.accent{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.block{display:flex;width:100%}
+.btn:disabled{opacity:.45}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.row>.grow{flex:1}
+label.f{display:block;font-size:13px;color:var(--muted);margin:14px 0 6px}
+input.t,select.t,textarea.t{width:100%;min-height:48px;border:1px solid var(--line);border-radius:12px;background:var(--card);padding:10px 12px;font-size:16px}
+textarea.t{min-height:84px;resize:vertical}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:44px;min-width:52px;padding:0 14px;border-radius:22px;border:1px solid var(--line);background:var(--card);font-weight:600}
+.chip[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.list .item{display:flex;gap:12px;align-items:center;padding:14px 16px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);margin:8px 0;width:100%;text-align:left}
+.item .meta{flex:1}
+.item .t1{font-weight:700}
+.item .t2{font-size:13px;color:var(--muted)}
+.pill{font-size:12px;font-weight:700;padding:3px 9px;border-radius:999px;background:var(--line);color:var(--ink);white-space:nowrap}
+.pill.Y{background:var(--yes);color:#fff}.pill.N{background:var(--no);color:#fff}.pill.NA{background:var(--na);color:#fff}
+.pill.draft{background:#EFE6D8;color:#6B4F2A}
+.bar{height:10px;border-radius:6px;background:var(--line);overflow:hidden;display:flex}
+.bar i{display:block;height:100%}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-top:8px}
+.legend b{color:var(--ink)}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+/* question screen */
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:13px;color:var(--muted);margin-top:4px}
+.prog{height:4px;background:var(--line);border-radius:2px;margin:10px 0 14px;overflow:hidden}
+.prog i{display:block;height:100%;background:var(--accent);transition:width .25s}
+.sect{font-size:13px;font-weight:700;letter-spacing:.04em;color:var(--accent)}
+.qref{font-size:40px;font-weight:700;line-height:1;margin:6px 0 8px}
+.qtext{font-size:21px;line-height:1.3;margin:0 0 12px;font-weight:600;text-wrap:pretty}
+.qmeta{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px;color:var(--muted)}
+.src{font-size:13px;color:var(--muted);margin-top:8px}
+.ans{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.ans button{min-height:64px;border-radius:14px;border:2px solid var(--line);background:var(--card);font-size:19px;font-weight:700}
+.ans button[data-v=Y][aria-pressed=true]{background:var(--yes);border-color:var(--yes);color:#fff}
+.ans button[data-v=N][aria-pressed=true]{background:var(--no);border-color:var(--no);color:#fff}
+.ans button[data-v=NA][aria-pressed=true]{background:var(--na);border-color:var(--na);color:#fff}
+.ev{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.ev .btn{min-height:56px}
+.req{font-size:12px;font-weight:700;color:var(--warn)}
+.thumbs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:10px}
+.th{position:relative;aspect-ratio:4/3;border-radius:10px;overflow:hidden;background:#ddd}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th .st{position:absolute;left:0;right:0;bottom:0;background:rgba(21,24,28,.82);color:#fff;font-size:10px;padding:3px 5px;line-height:1.2}
+.th button{position:absolute;top:4px;right:4px;width:30px;height:30px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:16px;line-height:1}
+.clips{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.clip{display:flex;align-items:center;gap:8px;font-size:13px}
+.clip audio{height:34px;flex:1}
+.good{margin-top:12px;border-left:4px solid var(--yes);padding:6px 12px;background:#EEF5F0;border-radius:6px;font-size:14px}
+.good img{max-width:100%;border-radius:8px;margin-top:6px}
+.dock{position:fixed;left:0;right:0;bottom:0;z-index:6;background:rgba(245,243,239,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:10px 16px calc(10px + var(--safeB))}
+.dock .in{max-width:720px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr 1.4fr;gap:10px}
+.rec{background:var(--no)!important;color:#fff!important;border-color:var(--no)!important}
+.ov{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px}
+.ov button{min-height:48px;border-radius:10px;border:1px solid var(--line);background:var(--card);font-weight:700;font-size:14px;position:relative}
+.ov button.Y{background:var(--yes);color:#fff;border-color:var(--yes)}
+.ov button.N{background:var(--no);color:#fff;border-color:var(--no)}
+.ov button.NA{background:var(--na);color:#fff;border-color:var(--na)}
+.ov button.cur{outline:3px solid var(--accent);outline-offset:1px}
+.ov button .cam{position:absolute;top:2px;right:4px;font-size:10px}
+.issue{border-left:4px solid var(--no);padding:8px 12px;margin:8px 0;background:var(--card);border-radius:8px}
+.issue .r{font-weight:700}
+.foot{text-align:center;color:var(--muted);font-size:12px;margin:30px 0 0;line-height:1.6}
+.foot b{color:var(--ink);letter-spacing:.14em}
+.modal{position:fixed;inset:0;z-index:20;background:rgba(21,24,28,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--paper);width:100%;max-width:720px;border-radius:18px 18px 0 0;padding:18px 16px calc(18px + var(--safeB));max-height:88vh;overflow:auto}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + var(--safeB));background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:30;opacity:0;transition:opacity .2s;pointer-events:none;max-width:90vw}
+.toast.on{opacity:1}
+.busy{position:fixed;inset:0;z-index:40;background:rgba(245,243,239,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;font-weight:600}
+.spin{width:38px;height:38px;border:4px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:sp 0.9s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.hide{display:none!important}
+small.hint{display:block;color:var(--muted);font-size:12px;margin-top:6px}
+</style>
+</head>
+<body>
+<header class="top" id="top"></header>
+<main id="app"></main>
+<div class="dock hide" id="dock"></div>
+<div class="toast" id="toast"></div>
+<script src="jspdf.umd.min.js"></script>
+<script src="jszip.min.js"></script>
+<script>
+{
+const APP_VERSION='1.0.0';
+const BUILTIN=[{"id": "riser-core", "title": "Riser & Core Critical Quality Check", "short": "Riser & Core", "version": "0.1 draft", "status": "Draft for agreement with James Myers", "location": {"areaLabel": "Riser", "areaHint": "e.g. R2, ELV-1, Stair lobby riser"}, "sections": [{"id": "0", "title": "PRE-START", "questions": [{"ref": "0.1", "q": "Are drawings and tech subs at Status A, and is the benchmark for this riser type accepted?", "evidence": "none", "trade": "All", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; CLM ITP [SJWS-CLM-X...00001[C02]]"}, {"ref": "0.2", "q": "Is the riser wall type and fire rating confirmed from the fire strategy (120 min to stair lobby risers, with an E60Sa door)?", "evidence": "none", "trade": "MEA", "source": "Fire strategy [SJWS-HLE-X...-0002[C01]]"}]}, {"id": "1", "title": "SHAFT WALLS: 1st STAGE (MEA)", "questions": [{"ref": "1.1", "q": "Are floor channel fixings at ≤600 mm centres and head fixings at ≤300 mm, with 2 staggered rows for channels 94 mm and wider?", "evidence": "photo", "trade": "MEA", "source": "GypWall Shaft TS [SJWS-MEA-X...-00004_C01]; Field 11295"}, {"ref": "1.2", "q": "Is the first fixing no more than 50 mm from the track end, and is the head detail to British Gypsum spec with the correct stud gauge?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; Field 1540, 11294"}, {"ref": "1.3", "q": "Is the deflection gap to the detail, with no conduit, cable or track inside it?", "evidence": "photo", "trade": "MEA / electrical", "source": "MEA ITP; Field 4892, 4888, 5541 [Issues Exp...5_08_12_43]"}, {"ref": "1.4", "q": "Are noggins and pattresses to the mark-up, mouse holes closed, and back boxes and conduits in?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]"}, {"ref": "1.5", "q": "Is the riser dry? If the envelope is still open, is FireLine MR or FireCase board being used?", "evidence": "none", "trade": "MEA", "source": "GypWall Shaft TS [SJWS-MEA-X...-00004_C01]; Field 5046, 5047"}]}, {"id": "2", "title": "OPENINGS: BWIC AND RISER DOOR APERTURES", "questions": [{"ref": "2.1", "q": "Is each BWIC the correct size and position and lined to the fire-stopper's requirements, with any oversized hole pattressed?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; PBS acoustic TS [SJWS-PBS-R...-00037_C00]"}, {"ref": "2.2", "q": "Are there at least 50 mm from the services to the side and bottom of the opening, and at least 150 mm to the soffit at a deflection head?", "evidence": "photo", "trade": "MEA / MEP", "source": "BG BPG001 Quelfire spacing [SJWS-ESC-0...-00406_C00]"}, {"ref": "2.3", "q": "Is the riser door opening sized to the door schedule within W -0/+10 mm and H -0/+5 mm?", "evidence": "none", "trade": "MEA", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]"}, {"ref": "2.4", "q": "Is there at least 200 mm of standard wall either side of and above the riser door frame, at least 300 mm between adjacent apertures, and an upstand of at least 100 mm?", "evidence": "photo", "trade": "MEA", "source": "Selo Quadra+ TS [SJWS-MEA-Z...-00018_C01]; BG BPG001 [SJWS-ESC-0...-00406_C00]"}, {"ref": "2.5", "q": "Is a timber insert fitted on all 4 sides of the opening in a steel stud wall, unless Selo has confirmed it isn't needed for this shaft wall?", "evidence": "photo", "trade": "MEA", "source": "Selo TS [SJWS-MEA-Z...-00018_C01]"}, {"ref": "2.6", "q": "Is the dry riser cabinet opening built to suit the approved box?", "evidence": "none", "trade": "MEA / Borough", "source": "Tech sub BRS-05-00119 [SJWS-BRS-0...-00119_C02]"}]}, {"id": "3", "title": "MEP 1st FIX: ALL SERVICES THROUGH OPENINGS", "questions": [{"ref": "3.1", "q": "Is the first support within 400 mm of the seal, or within 300 mm each side for Argus sprinkler pipe?", "evidence": "photo", "trade": "All MEP", "source": "Field 5340, 7580 [Issues Exp...5_08_15_59]; Argus drawing [SJWS-BRS-0...-00119_C02]"}, {"ref": "3.2", "q": "Are like services at least 50 mm apart, uninsulated metal pipes at least 100 mm apart, and the spacing within the tested detail?", "evidence": "photo", "trade": "All MEP", "source": "BG BPG001 Quelfire [SJWS-ESC-0...-00406_C00]"}, {"ref": "3.3", "q": "Are services independently supported so no load sits on the seal?", "evidence": "photo", "trade": "All MEP", "source": "Quelfire QRS [SJWS-ESG-Z...00111[C00]]"}]}, {"id": "4", "title": "ELECTRICAL & ELV RISERS (Borough / LMG)", "questions": [{"ref": "4.1", "q": "Is the equipment approved and in its drawn position, with ladder or tray signed off and containment adequate?", "evidence": "photo", "trade": "Borough", "source": "F401 Electrical Riser checklist [SJWS-BRS-Z...00001[C03]]"}, {"ref": "4.2", "q": "Are the SWAs cleated, dressed, undamaged, at the correct bend radii, looming tidy, and secured with metal ties?", "evidence": "photo", "trade": "Borough", "source": "F401 [SJWS-BRS-Z...00001[C03]]; Field 11264, 11252 [Issues Exp..._29_05 (1)]"}, {"ref": "4.3", "q": "Is earth bonding complete, cable ends labelled, danger notices fitted, and access for maintenance adequate?", "evidence": "photo", "trade": "Borough / LMG", "source": "F401 [SJWS-BRS-Z...00001[C03]]; Field 9764 [Issues Exp...5_08_17_48]"}, {"ref": "4.4", "q": "Is copex taken to the top of containment, with edge trim and unistrut end caps fitted?", "evidence": "photo", "trade": "LMG", "source": "Field 49094913, 1985 [Issues Exp...5_08_17_48]"}]}, {"id": "5", "title": "PIPEWORK & INSULATION (PBS)", "questions": [{"ref": "5.1", "q": "Is there a signed pressure test certificate (1.5× working pressure, calibrated gauge) before insulation?", "evidence": "cert", "trade": "PBS", "source": "PBS ITP [SJWS-PBS-X...-00001_C02]"}, {"ref": "5.2", "q": "Can isolation valves still be operated once lagged, are drain cocks accessible and not buried, and is the insulation undamaged?", "evidence": "photo", "trade": "PBS", "source": "Field 1562, 11369, 11370 [Issues Exp...5_08_15_59]"}, {"ref": "5.3", "q": "Are pipework IDs and flow direction labelled, and the riser clean?", "evidence": "photo", "trade": "PBS", "source": "Field 9306 [Issues Exp...5_08_15_59]"}]}, {"id": "6", "title": "RISER DUCTWORK & DAMPERS (PBS / Gardner)", "questions": [{"ref": "6.1", "q": "Are vertical duct bearers Type A or B (RSA/RSC to span table) on fire-rated anchors?", "evidence": "photo", "trade": "PBS", "source": "Flameshield details [SJWS-PBS-X...-00260_C02]"}, {"ref": "6.2", "q": "Is each smoke or fire damper supported at every corner, fire stopped to the Mandik tested detail, with its actuator cover removable?", "evidence": "photo", "trade": "PBS / CLM", "source": "Mandik SEDM TS [SJWS-PBS-X...-00263_C01]"}, {"ref": "6.3", "q": "Has DW/143 leakage testing been done in all risers, and have the dampers been drop-tested?", "evidence": "cert", "trade": "PBS", "source": "Ductwork ITP 5.15.4 [SJWS-PBS-X...-00010_C01]"}]}, {"id": "7", "title": "DRY RISER (Argus / Borough)", "questions": [{"ref": "7.1", "q": "Is the pipe 100 mm galvanised, with long-radius bends and brackets to the table (at least 1 within 1 m of each mechanical joint)?", "evidence": "photo", "trade": "Argus", "source": "Argus drawing [SJWS-BRS-0...00119[C00]]"}, {"ref": "7.2", "q": "Is the lowest point of the landing valve at least 750 mm above FFL, with \"DRY RISER OUTLET\" labelling and the pipe equipotentially bonded?", "evidence": "photo", "trade": "Argus", "source": "HLE schematic [SJWS-BRS-0...00119[C00]]"}, {"ref": "7.3", "q": "Is the air release valve above the highest landing valve, and are the isolation valves chained and padlocked open?", "evidence": "photo", "trade": "Argus", "source": "Argus drawing notes [SJWS-BRS-0...-00119_C02]"}, {"ref": "7.4", "q": "Has the test been done (air at 0.5 bar for 15 min, then water at 12 bar for 10 min), witnessed by MPX, with a permit to fill?", "evidence": "cert", "trade": "Argus", "source": "Argus ITP item 13 [SJWS-AFP-Z...-00002_C00]"}, {"ref": "7.5", "q": "Is the outlet in its final orientation, the cabinet glass intact and correctly positioned, and the surround made good?", "evidence": "photo", "trade": "Argus / Borough / EES", "source": "Field 8579 [Issues Exp...5_08_18_21] , 10021, 10076 [Issues Exp..._29_05 (1)] , 10062 [Issues Exp..._18_20 (1)]"}]}, {"id": "8", "title": "FIRE ALARM (PHF)", "questions": [{"ref": "8.1", "q": "Are fire alarm cables on their own supports, using metal clips?", "evidence": "photo", "trade": "PHF", "source": "Field 1531 [Issues Exp...5_08_17_21]"}, {"ref": "8.2", "q": "Is the cable testing recorded (circuit testing witnessed)?", "evidence": "cert", "trade": "PHF", "source": "PHF ITP items 78 [SJWS-PHF-X...-00001-C01]"}]}, {"id": "9", "title": "RELEASE TO CLM & FIRE STOPPING", "questions": [{"ref": "9.1", "q": "Have MEA, the MEP trade and CLM all signed that the opening is ready?", "evidence": "photo", "trade": "All", "source": "Proposed hold point"}, {"ref": "9.2", "q": "Is CLM FIRAS-registered, with the correct fire rating confirmed against the fire strategy drawings?", "evidence": "none", "trade": "CLM", "source": "CLM ITP 1, 3 [SJWS-CLM-X...00001[C02]]"}, {"ref": "9.3", "q": "Is the fire stopping to the tested detail, with the OneTrace record and seal label?", "evidence": "photo", "trade": "CLM", "source": "CLM ITP [SJWS-CLM-X...00001[C02]]"}, {"ref": "9.4", "q": "Where the riser meets a floating floor or the top of a void, has a detail been issued and the void fire stopped?", "evidence": "photo", "trade": "CLM", "source": "Field 5043, 4004 [Issues Exp...5_08_14_44]"}, {"ref": "9.5", "q": "Is every penetration in an AV or ELV riser sealed, with no unsealed re-entry?", "evidence": "photo", "trade": "CLM / Borough", "source": "Field 10808 [Issues Exp...5_08_14_44]"}]}, {"id": "10", "title": "CLOSING THE RISER WALL: 2nd STAGE (MEA)", "questions": [{"ref": "10.1", "q": "Has the MEP handover been received (HP), sockets and draw wires and putty pads fitted, and photos taken before closure?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP 2nd stage [SJWS-MEA-X...-00001-C03]"}, {"ref": "10.2", "q": "Are boards fixed at the correct centres and staggered, mouse holes closed, and the wall within tolerance?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP [SJWS-MEA-X...-00001-C03]"}, {"ref": "10.3", "q": "Is fire tape complete and the smoke seal taped and jointed?", "evidence": "photo", "trade": "MEA", "source": "MEA ITP; Field 4005, 11316"}]}, {"id": "11", "title": "RISER DOORS & THRESHOLDS", "questions": [{"ref": "11.1", "q": "Is the Selo Quadra+ or Ligna installed to BS EN 16034 by a third-party accredited installer?", "evidence": "none", "trade": "Door installer", "source": "EPR door spec [SJWS-EPR-X...-0001[P02]]"}, {"ref": "11.2", "q": "Are frame gaps filled with intumescent acrylic as certified, and frame sealant joints formed?", "evidence": "photo", "trade": "Door installer", "source": "Selo TS [SJWS-MEA-Z...-00018_C01]; EPR spec [SJWS-EPR-X...-0001[C00]]"}, {"ref": "11.3", "q": "Is the threshold level and square to the frame and leaf, with voids sealed?", "evidence": "photo", "trade": "Door installer", "source": "EPR spec [SJWS-EPR-X...-0001[C00]]"}, {"ref": "11.4", "q": "Are smoke and acoustic seals fitted? Doors are Rw 35 dB for mechanical and public health, and Rw 30 dB for electrical.", "evidence": "none", "trade": "Door installer", "source": "Sandy Brown [SJWS-SBR-Z...-0011[P01]]; EPR spec [SJWS-EPR-X...-0001[P02]]"}, {"ref": "11.5", "q": "Is the door label present (manufacturer, rating, serial), the FDKS sign fitted, and the lock and ironmongery to schedule?", "evidence": "photo", "trade": "Door installer", "source": "EPR spec [SJWS-EPR-X...-0001[P02]]; Selo TS [SJWS-MEA-Z...-00018_C01]; Field 10430"}, {"ref": "11.6", "q": "Was the door fitted after wet trades had dried? Is third-party verification in place?", "evidence": "cert", "trade": "Door installer", "source": "EPR spec [SJWS-EPR-X...-0001[C00]]"}]}, {"id": "12", "title": "RISER FLOOR: GRP GRATING", "questions": [{"ref": "12.1", "q": "Is the grating the approved Blue Diamond GRP, cut to ±5 mm, clipped, with no rocking?", "evidence": "photo", "trade": "GCL", "source": "Tech sub GCL-26116 [SJWS-GCL-Z...-26116_C00]"}, {"ref": "12.2", "q": "Are cut-outs around services neat, with no clash with supports or the ladder?", "evidence": "photo", "trade": "GCL", "source": "Field 3597"}]}, {"id": "13", "title": "TOP OF RISER", "questions": [{"ref": "13.1", "q": "Is the roof riser opening weatherproofed with the approved Jones system, and the riser dry with no staining?", "evidence": "photo", "trade": "Borough", "source": "Tech sub BRS-00182 [SJWS-BRS-Z...-00182_C02]; Field 4874"}]}, {"id": "14", "title": "LABELLING, LIGHTING, ACCESS & HANDOVER", "questions": [{"ref": "14.1", "q": "Are all services labelled: cables, pipes, ducts, dampers, dry riser and seals?", "evidence": "photo", "trade": "All", "source": "F401; Field 9306, 11264"}, {"ref": "14.2", "q": "Is riser lighting working?", "evidence": "none", "trade": "Borough", "source": "Not found in the ITPs or tech subs. Confirm against the Borough spec"}, {"ref": "14.3", "q": "Is the ladder or access in place, and are valves, dampers and isolators reachable?", "evidence": "photo", "trade": "All", "source": "Field 3597, 1562"}, {"ref": "14.4", "q": "Is the riser clean, with no swarf, offcuts or redundant rods, and all rods capped?", "evidence": "photo", "trade": "All", "source": "Field 1984 [Issues Exp...5_08_17_48]"}]}]}];
+const BLOCKS=['01','02','03','4A','4B','06','09'];
+const PROJECT='St John\'s Wood Square';
+
+/* ---------- storage (IndexedDB with memory fallback) ---------- */
+let db=null;const mem={checks:new Map(),media:new Map(),modules:new Map()};
+function openDB(){return new Promise(res=>{try{const r=indexedDB.open('sp-cqc',1);r.onupgradeneeded=()=>{const d=r.result;['checks','media','modules'].forEach(s=>{if(!d.objectStoreNames.contains(s))d.createObjectStore(s)})};r.onsuccess=()=>{db=r.result;res()};r.onerror=()=>res()}catch(e){res()}})}
+function tx(store,mode,fn){return new Promise((res,rej)=>{if(!db){res(fn(null));return}try{const t=db.transaction(store,mode),s=t.objectStore(store);const out=fn(s);t.oncomplete=()=>res(out&&out.result!==undefined?out.result:out);t.onerror=()=>rej(t.error)}catch(e){rej(e)}})}
+const put=(store,key,val)=>db?tx(store,'readwrite',s=>s.put(val,key)):(mem[store].set(key,val),Promise.resolve());
+const get=(store,key)=>db?tx(store,'readonly',s=>s.get(key)):Promise.resolve(mem[store].get(key));
+const del=(store,key)=>db?tx(store,'readwrite',s=>s.delete(key)):(mem[store].delete(key),Promise.resolve());
+const all=store=>db?new Promise((res,rej)=>{const t=db.transaction(store,'readonly');const r=t.objectStore(store).getAll();r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)}):Promise.resolve([...mem[store].values()]);
+const pref=(k,v)=>{try{if(v===undefined)return localStorage.getItem('cqc.'+k)||'';localStorage.setItem('cqc.'+k,v)}catch(e){return ''}};
+
+/* ---------- helpers ---------- */
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const uid=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,7);
+const pad=n=>String(n).padStart(2,'0');
+const fmtDT=t=>{const d=new Date(t);return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${d.getFullYear()} ${pad(d.getHours())}:${pad(d.getMinutes())}`};
+const fmtD=t=>{const d=new Date(t);return `${pad(d.getDate())}/${pad(d.getMonth()+1)}/${d.getFullYear()}`};
+const stampT=t=>{const d=new Date(t);return `${d.getFullYear()}${pad(d.getMonth()+1)}${pad(d.getDate())}-${pad(d.getHours())}${pad(d.getMinutes())}`};
+const isoD=t=>{const d=new Date(t);return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`};
+const safe=s=>String(s||'').trim().replace(/[^A-Za-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const ansLabel={Y:'YES',N:'NO',NA:'N/A'};
+function toast(m){const t=$('#toast');t.textContent=m;t.classList.add('on');clearTimeout(toast.h);toast.h=setTimeout(()=>t.classList.remove('on'),2200)}
+function busy(on,msg){let b=$('#busy');if(on){if(!b){b=document.createElement('div');b.id='busy';b.className='busy';document.body.appendChild(b)}b.innerHTML=`<div class="spin"></div><div>${esc(msg||'Working…')}</div>`}else if(b)b.remove()}
+
+/* ---------- modules ---------- */
+let modules=[];
+async function loadModules(){const extra=await all('modules').catch(()=>[]);const m=new Map();BUILTIN.forEach(x=>m.set(x.id,{...x,builtin:true}));extra.forEach(x=>m.set(x.id,x));modules=[...m.values()]}
+const modById=id=>modules.find(m=>m.id===id);
+function validateModule(m){if(!m||typeof m!=='object')throw 'Not a module file';if(!m.id||!m.title||!Array.isArray(m.sections))throw 'Module needs id, title and sections';m.sections.forEach(s=>{if(!s.id||!Array.isArray(s.questions))throw 'Each section needs id and questions';s.questions.forEach(q=>{if(!q.ref||!q.q)throw 'Each question needs ref and q';q.evidence=q.evidence||'photo';q.trade=q.trade||'All'})});return m}
+function scopeQs(check){const m=modById(check.moduleId);if(!m)return [];const out=[];m.sections.forEach(s=>{if(check.sections.includes(s.id))s.questions.forEach(q=>out.push({...q,section:s}))});return out}
+
+/* ---------- state ---------- */
+let view='home',cur=null,qi=0,thumbURLs=[];
+function setTop(title,backTo){const t=$('#top');t.innerHTML=(backTo?`<button class="back" id="bk" aria-label="Back">‹ Back</button>`:'')+`<div class="brand"><span class="wm">MULTIPLEX</span><span class="tag">Built to Outperform</span></div><div class="sp">SuperPrime<br>${esc(title||'Critical Quality Check')}</div>`;if(backTo)$('#bk').onclick=backTo}
+function dock(html){const d=$('#dock');if(!html){d.classList.add('hide');d.innerHTML='';return}d.classList.remove('hide');d.innerHTML=`<div class="in">${html}</div>`}
+function freeThumbs(){thumbURLs.forEach(u=>URL.revokeObjectURL(u));thumbURLs=[]}
+const foot=()=>`<div class="foot"><b>MULTIPLEX</b> · Built to Outperform<br>SuperPrime Critical Quality Check v${APP_VERSION}<br>Product of DaveBot</div>`;
+
+function stats(check){const qs=scopeQs(check);let Y=0,N=0,NA=0,open=0,missingPhoto=0,photos=0;qs.forEach(q=>{const a=check.answers[q.ref]||{};const ph=check.media.filter(x=>x.ref===q.ref&&x.kind==='photo').length;photos+=ph;if(a.a==='Y')Y++;else if(a.a==='N')N++;else if(a.a==='NA')NA++;else open++;if((q.evidence==='photo')&&a.a&&a.a!=='NA'&&!ph)missingPhoto++;if(q.evidence==='cert'&&a.a&&a.a!=='NA'&&!ph&&a.cert!=='chased')missingPhoto++});return{total:qs.length,Y,N,NA,open,missingPhoto,photos,qs}}
+function barHTML(s){const w=v=>s.total?(v/s.total*100).toFixed(1)+'%':'0';return `<div class="bar" role="img" aria-label="${s.Y} yes, ${s.N} no, ${s.NA} not applicable, ${s.open} open"><i style="width:${w(s.Y)};background:var(--yes)"></i><i style="width:${w(s.N)};background:var(--no)"></i><i style="width:${w(s.NA)};background:var(--na)"></i></div><div class="legend"><span><i class="dot" style="background:var(--yes)"></i>Yes <b>${s.Y}</b></span><span><i class="dot" style="background:var(--no)"></i>No <b>${s.N}</b></span><span><i class="dot" style="background:var(--na)"></i>N/A <b>${s.NA}</b></span><span><i class="dot" style="background:var(--line)"></i>Open <b>${s.open}</b></span></div>`}
+const locLabel=c=>`Block ${c.block} · ${c.areaLabel||'Area'} ${c.area} · Level ${c.level}`;
+
+/* ---------- HOME ---------- */
+async function home(){view='home';freeThumbs();setTop('Critical Quality Check');dock(`<button class="btn" id="dMods">Modules</button><button class="btn" id="dSet">Settings</button><button class="btn primary" id="dNew">+ New check</button>`);
+  $('#dNew').onclick=newCheck;$('#dMods').onclick=modsView;$('#dSet').onclick=settings;
+  const checks=(await all('checks').catch(()=>[])).sort((a,b)=>b.updated-a.updated);
+  const name=pref('name');
+  $('#app').innerHTML=`<h1>${name?'Morning, '+esc(name.split(' ')[0]):'Critical Quality Check'}</h1><p class="sub">${esc(PROJECT)} · Tap, photograph, done. The app writes it up.</p>
+  ${!name?`<div class="card"><b>First time?</b><p class="sub" style="margin:6px 0 10px">Add your name once so every photo and report is signed.</p><button class="btn accent" id="goSet">Add my name</button></div>`:''}
+  <h2>Checks on this phone</h2>
+  <div class="list">${checks.length?checks.map(c=>{const s=stats(c);const m=modById(c.moduleId);return `<button class="item" data-id="${esc(c.id)}"><div class="meta"><div class="t1">${esc(m?m.short||m.title:c.moduleId)} — ${esc(locLabel(c))}</div><div class="t2">${esc(c.inspector)} · updated ${fmtDT(c.updated)} · ${s.photos} photos</div><div style="margin-top:8px">${barHTML(s).split('<div class="legend">')[0]}</div></div>${c.exports?`<span class="pill">Exported v${c.exports}</span>`:s.N?`<span class="pill N">${s.N} No</span>`:`<span class="pill">${s.total-s.open}/${s.total}</span>`}</button>`}).join(''):`<div class="card"><p class="sub" style="margin:0">No checks yet. Tap <b>+ New check</b> to start one in the riser — it works with no signal.</p></div>`}</div>${foot()}`;
+  $('#goSet')&&($('#goSet').onclick=settings);
+  document.querySelectorAll('.item[data-id]').forEach(b=>b.onclick=async()=>{cur=await get('checks',b.dataset.id);checkHome()});
+}
+
+/* ---------- SETTINGS ---------- */
+function settings(){view='settings';setTop('Settings',home);dock(`<span></span><span></span><button class="btn primary" id="sv">Save</button>`);
+  $('#app').innerHTML=`<h1>Settings</h1><label class="f" for="nm">Your name (signs every photo and report)</label><input class="t" id="nm" value="${esc(pref('name'))}" autocomplete="name" placeholder="e.g. Dave Ray"><label class="f" for="rl">Your role</label><input class="t" id="rl" value="${esc(pref('role'))}" placeholder="e.g. Construction Manager"><div class="card"><b>Storage</b><p class="sub" id="stor" style="margin:6px 0 0">Checking…</p></div><div class="card"><b>Install on iPhone</b><p class="sub" style="margin:6px 0 0">In Safari tap Share → <b>Add to Home Screen</b>. It then opens full screen and works offline in the riser.</p></div>${foot()}`;
+  $('#sv').onclick=()=>{pref('name',$('#nm').value.trim());pref('role',$('#rl').value.trim());toast('Saved');home()};
+  (async()=>{try{const p=navigator.storage&&navigator.storage.persist?await navigator.storage.persist():false;const e=navigator.storage&&navigator.storage.estimate?await navigator.storage.estimate():null;$('#stor').textContent=(e?`Using ${(e.usage/1048576).toFixed(1)} MB on this phone. `:'')+(p?'Protected from automatic clean-up.':'Export checks once done — the phone may clear old data if space runs low.')}catch(_){$('#stor').textContent='Export checks once done.'}})();
+}
+
+/* ---------- MODULES ---------- */
+async function modsView(){view='mods';setTop('Modules',home);dock(`<span></span><span></span><label class="btn primary" for="mf">+ Add module</label>`);
+  $('#app').innerHTML=`<h1>Quality check modules</h1><p class="sub">Each module is one critical quality check. Add more as they're agreed — the app picks them up straight away.</p>
+  <div class="list">${modules.map(m=>{const n=m.sections.reduce((a,s)=>a+s.questions.length,0);return `<div class="item"><div class="meta"><div class="t1">${esc(m.title)}</div><div class="t2">v${esc(m.version||'1')} · ${m.sections.length} stages · ${n} checks${m.builtin?' · built in':''}</div></div>${/draft/i.test(m.status||m.version||'')?'<span class="pill draft">Draft</span>':''}${m.builtin?'':`<button class="btn" data-del="${esc(m.id)}" style="min-height:40px">Remove</button>`}</div>`}).join('')}</div>
+  <input type="file" id="mf" accept=".json,application/json" class="hide"><small class="hint">Module files are .json — DaveBot produces them from an agreed checklist.</small>${foot()}`;
+  $('#mf').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const m=validateModule(JSON.parse(await f.text()));await put('modules',m.id,m);await loadModules();toast('Added '+m.title);modsView()}catch(err){toast('Could not add: '+err)}};
+  document.querySelectorAll('[data-del]').forEach(b=>b.onclick=async()=>{await del('modules',b.dataset.del);await loadModules();modsView()});
+}
+
+/* ---------- NEW CHECK ---------- */
+function newCheck(){view='new';setTop('New check',home);
+  const st={moduleId:modules[0]?.id,block:pref('block')||'',area:'',level:''};
+  const draw=()=>{const m=modById(st.moduleId);const sel=st.sections||m.sections.map(s=>s.id);st.sections=sel;
+    $('#app').innerHTML=`<h1>New check</h1><p class="sub">Four taps and you're in.</p>
+    <label class="f">Check</label><div class="chips">${modules.map(x=>`<button class="chip" data-mod="${esc(x.id)}" aria-pressed="${x.id===st.moduleId}">${esc(x.short||x.title)}</button>`).join('')}</div>
+    <label class="f">Block</label><div class="chips">${BLOCKS.map(b=>`<button class="chip" data-blk="${b}" aria-pressed="${b===st.block}">${b}</button>`).join('')}</div>
+    <div class="row"><div class="grow"><label class="f" for="ar">${esc(m.location?.areaLabel||'Area')}</label><input class="t" id="ar" value="${esc(st.area)}" placeholder="${esc(m.location?.areaHint||'')}" autocapitalize="characters"></div><div style="width:120px"><label class="f" for="lv">Level</label><input class="t" id="lv" value="${esc(st.level)}" placeholder="e.g. 03" inputmode="text" autocapitalize="characters"></div></div>
+    <label class="f">What are you checking today? <span style="font-weight:400">(stages)</span></label>
+    <div class="row" style="margin-bottom:8px"><button class="btn" id="sAll" style="min-height:40px">All</button><button class="btn" id="sNone" style="min-height:40px">None</button></div>
+    <div class="list">${m.sections.map(s=>`<button class="item" data-sec="${esc(s.id)}" aria-pressed="${sel.includes(s.id)}" style="${sel.includes(s.id)?'border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)':''}"><div class="meta"><div class="t1">${esc(s.id)}. ${esc(s.title)}</div><div class="t2">${s.questions.length} checks</div></div><span class="pill ${sel.includes(s.id)?'Y':''}">${sel.includes(s.id)?'✓':'—'}</span></button>`).join('')}</div>${foot()}`;
+    const keep=()=>{st.area=$('#ar').value;st.level=$('#lv').value};
+    document.querySelectorAll('[data-mod]').forEach(b=>b.onclick=()=>{keep();st.moduleId=b.dataset.mod;st.sections=null;draw()});
+    document.querySelectorAll('[data-blk]').forEach(b=>b.onclick=()=>{keep();st.block=b.dataset.blk;draw()});
+    document.querySelectorAll('[data-sec]').forEach(b=>b.onclick=()=>{keep();const id=b.dataset.sec;st.sections=sel.includes(id)?sel.filter(x=>x!==id):[...sel,id];draw()});
+    $('#sAll').onclick=()=>{keep();st.sections=m.sections.map(s=>s.id);draw()};$('#sNone').onclick=()=>{keep();st.sections=[];draw()};
+  };
+  draw();
+  dock(`<span></span><span></span><button class="btn primary" id="go">Start check ›</button>`);
+  $('#go').onclick=async()=>{st.area=$('#ar').value.trim().toUpperCase();st.level=$('#lv').value.trim().toUpperCase();
+    if(!pref('name')){toast('Add your name in Settings first');return settings()}
+    if(!st.block||!st.area||!st.level){toast('Pick block, '+(modById(st.moduleId).location?.areaLabel||'area').toLowerCase()+' and level');return}
+    if(!st.sections.length){toast('Pick at least one stage');return}
+    const m=modById(st.moduleId);const order=m.sections.map(s=>s.id);
+    cur={id:uid(),moduleId:m.id,moduleTitle:m.title,moduleVersion:m.version||'1',block:st.block,area:st.area,areaLabel:m.location?.areaLabel||'Area',level:st.level,inspector:pref('name'),role:pref('role'),created:Date.now(),updated:Date.now(),sections:st.sections.sort((a,b)=>order.indexOf(a)-order.indexOf(b)),answers:{},media:[],exports:0,visits:[Date.now()]};
+    pref('block',st.block);await save();qi=0;question();};
+}
+async function save(){cur.updated=Date.now();await put('checks',cur.id,cur)}
+
+/* ---------- CHECK HOME ---------- */
+function checkHome(){view='check';freeThumbs();const m=modById(cur.moduleId);const s=stats(cur);setTop(m?m.short||m.title:'Check',home);
+  const first=s.qs.findIndex(q=>!cur.answers[q.ref]?.a);
+  dock(`<button class="btn" id="dStg">Stages</button><button class="btn" id="dExp">Finish</button><button class="btn primary" id="dGo">${first<0?'Review':'Continue'} ›</button>`);
+  $('#dGo').onclick=()=>{qi=first<0?0:first;question()};$('#dExp').onclick=finish;$('#dStg').onclick=editStages;
+  $('#app').innerHTML=`<h1>${esc(locLabel(cur))}</h1><p class="sub">${esc(cur.moduleTitle)} · started ${fmtDT(cur.created)} by ${esc(cur.inspector)}</p><div class="card">${barHTML(s)}<p class="sub" style="margin:10px 0 0">${s.photos} photos${s.missingPhoto?` · <span style="color:var(--warn);font-weight:700">${s.missingPhoto} need evidence</span>`:''}</p></div>
+  ${m.sections.filter(x=>cur.sections.includes(x.id)).map(sec=>`<h2>${esc(sec.id)}. ${esc(sec.title)}</h2><div class="ov">${sec.questions.map(q=>{const a=cur.answers[q.ref]?.a;const ph=cur.media.some(x=>x.ref===q.ref&&x.kind==='photo');const i=s.qs.findIndex(z=>z.ref===q.ref);return `<button class="${a||''}" data-i="${i}" aria-label="Question ${esc(q.ref)} ${a?ansLabel[a]:'open'}">${esc(q.ref)}${ph?'<span class="cam">●</span>':''}</button>`}).join('')}</div>`).join('')}
+  <div class="row" style="margin-top:24px"><button class="btn" id="delC" style="color:var(--no)">Delete this check</button></div>${foot()}`;
+  document.querySelectorAll('.ov [data-i]').forEach(b=>b.onclick=()=>{qi=+b.dataset.i;question()});
+  $('#delC').onclick=()=>confirmSheet('Delete this check and its photos from this phone?','Delete',async()=>{for(const x of cur.media)await del('media',x.id);await del('checks',cur.id);cur=null;home()});
+}
+function editStages(){const m=modById(cur.moduleId);let sel=[...cur.sections];const order=m.sections.map(s=>s.id);
+  const draw=()=>{sheet(`<h2 style="margin-top:0">Stages in this check</h2><p class="sub">Add a stage when you come back for the next hold point. Answers already given are kept.</p><div class="list">${m.sections.map(s=>`<button class="item" data-sec="${esc(s.id)}"><div class="meta"><div class="t1">${esc(s.id)}. ${esc(s.title)}</div></div><span class="pill ${sel.includes(s.id)?'Y':''}">${sel.includes(s.id)?'✓':'—'}</span></button>`).join('')}</div><button class="btn primary block" id="ok">Done</button>`);
+    document.querySelectorAll('.sheet [data-sec]').forEach(b=>b.onclick=()=>{const id=b.dataset.sec;sel=sel.includes(id)?sel.filter(x=>x!==id):[...sel,id];draw()});
+    $('#ok').onclick=async()=>{if(!sel.length){toast('Keep at least one stage');return}cur.sections=sel.sort((a,b)=>order.indexOf(a)-order.indexOf(b));const today=isoD(Date.now());if(!cur.visits.some(v=>isoD(v)===today))cur.visits.push(Date.now());await save();closeSheet();checkHome()}};
+  draw();
+}
+function sheet(html){closeSheet();const d=document.createElement('div');d.className='modal';d.id='modal';d.innerHTML=`<div class="sheet" role="dialog" aria-modal="true">${html}</div>`;d.onclick=e=>{if(e.target===d)closeSheet()};document.body.appendChild(d)}
+function closeSheet(){$('#modal')&&$('#modal').remove()}
+function confirmSheet(msg,label,fn){sheet(`<p style="font-size:18px;font-weight:600;margin-top:0">${esc(msg)}</p><div class="row"><button class="btn grow" id="cn">Cancel</button><button class="btn grow" id="cy" style="background:var(--no);color:#fff;border-color:var(--no)">${esc(label)}</button></div>`);$('#cn').onclick=closeSheet;$('#cy').onclick=()=>{closeSheet();fn()}}
+
+/* ---------- QUESTION ---------- */
+let recorder=null,recChunks=[],recRef=null;
+async function question(){view='q';freeThumbs();const s=stats(cur);const qs=s.qs;if(!qs.length){checkHome();return}qi=Math.max(0,Math.min(qi,qs.length-1));const q=qs[qi];const a=cur.answers[q.ref]||{};
+  const today=isoD(Date.now());if(!cur.visits.some(v=>isoD(v)===today)){cur.visits.push(Date.now());save()}
+  setTop(`${cur.block} · ${cur.area} · L${cur.level}`,checkHome);
+  const photos=cur.media.filter(x=>x.ref===q.ref&&x.kind==='photo');const clips=cur.media.filter(x=>x.ref===q.ref&&x.kind==='audio');
+  const evWord=q.evidence==='cert'?'Photo of certificate':q.evidence==='photo'?'Photo required':'Photo optional';
+  const done=s.total-s.open;
+  $('#app').innerHTML=`<div class="qhead"><span>${qi+1} of ${qs.length}</span><span>${done} answered</span></div><div class="prog"><i style="width:${(done/s.total*100).toFixed(1)}%"></i></div>
+  <div class="sect">${esc(q.section.id)}. ${esc(q.section.title)}</div><div class="qref">${esc(q.ref)}</div><p class="qtext">${esc(q.q)}</p>
+  <div class="qmeta"><span class="pill">${esc(q.trade)}</span><span class="${q.evidence!=='none'?'req':''}">${evWord}</span></div>
+  ${q.good||q.goodImg?`<details class="good"><summary><b>What good looks like</b></summary>${q.good?`<div>${esc(q.good)}</div>`:''}${q.goodImg?`<img src="${esc(q.goodImg)}" alt="What good looks like for ${esc(q.ref)}">`:''}</details>`:''}
+  <div class="ans" role="group" aria-label="Answer">${['Y','N','NA'].map(v=>`<button data-v="${v}" aria-pressed="${a.a===v}">${ansLabel[v]}</button>`).join('')}</div>
+  <div class="ev"><label class="btn ${q.evidence!=='none'&&!photos.length&&a.a!=='NA'?'accent':''}" for="cam">📷 ${q.evidence==='cert'?'Cert photo':'Photo'}${photos.length?` (${photos.length})`:''}</label><button class="btn ${recRef===q.ref?'rec':''}" id="mic">${recRef===q.ref?'■ Stop':'🎙 Voice note'}</button></div>
+  <input type="file" id="cam" accept="image/*" capture="environment" class="hide">
+  ${q.evidence==='cert'?`<div class="chips" style="margin-top:10px"><button class="chip" id="certC" aria-pressed="${a.cert==='chased'}">Cert not on site – chased</button></div>`:''}
+  <div class="thumbs" id="thumbs"></div><div class="clips" id="clips"></div>
+  <label class="f" for="nt">Note ${a.a==='N'?'<b style="color:var(--no)">— what\'s wrong?</b>':'(optional)'}</label><textarea class="t" id="nt" placeholder="Tap the 🎤 on your keyboard and just say it">${esc(a.note||'')}</textarea>
+  <div class="src"><b>Source:</b> ${esc(q.source||'—')}</div>`;
+  dock(`<button class="btn" id="pv" ${qi===0?'disabled':''}>‹ Prev</button><button class="btn" id="ovw">Overview</button><button class="btn primary" id="nx">${qi===qs.length-1?'Finish ›':'Next ›'}</button>`);
+  // thumbs
+  const th=$('#thumbs');for(const p of photos){const blob=await get('media',p.id);if(!blob)continue;const u=URL.createObjectURL(blob);thumbURLs.push(u);const el=document.createElement('div');el.className='th';el.innerHTML=`<img src="${u}" alt="Photo for ${esc(q.ref)}"><div class="st">${esc(q.ref)} · ${a.a?ansLabel[a.a]:'—'} · ${fmtDT(p.time).slice(11)}</div><button aria-label="Remove photo">×</button>`;el.querySelector('button').onclick=()=>confirmSheet('Remove this photo?','Remove',async()=>{await del('media',p.id);cur.media=cur.media.filter(x=>x.id!==p.id);await save();question()});th.appendChild(el)}
+  const cl=$('#clips');for(const c of clips){const blob=await get('media',c.id);if(!blob)continue;const u=URL.createObjectURL(blob);thumbURLs.push(u);const el=document.createElement('div');el.className='clip';el.innerHTML=`<span>🎙 ${fmtDT(c.time).slice(11)}</span><audio controls src="${u}"></audio><button class="btn" style="min-height:36px;padding:0 10px" aria-label="Remove voice note">×</button>`;el.querySelector('button').onclick=async()=>{await del('media',c.id);cur.media=cur.media.filter(x=>x.id!==c.id);await save();question()};cl.appendChild(el)}
+  const saveNote=async()=>{const n=$('#nt').value;if((cur.answers[q.ref]?.note||'')!==n){cur.answers[q.ref]={...(cur.answers[q.ref]||{}),note:n};await save()}};
+  $('#nt').onblur=saveNote;
+  document.querySelectorAll('.ans button').forEach(b=>b.onclick=async()=>{await saveNote();const v=b.dataset.v;const prev=cur.answers[q.ref]||{};cur.answers[q.ref]={...prev,a:prev.a===v?null:v,t:Date.now()};await save();
+    const na=cur.answers[q.ref].a;const hasPh=cur.media.some(x=>x.ref===q.ref&&x.kind==='photo');
+    if((na==='NA')||(na==='Y'&&(q.evidence==='none'||hasPh))){if(qi<qs.length-1){qi++;question();return}}
+    if(na==='N')toast('Photo it and say what\'s wrong');else if(na==='Y'&&q.evidence!=='none'&&!hasPh)toast('Take the evidence photo');
+    question();});
+  $('#cam').onchange=async e=>{const files=[...e.target.files];if(!files.length)return;busy(true,'Saving photo…');try{for(const f of files){const {blob,w,h}=await shrink(f,1920);const id=uid();await put('media',id,blob);cur.media.push({id,ref:q.ref,kind:'photo',time:Date.now(),w,h})}await save()}catch(err){toast('Photo not saved: '+err)}busy(false);question()};
+  $('#certC')&&($('#certC').onclick=async()=>{const p=cur.answers[q.ref]||{};cur.answers[q.ref]={...p,cert:p.cert==='chased'?'':'chased'};await save();question()});
+  $('#mic').onclick=()=>toggleRec(q.ref);
+  $('#pv').onclick=async()=>{await saveNote();qi--;question()};
+  $('#nx').onclick=async()=>{await saveNote();if(qi===qs.length-1)return finish();qi++;question()};
+  $('#ovw').onclick=async()=>{await saveNote();checkHome()};
+  window.scrollTo(0,0);
+}
+async function toggleRec(ref){
+  if(recorder&&recorder.state==='recording'){recorder.stop();return}
+  if(!navigator.mediaDevices||!window.MediaRecorder){toast('Voice notes not supported here — use the keyboard 🎤 in the note');return}
+  try{const stream=await navigator.mediaDevices.getUserMedia({audio:true});const type=['audio/mp4','audio/webm;codecs=opus','audio/webm'].find(t=>MediaRecorder.isTypeSupported&&MediaRecorder.isTypeSupported(t))||'';recorder=new MediaRecorder(stream,type?{mimeType:type}:undefined);recChunks=[];recRef=ref;
+    recorder.ondataavailable=e=>e.data.size&&recChunks.push(e.data);
+    recorder.onstop=async()=>{stream.getTracks().forEach(t=>t.stop());const blob=new Blob(recChunks,{type:recorder.mimeType||'audio/mp4'});const id=uid();await put('media',id,blob);cur.media.push({id,ref:recRef,kind:'audio',time:Date.now(),mime:blob.type});recRef=null;recorder=null;await save();toast('Voice note saved');if(view==='q')question()};
+    recorder.start();toast('Recording… tap Stop when done');if(view==='q')question();
+  }catch(e){toast('Microphone blocked — use the keyboard 🎤 in the note')}
+}
+
+/* ---------- images ---------- */
+function loadImg(src){return new Promise((res,rej)=>{const i=new Image();i.onload=()=>res(i);i.onerror=()=>rej('cannot read image');i.src=src})}
+async function shrink(file,max){const u=URL.createObjectURL(file);try{const img=await loadImg(u);const k=Math.min(1,max/Math.max(img.naturalWidth,img.naturalHeight));const w=Math.round(img.naturalWidth*k),h=Math.round(img.naturalHeight*k);const c=document.createElement('canvas');c.width=w;c.height=h;c.getContext('2d').drawImage(img,0,0,w,h);const blob=await new Promise(r=>c.toBlob(r,'image/jpeg',0.85));return{blob,w,h}}finally{URL.revokeObjectURL(u)}}
+function fitText(ctx,text,maxW){if(ctx.measureText(text).width<=maxW)return text;let t=text;while(t.length>4&&ctx.measureText(t+'…').width>maxW)t=t.slice(0,-1);return t+'…'}
+async function stampPhoto(p,q,check,maxEdge,quality){const blob=await get('media',p.id);const u=URL.createObjectURL(blob);try{const img=await loadImg(u);const k=Math.min(1,maxEdge/Math.max(img.naturalWidth,img.naturalHeight));const w=Math.round(img.naturalWidth*k),h=Math.round(img.naturalHeight*k);
+  const bh=Math.max(96,Math.round(Math.min(w,h)*0.16));const c=document.createElement('canvas');c.width=w;c.height=h+bh;const x=c.getContext('2d');x.drawImage(img,0,0,w,h);
+  x.fillStyle='#15181C';x.fillRect(0,h,w,bh);const a=check.answers[q.ref]?.a;const col=a==='Y'?'#2E7D4F':a==='N'?'#B3261E':'#6E6A63';
+  const pw=Math.round(bh*1.9);x.fillStyle=col;x.fillRect(0,h,pw,bh);x.fillStyle='#fff';x.textBaseline='middle';x.textAlign='center';
+  x.font=`700 ${Math.round(bh*0.30)}px "Avenir Next",Helvetica,Arial,sans-serif`;x.fillText('Q'+q.ref,pw/2,h+bh*0.34);x.font=`700 ${Math.round(bh*0.24)}px "Avenir Next",Helvetica,Arial,sans-serif`;x.fillText(a?ansLabel[a]:'OPEN',pw/2,h+bh*0.70);
+  x.textAlign='left';const tx=pw+Math.round(bh*0.2),tw=w-tx-Math.round(bh*0.15);
+  x.font=`700 ${Math.round(bh*0.21)}px "Avenir Next",Helvetica,Arial,sans-serif`;x.fillText(fitText(x,`B${check.block} · ${check.areaLabel} ${check.area} · L${check.level} · ${q.trade}`,tw),tx,h+bh*0.25);
+  x.font=`400 ${Math.round(bh*0.17)}px "Avenir Next",Helvetica,Arial,sans-serif`;x.fillStyle='#E2DDD4';const nt=check.answers[q.ref]?.note;x.fillText(fitText(x,nt?'Note: '+nt:q.q,tw),tx,h+bh*0.52);
+  x.fillStyle='#B9A07C';x.fillText(fitText(x,`${fmtDT(p.time)} · ${check.inspector} · ${check.moduleTitle} · SJWS`,tw),tx,h+bh*0.78);
+  const out=await new Promise(r=>c.toBlob(r,'image/jpeg',quality));return{blob:out,w,h:h+bh}}finally{URL.revokeObjectURL(u)}}
+const blobToDataURL=b=>new Promise(r=>{const f=new FileReader();f.onload=()=>r(f.result);f.readAsDataURL(b)});
+function photoName(check,q,p,n){const a=check.answers[q.ref]?.a;return `CQC_B${safe(check.block)}_${safe(check.area)}_L${safe(check.level)}_Q${q.ref.replace('.','-')}_${a?safe(ansLabel[a]):'OPEN'}_${safe(q.trade)}_${stampT(p.time)}_${n}.jpg`}
+function baseName(check){return `CQC_${safe(modById(check.moduleId)?.short||check.moduleId)}_B${safe(check.block)}_${safe(check.area)}_L${safe(check.level)}_v${check.exports+1}_${isoD(Date.now())}`}
+
+/* ---------- FINISH / EXPORT ---------- */
+function finish(){view='finish';freeThumbs();const s=stats(cur);setTop('Finish',checkHome);
+  const issues=s.qs.filter(q=>cur.answers[q.ref]?.a==='N');const byTrade={};issues.forEach(q=>{(byTrade[q.trade]=byTrade[q.trade]||[]).push(q)});
+  const gaps=s.qs.filter(q=>{const a=cur.answers[q.ref]||{};const ph=cur.media.some(x=>x.ref===q.ref&&x.kind==='photo');return a.a&&a.a!=='NA'&&q.evidence!=='none'&&!ph&&a.cert!=='chased'});
+  const openQs=s.qs.filter(q=>!cur.answers[q.ref]?.a);
+  $('#app').innerHTML=`<h1>Ready to send</h1><p class="sub">${esc(locLabel(cur))} · ${esc(cur.moduleTitle)}</p>
+  <div class="card">${barHTML(s)}<p class="sub" style="margin:10px 0 0"><b>${s.total?Math.round((s.Y+s.NA)/s.total*100):0}%</b> of checks in scope are OK or N/A · ${s.photos} photos</p></div>
+  ${openQs.length?`<div class="card" style="border-color:var(--warn)"><b style="color:var(--warn)">${openQs.length} not answered</b><p class="sub" style="margin:6px 0 0">${openQs.map(q=>esc(q.ref)).join(', ')} — they'll show as open in the report.</p></div>`:''}
+  ${gaps.length?`<div class="card" style="border-color:var(--warn)"><b style="color:var(--warn)">${gaps.length} missing evidence</b><p class="sub" style="margin:6px 0 0">${gaps.map(q=>esc(q.ref)).join(', ')}</p></div>`:''}
+  <h2>Issues for trades (${issues.length})</h2>${issues.length?Object.entries(byTrade).map(([t,qs])=>`<div class="sect" style="margin-top:12px">${esc(t)}</div>${qs.map(q=>`<div class="issue"><span class="r">${esc(q.ref)}</span> ${esc(q.q)}${cur.answers[q.ref]?.note?`<div class="sub" style="margin:4px 0 0">“${esc(cur.answers[q.ref].note)}”</div>`:''}</div>`).join('')}`).join(''):`<p class="sub">No issues raised.</p>`}
+  <h2>Send it</h2><p class="sub">1. Share the <b>report PDF</b> to the Critical Quality Checks agent in Copilot.<br>2. Upload the finished report to Aconex Field and tag the trades.</p>
+  <button class="btn primary block" id="pdf">Create report PDF</button><div style="height:10px"></div><button class="btn block" id="zip">Evidence pack (.zip: photos, voice notes, data)</button>
+  <div id="out"></div>${foot()}`;
+  dock('');
+  $('#pdf').onclick=()=>doExport('pdf');$('#zip').onclick=()=>doExport('zip');
+}
+async function doExport(kind){busy(true,kind==='pdf'?'Stamping photos and building the report…':'Packing evidence…');try{const name=baseName(cur);let file;
+  if(kind==='pdf'){const blob=await buildPDF(cur);file=new File([blob],name+'.pdf',{type:'application/pdf'})}
+  else{const blob=await buildZip(cur,name);file=new File([blob],name+'.zip',{type:'application/zip'})}
+  cur.exports++;cur.lastExport=Date.now();await save();busy(false);offerFile(file)}catch(e){busy(false);console.error(e);toast('Export failed: '+(e.message||e))}}
+function offerFile(file){const u=URL.createObjectURL(file);const canShare=navigator.canShare&&navigator.canShare({files:[file]});
+  $('#out').innerHTML=`<div class="card" style="margin-top:14px"><b>${esc(file.name)}</b><p class="sub" style="margin:4px 0 10px">${(file.size/1048576).toFixed(1)} MB</p><div class="row">${canShare?'<button class="btn primary grow" id="shr">Share…</button>':''}<a class="btn grow" href="${u}" download="${esc(file.name)}">Save to Files</a></div><small class="hint">Share → Copilot to send it straight to the agent.</small></div>`;
+  $('#shr')&&($('#shr').onclick=async()=>{try{await navigator.share({files:[file],title:file.name})}catch(e){}});
+  $('#out').scrollIntoView({behavior:'smooth'});
+}
+
+async function buildZip(check,name){const z=new JSZip();const s=stats(check);const f=z.folder(name);const photos=f.folder('photos');const audio=f.folder('voice-notes');
+  const manifest=[];for(const q of s.qs){let n=0;for(const p of check.media.filter(x=>x.ref===q.ref)){if(p.kind==='photo'){n++;const st=await stampPhoto(p,q,check,1920,0.85);const fn=photoName(check,q,p,n);photos.file(fn,st.blob);manifest.push({ref:q.ref,file:'photos/'+fn,time:p.time})}else{const b=await get('media',p.id);const ext=(p.mime||'').includes('webm')?'webm':'m4a';const fn=photoName(check,q,p,'voice').replace('.jpg','.'+ext);audio.file(fn,b);manifest.push({ref:q.ref,file:'voice-notes/'+fn,time:p.time})}}}
+  f.file('data.json',JSON.stringify(exportData(check,manifest),null,1));
+  f.file(name+'.pdf',await buildPDF(check));
+  return z.generateAsync({type:'blob',compression:'STORE'});
+}
+function exportData(check,manifest){const s=stats(check);return{format:'SJWS-CQC-v1',app:APP_VERSION,project:PROJECT,module:{id:check.moduleId,title:check.moduleTitle,version:check.moduleVersion},location:{block:check.block,[check.areaLabel.toLowerCase()]:check.area,level:check.level},inspector:check.inspector,role:check.role,started:new Date(check.created).toISOString(),visits:check.visits.map(v=>new Date(v).toISOString()),exported:new Date().toISOString(),summary:{inScope:s.total,yes:s.Y,no:s.N,na:s.NA,open:s.open,photos:s.photos},items:s.qs.map(q=>{const a=check.answers[q.ref]||{};return{ref:q.ref,stage:q.section.id+'. '+q.section.title,question:q.q,trade:q.trade,evidenceRequired:q.evidence,answer:a.a?ansLabel[a.a]:'OPEN',note:a.note||'',certificate:a.cert==='chased'?'Not on site - chased':'',answeredAt:a.t?new Date(a.t).toISOString():null,source:q.source,files:(manifest||[]).filter(x=>x.ref===q.ref).map(x=>x.file)}})}}
+
+async function buildPDF(check){const {jsPDF}=window.jspdf;const doc=new jsPDF({unit:'mm',format:'a4'});const W=210,H=297,M=14;const s=stats(check);
+  const INK=[21,24,28],MUT=[110,106,99],ACC=[156,122,78],YES=[46,125,79],NO=[179,38,30],NA=[110,106,99],LINE=[226,221,212];
+  const colA=a=>a==='Y'?YES:a==='N'?NO:a==='NA'?NA:LINE;
+  let y=0;
+  const header=()=>{doc.setFillColor(...INK);doc.rect(0,0,W,16,'F');doc.setTextColor(255);doc.setFont('helvetica','bold');doc.setFontSize(11);doc.text('MULTIPLEX',M,7.5,{charSpace:1.2});doc.setFont('helvetica','normal');doc.setFontSize(7.5);doc.text('Built to Outperform',M,12);doc.setFontSize(8);doc.text(`SuperPrime · ${check.moduleTitle}`.replace(/[^\x00-\xFF]/g,''),W-M,7.5,{align:'right'});doc.text(`B${check.block} · ${check.areaLabel} ${check.area} · L${check.level}`,W-M,12,{align:'right'});y=24};
+  const newPage=()=>{doc.addPage();header()};
+  const need=h=>{if(y+h>H-16)newPage()};
+  const P=t=>String(t??'').replace(/≤/g,'<=').replace(/≥/g,'>=').replace(/±/g,'+/-').replace(/×/g,'x').replace(/[–—]/g,'-').replace(/[‘’]/g,"'").replace(/[“”]/g,'"').replace(/…/g,'...').replace(/[^\x00-\xFF]/g,'');
+  const split=(t,w,size,style)=>{doc.setFont('helvetica',style||'normal');doc.setFontSize(size);return doc.splitTextToSize(P(t),w)};
+  const txt=(t,x,size,style,color,maxW)=>{doc.setFont('helvetica',style||'normal');doc.setFontSize(size);doc.setTextColor(...(color||INK));const lines=doc.splitTextToSize(P(t),maxW||W-2*M);doc.text(lines,x,y);return lines.length*size*0.42};
+  header();
+  // title block
+  doc.setTextColor(...ACC);doc.setFont('helvetica','bold');doc.setFontSize(9);doc.text('CRITICAL QUALITY CHECK — SITE RECORD',M,y);y+=8;
+  y+=txt(check.moduleTitle,M,20,'bold');y+=1;
+  y+=txt(`${PROJECT} · Block ${check.block} · ${check.areaLabel} ${check.area} · Level ${check.level}`,M,11,'normal',MUT);y+=4;
+  const kv=[['Inspected by',`${check.inspector}${check.role?' ('+check.role+')':''}`],['Visits',check.visits.map(fmtD).join(', ')],['Report created',fmtDT(Date.now())],['Module version',check.moduleVersion],['Stages in scope',modById(check.moduleId).sections.filter(x=>check.sections.includes(x.id)).map(x=>x.id+'. '+x.title).join('; ')]];
+  kv.forEach(([k,v])=>{doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(...MUT);doc.text(k,M,y);const h=txt(v,M+34,9,'normal',INK,W-2*M-34);y+=Math.max(5,h+1.5)});
+  y+=4;
+  // health bar
+  const bw=W-2*M;let bx=M;[['Y',s.Y],['N',s.N],['NA',s.NA],['',s.open]].forEach(([k,v])=>{if(!v)return;const w=bw*v/s.total;doc.setFillColor(...colA(k));doc.rect(bx,y,w,5,'F');bx+=w});y+=10;
+  const boxes=[['Yes',s.Y,YES],['No (issues)',s.N,NO],['N/A',s.NA,NA],['Open',s.open,MUT],['Photos',s.photos,ACC]];const bxw=(bw-4*3)/5;
+  boxes.forEach(([l,v,c],i)=>{const x=M+i*(bxw+3);doc.setDrawColor(...LINE);doc.setFillColor(255,255,255);doc.roundedRect(x,y,bxw,17,2,2,'FD');doc.setTextColor(...c);doc.setFont('helvetica','bold');doc.setFontSize(16);doc.text(String(v),x+4,y+9);doc.setFontSize(7.5);doc.setFont('helvetica','normal');doc.setTextColor(...MUT);doc.text(l,x+4,y+14)});
+  y+=25;
+  // issues
+  const issues=s.qs.filter(q=>check.answers[q.ref]?.a==='N');const byTrade={};issues.forEach(q=>(byTrade[q.trade]=byTrade[q.trade]||[]).push(q));
+  need(12);y+=txt(`Issues for trades (${issues.length})`,M,13,'bold');y+=2;
+  if(!issues.length){y+=txt('No issues raised on this check.',M,9.5,'normal',MUT);y+=3}
+  Object.entries(byTrade).forEach(([t,qs])=>{need(10);doc.setFillColor(...NO);doc.rect(M,y-3.5,2,5,'F');y+=txt(t,M+4,10,'bold');y+=1.5;qs.forEach(q=>{const a=check.answers[q.ref]||{};const n=check.media.filter(x=>x.ref===q.ref&&x.kind==='photo').length;const lines=split(q.q,W-2*M-16,9.5).length+(a.note?split('Site note: '+a.note,W-2*M-16,9,'italic').length:0);need(lines*4.2+6);doc.setFont('helvetica','bold');doc.setFontSize(9.5);doc.setTextColor(...NO);doc.text(q.ref,M+4,y);let h=txt(q.q,M+16,9.5,'normal',INK,W-2*M-16);y+=h;if(a.note){y+=0.5;h=txt('Site note: '+a.note,M+16,9,'italic',INK,W-2*M-16);y+=h}y+=txt(`Photos: ${n}  ·  Source: ${q.source||'—'}`,M+16,7.5,'normal',MUT,W-2*M-16);y+=3})});
+  // gaps
+  const gaps=s.qs.filter(q=>{const a=check.answers[q.ref]||{};return !a.a||(a.a!=='NA'&&q.evidence!=='none'&&!check.media.some(x=>x.ref===q.ref&&x.kind==='photo'))});
+  if(gaps.length){need(12);y+=3;y+=txt(`Open items and missing evidence (${gaps.length})`,M,13,'bold');y+=2;gaps.forEach(q=>{const a=check.answers[q.ref]||{};const why=!a.a?'Not answered':a.cert==='chased'?'Certificate not on site — chased':'No evidence photo';need(6);doc.setFont('helvetica','bold');doc.setFontSize(9);doc.setTextColor(...MUT);doc.text(q.ref,M+4,y);y+=txt(`${why} · ${q.trade} · ${q.q}`,M+16,8.5,'normal',INK,W-2*M-16)+1.5})}
+  // full checklist
+  newPage();y+=txt('Full checklist',M,13,'bold');y+=3;
+  modById(check.moduleId).sections.filter(x=>check.sections.includes(x.id)).forEach(sec=>{need(14);doc.setFillColor(240,237,231);doc.rect(M,y-4,W-2*M,6.5,'F');y+=txt(`${sec.id}. ${sec.title}`,M+2,9.5,'bold',ACC);y+=2;
+    sec.questions.forEach(q=>{const a=check.answers[q.ref]||{};const n=check.media.filter(x=>x.ref===q.ref&&x.kind==='photo').length;const qw=W-2*M-62;const ql=split(q.q,qw,8.5);const nl=a.note?split('Note: '+a.note,qw,8.5,'italic'):[];const h=(ql.length+nl.length)*3.7+3;need(h+1);
+      doc.setFont('helvetica','bold');doc.setFontSize(8.5);doc.setTextColor(...INK);doc.text(q.ref,M,y);doc.setFont('helvetica','normal');doc.text(ql,M+11,y);if(nl.length){doc.setFont('helvetica','italic');doc.setTextColor(...MUT);doc.text(nl,M+11,y+ql.length*3.7)}
+      doc.setFont('helvetica','normal');doc.setTextColor(...MUT);doc.setFontSize(7.5);doc.text(split(q.trade,24,7.5),W-M-49,y);
+      const c=colA(a.a);doc.setFillColor(...c);doc.roundedRect(W-M-23,y-3.2,13,4.6,1,1,'F');doc.setTextColor(a.a?255:110);doc.setFont('helvetica','bold');doc.setFontSize(7);doc.text(a.a?ansLabel[a.a]:'OPEN',W-M-16.5,y,{align:'center'});
+      doc.setTextColor(...MUT);doc.setFont('helvetica','normal');doc.text(n?`${n} ph`:(a.cert==='chased'?'chased':'–'),W-M,y,{align:'right'});
+      y+=h;doc.setDrawColor(...LINE);doc.line(M,y-2.2,W-M,y-2.2)})});
+  // photo appendix
+  const photoList=[];s.qs.forEach(q=>{let n=0;check.media.filter(x=>x.ref===q.ref&&x.kind==='photo').forEach(p=>{n++;photoList.push({p,q,n})})});
+  if(photoList.length){newPage();y+=txt(`Photo evidence (${photoList.length})`,M,13,'bold');y+=4;
+    for(const {p,q,n} of photoList){const st=await stampPhoto(p,q,check,1400,0.72);const du=await blobToDataURL(st.blob);const maxW=W-2*M,maxH=(H-24-16)/2-12;let w=maxW,h=w*st.h/st.w;if(h>maxH){h=maxH;w=h*st.w/st.h}
+      need(h+9);doc.addImage(du,'JPEG',M+(maxW-w)/2,y,w,h);y+=h+4;const an=check.answers[q.ref]||{};y+=txt(`Q${q.ref} · ${an.a?ansLabel[an.a]:'OPEN'} · ${q.trade} · ${q.q}${an.note?'  Site note: '+an.note:''}`,M,8.5,'normal',INK);y+=txt(photoName(check,q,p,n),M,7,'normal',MUT);y+=4}}
+  // footer on every page
+  const pages=doc.getNumberOfPages();for(let i=1;i<=pages;i++){doc.setPage(i);doc.setDrawColor(...LINE);doc.line(M,H-11,W-M,H-11);doc.setFont('helvetica','normal');doc.setFontSize(7);doc.setTextColor(...MUT);doc.text('MULTIPLEX · Built to Outperform · SuperPrime CQC · Product of DaveBot',M,H-6.5);doc.text(`Page ${i} of ${pages}`,W-M,H-6.5,{align:'right'})}
+  doc.setProperties({title:`${check.moduleTitle} — B${check.block} ${check.area} L${check.level}`,author:check.inspector,creator:'SuperPrime CQC · Product of DaveBot',subject:'SJWS-CQC-v1'});
+  return doc.output('blob');
+}
+
+/* ---------- boot ---------- */
+(async()=>{await openDB();await loadModules();home();
+  if('serviceWorker' in navigator&&location.protocol==='https:'){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+})();
+}
+</script>
+</body>
+</html>
