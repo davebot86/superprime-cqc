@@ -3,7 +3,7 @@
  "title": "Smoke Control (Colt)",
  "short": "Smoke Control",
  "group": "Fire protection systems",
- "activity": "Smoke shafts, dampers, AOVs",
+ "activity": "Smoke shafts, dampers, AOVs, fans, car park ventilation",
  "fieldOrg": "Price Building Services",
  "version": "0.1 draft",
  "status": "Draft spot check from ITPs – for agreement",
@@ -15,48 +15,158 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "BEFORE INSTALL",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Smoke dampers/vents installed to the tested detail and fire stopped?",
-     "evidence": "photo",
+     "q": "Benchmark / sample floor signed off?",
+     "evidence": "none",
      "trade": "PBS",
-     "source": "PBS Colt ITP"
+     "source": "Colt ITP 6 (W1)"
     },
     {
      "ref": "1.2",
-     "q": "Actuators wired and accessible for maintenance?",
+     "q": "Openings and upstands prepared to the assembly drawings so the vents/dampers fit?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS Colt ITP"
+     "source": "Colt ITP 12"
     },
     {
      "ref": "1.3",
-     "q": "CO detectors installed in conduit with guards at the specified height (car park)?",
-     "evidence": "photo",
+     "q": "Product inspected for damage before install; CoC / DoP on file?",
+     "evidence": "cert",
      "trade": "PBS",
-     "source": "PBS Colt ITP – CO detection"
+     "source": "Colt ITP 8, 11"
     }
    ]
   },
   {
    "id": "2",
-   "title": "COMMISSIONING",
+   "title": "SHAFTS & LOBBIES",
    "questions": [
     {
      "ref": "2.1",
-     "q": "Fans/vents operate on test; airflows recorded?",
-     "evidence": "cert",
+     "q": "Dampers and AOVs installed square, plumb, sealed and terminated?",
+     "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS Colt ITP"
+     "source": "Colt shaft inspection sheet"
     },
     {
      "ref": "2.2",
-     "q": "Cause and effect tested with the fire alarm and witnessed?",
+     "q": "Containment bonded, square cut, de-burred, with end caps; routes as the Colt drawing?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    },
+    {
+     "ref": "2.3",
+     "q": "Cables secured at least every metre, glands tight, correct cable radius?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    },
+    {
+     "ref": "2.4",
+     "q": "Junction boxes fixed with lids screwed down and warning labels?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    },
+    {
+     "ref": "2.5",
+     "q": "DPIO/CSIO/BBU units and interface modules with IP rating kept, lids fixed, cables labelled?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    },
+    {
+     "ref": "2.6",
+     "q": "MCC panel and ATS in position, labelled, cross-bonded, keys in and padlocked?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet; ITP 14"
+    },
+    {
+     "ref": "2.7",
+     "q": "Fans: duty/standby labels, isolator cross-bonded, fan direction checked, AV mounts sized?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet; ITP 15"
+    },
+    {
+     "ref": "2.8",
+     "q": "Fire switches/MCPs at the correct height with glass covers; OPV panel in position?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    },
+    {
+     "ref": "2.9",
+     "q": "Labels to BS 7671 Reg 537.2, no damage, area clean?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt shaft inspection sheet"
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "CAR PARK",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Cyclone fans in the correct location and direction, clear of obstructions?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt car park inspection sheet"
+    },
+    {
+     "ref": "3.2",
+     "q": "CO detectors in conduit with guards at 1500–1700 mm from FFL?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt car park inspection sheet"
+    },
+    {
+     "ref": "3.3",
+     "q": "Inlet dampers installed square, plumb, sealed and terminated?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "Colt car park inspection sheet"
+    }
+   ]
+  },
+  {
+   "id": "4",
+   "title": "TESTING & CERTIFICATES",
+   "questions": [
+    {
+     "ref": "4.1",
+     "q": "Installation certificate issued (BS 7346-8)?",
      "evidence": "cert",
      "trade": "PBS",
-     "source": "PBS Colt ITP – commissioning"
+     "source": "Colt ITP 17"
+    },
+    {
+     "ref": "4.2",
+     "q": "Static tests (SAT 1) and functional tests (SAT 2) completed and recorded?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "Colt ITP 19–20"
+    },
+    {
+     "ref": "4.3",
+     "q": "Cause and effect (SAT 3) tested with the fire alarm and witnessed?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "Colt ITP 21"
+    },
+    {
+     "ref": "4.4",
+     "q": "Commissioning certificate issued and client demonstration done?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "Colt ITP 23, 25"
     }
    ]
   }
