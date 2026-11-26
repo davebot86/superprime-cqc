@@ -19,6 +19,14 @@
      "evidence": "none",
      "trade": "MEA",
      "source": "Fire strategy [SJWS-HLE-X...-0002[C01]]"
+    },
+    {
+     "q": "Ask the fitter: What is the max distance from the seal to the first service support, and which tested detail is this wall built to? Could they answer?",
+     "evidence": "none",
+     "trade": "MEA",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "0.2"
     }
    ]
   },
@@ -69,7 +77,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Is each BWIC the correct size and position and lined to the fire-stopper's requirements, with any oversized hole pattressed?",
+     "q": "Each BWIC at the drawing size and position (±10 mm), lined for the fire stopper, oversize holes pattressed?",
      "evidence": "photo",
      "trade": "MEA",
      "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; PBS acoustic TS [SJWS-PBS-R...-00037_C00]"
@@ -104,7 +112,7 @@
     },
     {
      "ref": "2.6",
-     "q": "Is the dry riser cabinet opening the right size for the box?",
+     "q": "Dry riser cabinet opening the box size plus fixing tolerance (box fits without forcing)?",
      "evidence": "none",
      "trade": "MEA / Borough",
      "source": "Tech sub BRS-05-00119 [SJWS-BRS-0...-00119_C02]"
@@ -144,21 +152,21 @@
    "questions": [
     {
      "ref": "4.1",
-     "q": "Is the equipment in position, with ladder/tray fixed and containment adequate?",
+     "q": "Equipment in its drawn position; tray/ladder fixed; containment not over-filled?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "F401 Electrical Riser checklist [SJWS-BRS-Z...00001[C03]]"
     },
     {
      "ref": "4.2",
-     "q": "Are the SWAs cleated, dressed, undamaged, at the correct bend radii, looming tidy, and secured with metal ties?",
+     "q": "SWAs cleated, dressed, bend radius at least 6–8× cable diameter, metal ties?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "F401 [SJWS-BRS-Z...00001[C03]]; Field 11264, 11252 [Issues Exp..._29_05 (1)]"
+     "source": "BS 7671 cable bend radius; Borough riser checklist"
     },
     {
      "ref": "4.3",
-     "q": "Is earth bonding complete, cable ends labelled, danger notices fitted, and access for maintenance adequate?",
+     "q": "Earth bonding complete, cable ends labelled, danger notices fitted, 600 mm access kept in front of equipment?",
      "evidence": "photo",
      "trade": "Borough / LMG",
      "source": "F401 [SJWS-BRS-Z...00001[C03]]; Field 9764 [Issues Exp...5_08_17_48]"
@@ -260,7 +268,7 @@
     },
     {
      "ref": "7.5",
-     "q": "Is the outlet in its final orientation, the cabinet glass intact and correctly positioned, and the surround made good?",
+     "q": "Outlet in its final orientation, cabinet glass intact, surround made good?",
      "evidence": "photo",
      "trade": "Argus / Borough / EES",
      "source": "Field 8579 [Issues Exp...5_08_18_21] , 10021, 10076 [Issues Exp..._29_05 (1)] , 10062 [Issues Exp..._18_20 (1)]"
@@ -341,10 +349,49 @@
     },
     {
      "ref": "10.2",
-     "q": "Are boards fixed at the correct centres and staggered, mouse holes closed, and the wall within tolerance?",
+     "q": "Board screws at 300 mm (200 mm at corners), joints staggered 600 mm, mouse holes closed, wall ±3 mm in 1.8 m?",
      "evidence": "photo",
      "trade": "MEA",
-     "source": "MEA ITP [SJWS-MEA-X...-00001-C03]"
+     "source": "MEA ITP [SJWS-MEA-X...-00001-C03]",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
     },
     {
      "ref": "10.3",
@@ -474,5 +521,40 @@
  "group": "Risers & cores",
  "activity": "Riser shaft walls, openings, services, fire stopping, doors",
  "fieldOrg": "Multiple – per question",
- "itp": "MEA, CLM, PBS, Borough, Argus, PHF, GCL ITPs"
+ "itp": "MEA, CLM, PBS, Borough, Argus, PHF, GCL ITPs",
+ "notOk": [
+  {
+   "t": "Service supports more than 400 mm from the fire-stopped shaft wall / slab (tested detail)",
+   "n": 6
+  },
+  {
+   "t": "Fire seal missing between board and concrete inside the riser",
+   "n": 2
+  },
+  {
+   "t": "Conduit or cables run through the shaft wall instead of a sealed penetration",
+   "n": 1
+  },
+  {
+   "t": "Wrong channel cloaking I-studs at shaftwall ends (60SC55 on 60 mm I-studs distorts the wall)",
+   "n": 2
+  },
+  {
+   "t": "Riser at floating floor / void top not fire stopped",
+   "n": 2
+  },
+  {
+   "t": "Cables loose or on plastic ties only – metal ties and copex at containment ends",
+   "n": 3
+  },
+  {
+   "t": "Unistrut and stud end caps missing",
+   "n": 4
+  },
+  {
+   "t": "Riser not cleaned out, water damage to drylining left in place",
+   "n": 17
+  }
+ ],
+ "issuesSeen": 109
 }

@@ -51,6 +51,14 @@
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 – door installation checklist 4.3"
+    },
+    {
+     "q": "Ask the fitter: How is the threshold sealed into the membrane, and what's the drainage route? Could they answer?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -217,6 +225,56 @@
      "source": "PER ITP 31-0001 – door installation checklist 7.4"
     }
    ]
+  },
+  {
+   "id": "6",
+   "title": "AUTOMATED DOORS (WHERE FITTED)",
+   "questions": [
+    {
+     "q": "Automatic sliding / powered door: opens and closes smoothly, stops and reverses when obstructed?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER tech subs SJWS-PER-ZZ-ZZ-TS-X-31-7070 (Schüco automatic sliding electrical units) & 31-7068 (GEZE Powerturn)",
+     "ref": "6.1"
+    },
+    {
+     "q": "Drive unit cover fitted, cabling hidden and terminated, isolator labelled and accessible?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER tech subs 31-7070 / 31-7068",
+     "ref": "6.2"
+    },
+    {
+     "q": "Access control / door entry proved: reader opens, release works, fire alarm releases the hold-open?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "PER 31-7069 steel door electrical components; LMG ACS checklist",
+     "ref": "6.3"
+    }
+   ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Handles, escutcheons and lock covers missing or wrong colour",
+   "n": 48
+  },
+  {
+   "t": "Scratches and chips to frames (re-spray needed)",
+   "n": 20
+  },
+  {
+   "t": "Sliding frame bent or dented in the bottom track",
+   "n": 3
+  },
+  {
+   "t": "Threshold cover not installed / gaps at side flashings with shims visible",
+   "n": 5
+  },
+  {
+   "t": "Kite marks the wrong way",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 85
 }

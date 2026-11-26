@@ -30,6 +30,14 @@
      "evidence": "photo",
      "trade": "TPL",
      "source": "Thorp ITP 2.1, 2.10"
+    },
+    {
+     "q": "Ask the fitter: What joint width and sealant depth are you working to? Could they answer?",
+     "evidence": "none",
+     "trade": "TPL",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.3"
     }
    ]
   },
@@ -39,14 +47,14 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Fixings/brackets fully fixed, shims within limits, torque marks on nuts?",
+     "q": "Fixings fully fixed, shims within the drawing limit, torque marks on nuts?",
      "evidence": "cert",
      "trade": "TPL",
      "source": "Thorp ITP – installation"
     },
     {
      "ref": "2.2",
-     "q": "Joint widths even and within tolerance, units aligned with neighbours?",
+     "q": "Joint widths even (GRC max 10 mm), panels aligned with neighbours?",
      "evidence": "photo",
      "trade": "TPL",
      "source": "Thorp ITP – tolerances"
@@ -101,5 +109,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Chips, cracks and stains to stone, brick and GRC",
+   "n": 71
+  },
+  {
+   "t": "Sealant incomplete or over-thick",
+   "n": 20
+  },
+  {
+   "t": "VCL / insulation damaged or not taped",
+   "n": 29
+  },
+  {
+   "t": "GRC joints over 10 mm / panels not aligned",
+   "n": 15
+  },
+  {
+   "t": "Visible repairs not matching the original",
+   "n": 27
+  },
+  {
+   "t": "Bricks projecting or discoloured",
+   "n": 18
+  }
+ ],
+ "issuesSeen": 235
 }

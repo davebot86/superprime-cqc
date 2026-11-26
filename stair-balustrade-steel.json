@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "All connections complete – correct bolts, washers, nuts, tightened with torque marks?",
+     "q": "All connections bolted with washers and nuts, torque marks on every bolt?",
      "evidence": "photo",
      "trade": "Alpine",
      "source": "Alpine stair ITP ALG-00002 install 2.5–2.7"
@@ -51,6 +51,14 @@
      "evidence": "none",
      "trade": "Alpine",
      "source": "Alpine stair ITP ALG-00002 handover 1.6"
+    },
+    {
+     "q": "Ask the fitter: What distance off the wall should the handrail be? Could they answer?",
+     "evidence": "none",
+     "trade": "Alpine",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -94,10 +102,33 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Balustrade and handrail height correct; no movement when pushed?",
+     "q": "Guarding at least 1100 mm (handrail 900–1000 mm on stairs); no movement when pushed?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine stair ITP ALG-00002 install 5.3–5.4, 7.2, 7.5"
+     "source": "Alpine stair ITP ALG-00002 install 5.3–5.4, 7.2, 7.5",
+     "guide": {
+      "title": "Guarding & handrail heights",
+      "rows": [
+       [
+        "Balcony / floor-edge guarding",
+        "1100 mm min"
+       ],
+       [
+        "Stair handrail (dwellings)",
+        "900–1000 mm above pitch line"
+       ],
+       [
+        "Gaps in guarding",
+        "100 mm sphere must not pass"
+       ],
+       [
+        "Handrail off the wall",
+        "equal all the way up (BM-42: 4–5 mm out was rejected)"
+       ]
+      ],
+      "note": "Drawing dimension governs where it is higher.",
+      "src": "Approved Document K; Block 5 benchmarks BM-41/42"
+     }
     },
     {
      "ref": "3.2",
@@ -125,7 +156,29 @@
      "q": "Handrail smooth and continuous, joints neat, ends/returns finished?",
      "evidence": "photo",
      "trade": "Alpine",
-     "source": "Alpine stair ITP ALG-00002 install 7.3–7.7"
+     "source": "Alpine stair ITP ALG-00002 install 7.3–7.7",
+     "guide": {
+      "title": "Handrail – SJWS benchmark",
+      "rows": [
+       [
+        "Distance off the wall",
+        "equal on every flight (4–5 mm out was rejected)"
+       ],
+       [
+        "Welds",
+        "ground and polished; outer mitres rounded"
+       ],
+       [
+        "Brackets",
+        "level, tight to the rail; countersunk socket screws"
+       ],
+       [
+        "Joints",
+        "straight – no bends, bumps or paint residue"
+       ]
+      ],
+      "src": "Block 5 benchmarks BM-41, BM-42"
+     }
     }
    ]
   },
@@ -149,5 +202,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Handrail not an equal distance from the wall (4–5 mm out recorded)",
+   "n": 26
+  },
+  {
+   "t": "Welds not ground and polished; mitres not smooth",
+   "n": 11
+  },
+  {
+   "t": "Base plates too low or fixings proud",
+   "n": 2
+  },
+  {
+   "t": "Scratches, dents and grinding marks",
+   "n": 26
+  },
+  {
+   "t": "Paint not as smooth as the sample / ripples",
+   "n": 25
+  },
+  {
+   "t": "Stair nosings missing",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 196
 }

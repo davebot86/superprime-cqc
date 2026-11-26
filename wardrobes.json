@@ -44,8 +44,47 @@
      "evidence": "photo",
      "trade": "ESC",
      "source": "Kitchen/joinery ITPs"
+    },
+    {
+     "q": "Ask the fitter: What scribe gap are you working to at walls and ceiling? Could they answer?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Excessive or uneven gaps to walls, ceiling and floor",
+   "n": 45
+  },
+  {
+   "t": "Mirror doors not flush with each other / springing on hinges",
+   "n": 11
+  },
+  {
+   "t": "Screw heads visible above or inside wardrobes",
+   "n": 16
+  },
+  {
+   "t": "Veneer chipped, glue marks, gaps at corners",
+   "n": 6
+  },
+  {
+   "t": "Paint overruns on wardrobe surfaces",
+   "n": 16
+  },
+  {
+   "t": "Loose shelves, brackets or fronts; lights not fitted",
+   "n": 20
+  },
+  {
+   "t": "Drawer front veining not continuous where specified",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 227
 }

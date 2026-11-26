@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Openings and upstands the right size so vents/dampers fit?",
+     "q": "Openings and upstands the size on the Colt assembly drawing so vents/dampers fit?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt ITP 12"
@@ -37,6 +37,14 @@
      "evidence": "cert",
      "trade": "PBS",
      "source": "Colt ITP 8, 11"
+    },
+    {
+     "q": "Ask the fitter: Has the shaft been cleaned and fire stopped at every level? Could they answer?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -60,7 +68,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Cables secured at least every metre, glands tight, correct cable radius?",
+     "q": "Cables clipped at least every metre, glands tight, bend radius not tighter than 6× diameter?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt shaft inspection sheet"
@@ -95,10 +103,10 @@
     },
     {
      "ref": "2.8",
-     "q": "Fire switches/MCPs at the correct height with glass covers; OPV panel in position?",
+     "q": "Fire switches / MCPs at about 1.4 m above floor with covers; OPV panel in position?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "Colt shaft inspection sheet"
+     "source": "BS 5839-1 (call point height); Colt inspection sheet"
     },
     {
      "ref": "2.9",
@@ -115,7 +123,7 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Cyclone fans in the correct location and direction, clear of obstructions?",
+     "q": "Fans in the drawn location, airflow arrow the right way, clear of obstructions?",
      "evidence": "photo",
      "trade": "PBS",
      "source": "Colt car park inspection sheet"
@@ -149,5 +157,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Smoke shaft base blocked with debris",
+   "n": 6
+  },
+  {
+   "t": "Fire stopping, parge coat or mastic incomplete inside shafts",
+   "n": 12
+  },
+  {
+   "t": "Damper too close to the wall / access panel fire stopped over",
+   "n": 6
+  },
+  {
+   "t": "Services crossing in front of smoke shafts / below 2100 mm",
+   "n": 1
+  },
+  {
+   "t": "Smoke tape missing; screw heads visible on smoke seals",
+   "n": 5
+  },
+  {
+   "t": "AOV wrong RAL colour / water ponding on AOV",
+   "n": 25
+  }
+ ],
+ "issuesSeen": 54
 }

@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 7.1 – witness point"
+    },
+    {
+     "q": "Ask the fitter: Which locations were agreed for testing, and what's the pass criteria? Could they answer?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -87,5 +95,20 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Water ingress inside after the test (sill, corners, threshold)",
+   "n": 47
+  },
+  {
+   "t": "Failed areas closed up before a re-test",
+   "n": 2
+  },
+  {
+   "t": "Waterproofing failed / membrane gaps at upstands",
+   "n": 6
+  }
+ ],
+ "issuesSeen": 92
 }

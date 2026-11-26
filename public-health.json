@@ -33,10 +33,49 @@
     },
     {
      "ref": "1.3",
-     "q": "Brackets solid and at even centres, no sagging; bracket pull tests done where required?",
+     "q": "Brackets within typical centres (plastic waste 0.5 m, soil 1.0 m horizontal), no sagging?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS ITP 00002 4.2–4.3"
+     "source": "PBS ITP 00002 4.2–4.3",
+     "guide": {
+      "title": "Pipe support centres – typical max",
+      "rows": [
+       [
+        "Copper 15 mm",
+        "1.2 m horiz / 1.8 m vert"
+       ],
+       [
+        "Copper 22–28 mm",
+        "1.8 m horiz / 2.4 m vert"
+       ],
+       [
+        "Copper 35–42 mm",
+        "2.4 m horiz / 3.0 m vert"
+       ],
+       [
+        "Steel 15–20 mm",
+        "1.8–2.4 m horiz"
+       ],
+       [
+        "Steel 25–32 mm",
+        "2.4–2.7 m horiz"
+       ],
+       [
+        "Plastic waste 32–50 mm",
+        "0.5 m horiz / 1.2 m vert"
+       ],
+       [
+        "Soil 100–110 mm",
+        "1.0 m horiz / 1.8 m vert"
+       ],
+       [
+        "Fire-stopped penetration",
+        "support within 400 mm both sides"
+       ]
+      ],
+      "note": "Typical industry values – the manufacturer's / PBS drawing figure governs. Anything sagging fails regardless.",
+      "src": "BS EN 806 / BS 8000-15 typical tables; CLM tested details (400 mm)"
+     }
     },
     {
      "ref": "1.4",
@@ -58,6 +97,14 @@
      "evidence": "photo",
      "trade": "PBS",
      "source": "PBS ITP 00002 4.3"
+    },
+    {
+     "q": "Ask the fitter: Has it been air/water tested, and where are the rodding and access points? Could they answer?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.7"
     }
    ]
   },
@@ -108,5 +155,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "No access to drain cocks / valves; labels missing",
+   "n": 22
+  },
+  {
+   "t": "Rodding eyes level instead of falling to the stack",
+   "n": 7
+  },
+  {
+   "t": "Back-falls on wastes",
+   "n": 16
+  },
+  {
+   "t": "AV pads missing on drainage pipework",
+   "n": 2
+  },
+  {
+   "t": "Drains not terminated to gullies",
+   "n": 6
+  },
+  {
+   "t": "Hot box penetrations not fire sealed",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 102
 }

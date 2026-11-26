@@ -33,10 +33,49 @@
     },
     {
      "ref": "1.3",
-     "q": "Brackets solid at even centres, pipework plumb and level, expansion allowed for?",
+     "q": "Brackets within the typical centres (steel 25–32 mm ≤2.4–2.7 m), pipework plumb and level, expansion loops/bellows fitted?",
      "evidence": "photo",
      "trade": "PBS",
-     "source": "PBS ITP 00001 4.3–4.4"
+     "source": "PBS ITP 00001 4.3–4.4",
+     "guide": {
+      "title": "Pipe support centres – typical max",
+      "rows": [
+       [
+        "Copper 15 mm",
+        "1.2 m horiz / 1.8 m vert"
+       ],
+       [
+        "Copper 22–28 mm",
+        "1.8 m horiz / 2.4 m vert"
+       ],
+       [
+        "Copper 35–42 mm",
+        "2.4 m horiz / 3.0 m vert"
+       ],
+       [
+        "Steel 15–20 mm",
+        "1.8–2.4 m horiz"
+       ],
+       [
+        "Steel 25–32 mm",
+        "2.4–2.7 m horiz"
+       ],
+       [
+        "Plastic waste 32–50 mm",
+        "0.5 m horiz / 1.2 m vert"
+       ],
+       [
+        "Soil 100–110 mm",
+        "1.0 m horiz / 1.8 m vert"
+       ],
+       [
+        "Fire-stopped penetration",
+        "support within 400 mm both sides"
+       ]
+      ],
+      "note": "Typical industry values – the manufacturer's / PBS drawing figure governs. Anything sagging fails regardless.",
+      "src": "BS EN 806 / BS 8000-15 typical tables; CLM tested details (400 mm)"
+     }
     },
     {
      "ref": "1.4",
@@ -51,6 +90,14 @@
      "evidence": "photo",
      "trade": "PBS",
      "source": "PBS ITP 00001 4.3"
+    },
+    {
+     "q": "Ask the fitter: What pressure was it tested to and when? Could they answer?",
+     "evidence": "none",
+     "trade": "PBS",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -74,7 +121,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Ductwork leakage tested (DW/143) where required?",
+     "q": "Ductwork leakage tested to DW/143 where scheduled?",
      "evidence": "none",
      "trade": "PBS",
      "source": "PBS ITP 00001 5.10"
@@ -101,5 +148,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Open-ended pipework not capped",
+   "n": 23
+  },
+  {
+   "t": "Lagging missing or damaged",
+   "n": 51
+  },
+  {
+   "t": "Pipework IDs and labels missing",
+   "n": 56
+  },
+  {
+   "t": "Drop rod clips out of alignment",
+   "n": 7
+  },
+  {
+   "t": "No access to controls / valves",
+   "n": 7
+  },
+  {
+   "t": "Supports missing either side of fire-stopped penetrations",
+   "n": 16
+  }
+ ],
+ "issuesSeen": 242
 }

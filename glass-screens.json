@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Openings surveyed and correctly formed (frames fit) before manufacture?",
+     "q": "Openings surveyed square and plumb before manufacture (frames fit without packing out)?",
      "evidence": "none",
      "trade": "ESC",
      "source": "Integrity Glass ITP 1.4"
@@ -33,10 +33,18 @@
     },
     {
      "ref": "1.3",
-     "q": "Fire-rated glass (where needed) shows its etched mark?",
+     "q": "Fire-rated glass (where scheduled) shows its etched mark?",
      "evidence": "cert",
      "trade": "ESC",
      "source": "Integrity Glass ITP 2.7"
+    },
+    {
+     "q": "Ask the fitter: How is the screen sealed to the stone and tray? Could they answer?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -60,19 +68,46 @@
     },
     {
      "ref": "2.3",
-     "q": "Packers correct and undamaged; seals and silicone neat?",
+     "q": "Setting blocks/packers in place and undamaged; silicone neat, continuous and tooled flat?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Integrity Glass ITP"
     },
     {
      "ref": "2.4",
-     "q": "Doors/hinges operate correctly; snags closed out?",
+     "q": "Doors swing freely, self-close where designed, no catching on stone or walls?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Integrity Glass ITP 5.2"
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Protective film, tape or stickers left on mirrors and glass",
+   "n": 6
+  },
+  {
+   "t": "Mirror doors not flush / uneven margins",
+   "n": 5
+  },
+  {
+   "t": "Poor joint where screen meets stone or wall",
+   "n": 19
+  },
+  {
+   "t": "Grout or mastic missing at the screen base",
+   "n": 13
+  },
+  {
+   "t": "Mirror LEDs not fitted or not working",
+   "n": 7
+  },
+  {
+   "t": "Screen handle clashing with the wall",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 99
 }

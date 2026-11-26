@@ -19,10 +19,49 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Pipework well supported – clips at even centres, no sagging or loose runs?",
+     "q": "Pipework supported within the typical centres (copper 15 mm 1.2 m, 22–28 mm 1.8 m), no sagging or loose runs?",
      "evidence": "photo",
      "trade": "BAF",
-     "source": "BAF ITP – supports"
+     "source": "BAF ITP – supports",
+     "guide": {
+      "title": "Pipe support centres – typical max",
+      "rows": [
+       [
+        "Copper 15 mm",
+        "1.2 m horiz / 1.8 m vert"
+       ],
+       [
+        "Copper 22–28 mm",
+        "1.8 m horiz / 2.4 m vert"
+       ],
+       [
+        "Copper 35–42 mm",
+        "2.4 m horiz / 3.0 m vert"
+       ],
+       [
+        "Steel 15–20 mm",
+        "1.8–2.4 m horiz"
+       ],
+       [
+        "Steel 25–32 mm",
+        "2.4–2.7 m horiz"
+       ],
+       [
+        "Plastic waste 32–50 mm",
+        "0.5 m horiz / 1.2 m vert"
+       ],
+       [
+        "Soil 100–110 mm",
+        "1.0 m horiz / 1.8 m vert"
+       ],
+       [
+        "Fire-stopped penetration",
+        "support within 400 mm both sides"
+       ]
+      ],
+      "note": "Typical industry values – the manufacturer's / PBS drawing figure governs. Anything sagging fails regardless.",
+      "src": "BS EN 806 / BS 8000-15 typical tables; CLM tested details (400 mm)"
+     }
     },
     {
      "ref": "1.2",
@@ -44,6 +83,14 @@
      "evidence": "photo",
      "trade": "BAF",
      "source": "BAF ITP – insulation checklist"
+    },
+    {
+     "q": "Ask the fitter: When was this tested, and how are open ends protected? Could they answer?",
+     "evidence": "none",
+     "trade": "BAF",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -74,5 +121,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Open-ended pipes and ducts not capped (dust ingress)",
+   "n": 7
+  },
+  {
+   "t": "Threaded rod not cut to length (6–8 threads for end caps), no end caps",
+   "n": 9
+  },
+  {
+   "t": "Condense pipe falling the wrong way",
+   "n": 3
+  },
+  {
+   "t": "Flexible duct over 300 mm or not connected",
+   "n": 2
+  },
+  {
+   "t": "FCU too close to the board line (no room for final layer)",
+   "n": 4
+  },
+  {
+   "t": "Pipe clips loose / extra support needed at changes of direction",
+   "n": 7
+  },
+  {
+   "t": "Fire collar missing on duct penetrations",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 67
 }

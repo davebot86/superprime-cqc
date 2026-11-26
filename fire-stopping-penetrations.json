@@ -47,6 +47,14 @@
      "trade": "CLM",
      "source": "CLM schedule; v3 spacing check",
      "tool": "spacing"
+    },
+    {
+     "q": "Ask the fitter: Which system is this (FSi or Quelfire), and what sleeve/wrap does this service need? Could they answer?",
+     "evidence": "none",
+     "trade": "CLM",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -70,7 +78,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Are collars and wraps the right type for the pipe and fitted to the tested detail?",
+     "q": "Collar or wrap matches the CLM schedule for this pipe (size, material, insulation)?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM ITP 8.3–8.4"
@@ -97,5 +105,40 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Penetration left unsealed, or sealed but not labelled / photographed",
+   "n": 11
+  },
+  {
+   "t": "Pipe or tray support more than 400 mm from the seal (both sides)",
+   "n": 13
+  },
+  {
+   "t": "Fire stopping damaged by later trades (extra cables pushed through) and not re-made",
+   "n": 8
+  },
+  {
+   "t": "Gaps around back boxes in fire-rated walls (no putty pad)",
+   "n": 1
+  },
+  {
+   "t": "Deflection head fire stopping incomplete or deteriorating",
+   "n": 8
+  },
+  {
+   "t": "Services too close together / to the edge for the tested spacing",
+   "n": 5
+  },
+  {
+   "t": "Unistrut or studs built into the seal",
+   "n": 1
+  },
+  {
+   "t": "Small drilled BWOs missed",
+   "n": 3
+  }
+ ],
+ "issuesSeen": 140
 }

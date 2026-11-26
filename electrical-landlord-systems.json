@@ -44,8 +44,39 @@
      "evidence": "cert",
      "trade": "Borough",
      "source": "Borough WP3 ITP 27–28"
+    },
+    {
+     "q": "Ask the fitter: What labelling and test records will be in the board? Could they answer?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Swarf in distribution boards; covers and blanks missing",
+   "n": 4
+  },
+  {
+   "t": "SWA glands not straight, bending radius too tight",
+   "n": 5
+  },
+  {
+   "t": "Tray twisted, loose or not square",
+   "n": 6
+  },
+  {
+   "t": "Lightning tape visible, loose or not to the agreed detail",
+   "n": 10
+  },
+  {
+   "t": "Missing labels and DB charts",
+   "n": 3
+  }
+ ],
+ "issuesSeen": 42
 }

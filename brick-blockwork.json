@@ -30,6 +30,14 @@
      "evidence": "photo",
      "trade": "SBC",
      "source": "SBC ITP – setting out"
+    },
+    {
+     "q": "Ask the fitter: Where are the movement joints, and who fire stops the head? Could they answer?",
+     "evidence": "none",
+     "trade": "SBC",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.3"
     }
    ]
   },
@@ -114,10 +122,10 @@
     },
     {
      "ref": "4.3",
-     "q": "Wall ties and restraint fixings at the right centres, embedded in the joint?",
+     "q": "Wall ties at max 900 mm horizontal / 450 mm vertical, and at 300 mm vertical within 225 mm of openings; embedded at least 50 mm?",
      "evidence": "photo",
      "trade": "SBC",
-     "source": "SBC brick/block ITP 21002 – construction"
+     "source": "Approved Document A / BS EN 845 standard tie spacing – confirm engineer spec"
     },
     {
      "ref": "4.4",
@@ -128,5 +136,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Blockwork built over a movement / VI joint",
+   "n": 13
+  },
+  {
+   "t": "Fire stopping at the head missing or incomplete",
+   "n": 34
+  },
+  {
+   "t": "Pointing incomplete, loose blocks, cracked beds",
+   "n": 10
+  },
+  {
+   "t": "Mortar snot on floors and doors not cleaned",
+   "n": 18
+  },
+  {
+   "t": "Arbosil / Corofil coatings missed",
+   "n": 9
+  }
+ ],
+ "issuesSeen": 142
 }

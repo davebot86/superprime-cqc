@@ -58,6 +58,14 @@
      "evidence": "none",
      "trade": "RJL",
      "source": "RJL ITP – pre-start"
+    },
+    {
+     "q": "Ask the fitter: What gap are you working to round the leaf, and how is the stop fixed? Could they answer?",
+     "evidence": "none",
+     "trade": "RJL",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.7"
     }
    ]
   },
@@ -81,5 +89,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Door rattles in the keep or does not latch cleanly",
+   "n": 31
+  },
+  {
+   "t": "Door stops missing or loose; restrictor fixed with wrong screws",
+   "n": 75
+  },
+  {
+   "t": "Unequal leaf gaps / door not flush at the head",
+   "n": 209
+  },
+  {
+   "t": "Pin holes in frames and architraves not filled",
+   "n": 40
+  },
+  {
+   "t": "Skirting: gap to floor, rough paint line, poor joint to shadow gap",
+   "n": 214
+  },
+  {
+   "t": "Frame chipped, marked or with paint/tape on the face",
+   "n": 177
+  },
+  {
+   "t": "Shadow gap above the frame uneven or cracked",
+   "n": 77
+  }
+ ],
+ "issuesSeen": 899
 }

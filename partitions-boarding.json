@@ -19,10 +19,49 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Correct board type, thickness and number of layers, with joints staggered?",
+     "q": "Board type, thickness and layers match the wall type label; joints staggered 600 mm?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – boarding"
+     "source": "Errigal ITP – boarding",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
     },
     {
      "ref": "1.2",
@@ -33,17 +72,64 @@
     },
     {
      "ref": "1.3",
-     "q": "Is insulation the right type and thickness, fitted tight with no gaps?",
+     "q": "Insulation the wall-type thickness, tight to studs with no gaps at the head or base?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – insulation"
     },
     {
      "ref": "1.4",
-     "q": "Are GFS1 straps fitted behind horizontal board joints where required?",
+     "q": "GFS1 straps behind every horizontal board joint not on a noggin?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – GFS1 straps"
+     "source": "Errigal ITP – GFS1 straps",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
+    },
+    {
+     "q": "Ask the fitter: What board stagger and screw centres does this wall type need? Could they answer?",
+     "evidence": "none",
+     "trade": "Errigal",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -67,10 +153,49 @@
     },
     {
      "ref": "2.3",
-     "q": "Is the wall within tolerance for line, level and plumb?",
+     "q": "Wall within ±3 mm in 1.8 m for line and plumb?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – line, level, plumb"
+     "source": "Errigal ITP – line, level, plumb",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
     }
    ]
   },
@@ -80,10 +205,49 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Glasroc board joints staggered by at least 600 mm where required?",
+     "q": "Glasroc board joints staggered at least 600 mm?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP checklist – boarding 8"
+     "source": "Errigal ITP checklist – boarding 8",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
     },
     {
      "ref": "3.2",
@@ -108,5 +272,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Board joints staggered less than 600 mm (123–285 mm recorded on SJWS)",
+   "n": 10
+  },
+  {
+   "t": "Screws missing the stud / driven too deep",
+   "n": 104
+  },
+  {
+   "t": "Corner screw centres over 200 mm (up to 290 mm recorded)",
+   "n": 36
+  },
+  {
+   "t": "Narrow slivers of board at openings (poor setting out)",
+   "n": 4
+  },
+  {
+   "t": "Tape and jointing missing at low level behind skirting",
+   "n": 9
+  },
+  {
+   "t": "Damaged board or paper facing peeling left in",
+   "n": 10
+  },
+  {
+   "t": "Gaps around back boxes in acoustic / fire walls",
+   "n": 60
+  }
+ ],
+ "issuesSeen": 539
 }

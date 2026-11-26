@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Galvanised columns/brackets fixed to the opening: undamaged, aligned, correct fixing type and quantity, within ±5 mm?",
+     "q": "Galvanised columns/brackets undamaged, aligned within ±5 mm, every fixing in?",
      "evidence": "photo",
      "trade": "Emtec",
      "source": "Emtec checklist 1.02–1.03"
@@ -37,6 +37,14 @@
      "evidence": "cert",
      "trade": "Emtec",
      "source": "Emtec checklist – torque test; ITP 12 (W)"
+    },
+    {
+     "q": "Ask the fitter: How is the hatch frame fixed so it stays flush? Could they answer?",
+     "evidence": "none",
+     "trade": "Emtec",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -107,7 +115,7 @@
     },
     {
      "ref": "4.2",
-     "q": "Free from dents and scratches, protected (Correx) where needed?",
+     "q": "Free from dents and scratches, protected with Correx until handover?",
      "evidence": "photo",
      "trade": "Emtec",
      "source": "Emtec checklist 1.07, 2.01"
@@ -121,5 +129,24 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Access hatches not flush, gaps uneven, corners tight",
+   "n": 5
+  },
+  {
+   "t": "Hatch missing or not installed",
+   "n": 27
+  },
+  {
+   "t": "Grilles not matching the benchmark (colour, strings, silver showing)",
+   "n": 12
+  },
+  {
+   "t": "Paint finish poor around hatches",
+   "n": 8
+  }
+ ],
+ "issuesSeen": 87
 }

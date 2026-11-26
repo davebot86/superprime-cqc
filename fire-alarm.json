@@ -33,10 +33,10 @@
     },
     {
      "ref": "1.3",
-     "q": "Supplies correctly fused and labelled with installation date?",
+     "q": "Fire alarm supply on its own labelled \"FIRE ALARM – DO NOT SWITCH OFF\" spur, dated?",
      "evidence": "photo",
      "trade": "PHF",
-     "source": "PHF ITP 25.2–25.4"
+     "source": "BS 5839-1 (mains supply labelling); PHF ITP 25.2"
     },
     {
      "ref": "1.4",
@@ -51,6 +51,14 @@
      "evidence": "photo",
      "trade": "PHF",
      "source": "PHF ITP checklist – detector siting (BS 5839-1)"
+    },
+    {
+     "q": "Ask the fitter: What clips are you fixing the fire alarm cable with? Could they answer?",
+     "evidence": "none",
+     "trade": "PHF",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -122,5 +130,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Sounder / detector face plates missing or not flush",
+   "n": 6
+  },
+  {
+   "t": "Fire alarm cables on plastic ties or other containment – metal clips direct",
+   "n": 5
+  },
+  {
+   "t": "Cables pulled down / kinked at bends",
+   "n": 4
+  },
+  {
+   "t": "Detectors not fitted (base as a minimum)",
+   "n": 3
+  },
+  {
+   "t": "ID labels missing on hot boxes and spurs",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 27
 }

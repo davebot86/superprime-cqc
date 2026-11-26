@@ -44,6 +44,14 @@
      "evidence": "cert",
      "trade": "CMF",
      "source": "CMF ITP – torque check sheet"
+    },
+    {
+     "q": "Ask the fitter: Are fixings stainless and isolated from dissimilar metals? Could they answer?",
+     "evidence": "none",
+     "trade": "CMF",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -74,5 +82,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Gaps and holes between bottom track and vertical rails",
+   "n": 76
+  },
+  {
+   "t": "Paint chips, scratches, bubbles and runs (PPC)",
+   "n": 95
+  },
+  {
+   "t": "Mitre joints not clean, paint splitting at mitres",
+   "n": 10
+  },
+  {
+   "t": "Paint marks on adjacent stone",
+   "n": 15
+  },
+  {
+   "t": "Counterweight not fully supported",
+   "n": 13
+  },
+  {
+   "t": "Uneven welds / sharp edges",
+   "n": 9
+  },
+  {
+   "t": "Screws not sprayed to match / discoloured bolts",
+   "n": 10
+  }
+ ],
+ "issuesSeen": 300
 }

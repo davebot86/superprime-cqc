@@ -58,6 +58,14 @@
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP porcelain ITP 00003 checklist – paving; ITP 00002 2.6"
+    },
+    {
+     "q": "Ask the fitter: What joint gap and pedestal spacing are you using? Could they answer?",
+     "evidence": "none",
+     "trade": "LDP",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.7"
     }
    ]
   },
@@ -102,5 +110,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Uneven paver joints, rocking or unstable pavers",
+   "n": 5
+  },
+  {
+   "t": "Ballast missing or inconsistent, textile visible",
+   "n": 8
+  },
+  {
+   "t": "Stained or chipped pavers",
+   "n": 5
+  },
+  {
+   "t": "Pedestals misaligned",
+   "n": 1
+  },
+  {
+   "t": "Paver design not matching the ERs",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 53
 }

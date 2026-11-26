@@ -44,6 +44,14 @@
      "evidence": "photo",
      "trade": "AJK",
      "source": "AJK ITP – flatness"
+    },
+    {
+     "q": "Ask the fitter: What moisture readings did you take before laying, and what expansion gap are you leaving? Could they answer?",
+     "evidence": "none",
+     "trade": "AJK",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -87,7 +95,7 @@
     },
     {
      "ref": "3.3",
-     "q": "Entrance door threshold grooves correct and level (±1 mm)?",
+     "q": "Entrance door threshold grooves level within ±1 mm?",
      "evidence": "photo",
      "trade": "AJK",
      "source": "AJK flooring ITP 00002 item 20"
@@ -115,5 +123,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Gaps between boards; stone-to-timber gaps over 3 mm",
+   "n": 11
+  },
+  {
+   "t": "Paint overruns in the grain / on skirting junctions",
+   "n": 4
+  },
+  {
+   "t": "Scratches, dents and damage – floor not protected",
+   "n": 3
+  },
+  {
+   "t": "Boards with knots or sap outside the approved sample",
+   "n": 2
+  },
+  {
+   "t": "Cut line to stone / skirting not straight",
+   "n": 3
+  },
+  {
+   "t": "Floor left covered or dirty so it can't be inspected",
+   "n": 10
+  }
+ ],
+ "issuesSeen": 39
 }

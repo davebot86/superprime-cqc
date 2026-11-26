@@ -51,6 +51,14 @@
      "evidence": "cert",
      "trade": "PGS",
      "source": "PGS UFH ITP"
+    },
+    {
+     "q": "Ask the fitter: What flatness and level tolerance are you laying to, and when was it pressure tested? Could they answer?",
+     "evidence": "none",
+     "trade": "PGS",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -95,5 +103,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Cracking through the screed beyond normal shrinkage",
+   "n": 2
+  },
+  {
+   "t": "Acoustic resilient layer omitted or pierced by conduits",
+   "n": 1
+  },
+  {
+   "t": "Trapped water under membrane / insulation",
+   "n": 1
+  },
+  {
+   "t": "Trenches left hollow and screeded over",
+   "n": 1
+  },
+  {
+   "t": "Manifold not level, not boxed in or not made good",
+   "n": 5
+  },
+  {
+   "t": "UFH coverage short of the room / conduits not on drawings",
+   "n": 4
+  }
+ ],
+ "issuesSeen": 25
 }

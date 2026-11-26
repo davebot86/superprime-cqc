@@ -33,36 +33,48 @@
     },
     {
      "ref": "1.3",
-     "q": "Gaps 3 mm max and even – head, jambs, meeting stiles and threshold (or threshold smoke seal fitted)? Over 3 mm: check the data sheet.",
+     "q": "Gaps 3 mm max and even (Kiwa limit 4 mm); threshold 6 mm max, or drop seal fitted on smoke doors?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic fire door ITP ATL-00001 2.3, 11.1",
+     "source": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60",
      "guide": {
-      "title": "Fire door gaps – pass line (tightest)",
+      "title": "Fire door gaps – SJWS limits",
       "rows": [
        [
-        "Head, jambs, meeting stiles",
-        "3 mm max, even (£1 coin fits snug)"
+        "Pass line (tightest – passes anywhere)",
+        "3 mm max all round, even"
        ],
        [
-        "Threshold",
-        "3 mm max – or a threshold/drop-down smoke seal fitted"
+        "Leaf to frame – head & jambs",
+        "max 4 mm (Kiwa)"
        ],
        [
-        "Frame-to-wall mastic depth",
+        "Meeting stiles (pairs)",
+        "max 4 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire only",
+        "max 6 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire & smoke ('s' doors)",
+        "as tested: drop seal fitted (Lorient LAS8001 – approved)"
+       ],
+       [
+        "Leaf alignment",
+        "flush in the frame when closed; pairs flush at meeting stiles"
+       ],
+       [
+        "Frame-to-wall sealant depth",
         "at least 10 mm"
        ],
        [
-        "Riser doors (Errigal)",
-        "3 mm ±1 perimeter"
-       ],
-       [
-        "Over the pass line?",
-        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
+        "Riser doors (Errigal / Selo)",
+        "3 mm ±1 perimeter; 10 mm internal gap where specified"
        ]
       ],
-      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
-      "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
+      "note": "Ask the fitter: 'What's the max gap and threshold gap for this door, and which seals does it take?' If they can't answer, flag it.",
+      "src": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60; BS 8214:2016; Atlantic ITP 10.2; Block 5 benchmark BM-55"
      }
     },
     {
@@ -77,68 +89,54 @@
      "q": "Frame-to-wall mastic at least 10 mm deep?",
      "evidence": "photo",
      "trade": "Atlantic",
-     "source": "Atlantic fire door ITP ATL-00001 10.2",
+     "source": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60 10.2; Atlantic ITP 10.2",
      "guide": {
-      "title": "Fire door gaps – pass line (tightest)",
+      "title": "Fire door gaps – SJWS limits",
       "rows": [
        [
-        "Head, jambs, meeting stiles",
-        "3 mm max, even (£1 coin fits snug)"
+        "Pass line (tightest – passes anywhere)",
+        "3 mm max all round, even"
        ],
        [
-        "Threshold",
-        "3 mm max – or a threshold/drop-down smoke seal fitted"
+        "Leaf to frame – head & jambs",
+        "max 4 mm (Kiwa)"
        ],
        [
-        "Frame-to-wall mastic depth",
+        "Meeting stiles (pairs)",
+        "max 4 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire only",
+        "max 6 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire & smoke ('s' doors)",
+        "as tested: drop seal fitted (Lorient LAS8001 – approved)"
+       ],
+       [
+        "Leaf alignment",
+        "flush in the frame when closed; pairs flush at meeting stiles"
+       ],
+       [
+        "Frame-to-wall sealant depth",
         "at least 10 mm"
        ],
        [
-        "Riser doors (Errigal)",
-        "3 mm ±1 perimeter"
-       ],
-       [
-        "Over the pass line?",
-        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
+        "Riser doors (Errigal / Selo)",
+        "3 mm ±1 perimeter; 10 mm internal gap where specified"
        ]
       ],
-      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
-      "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
+      "note": "Ask the fitter: 'What's the max gap and threshold gap for this door, and which seals does it take?' If they can't answer, flag it.",
+      "src": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60; BS 8214:2016; Atlantic ITP 10.2; Block 5 benchmark BM-55"
      }
     },
     {
-     "ref": "1.6",
-     "q": "Ask the fitter: what's the max gap, the threshold gap and the seal type for this door? Could they answer?",
+     "q": "Ask the fitter: What's the max gap and threshold gap for this door, and which seals does it take? Could they answer?",
      "evidence": "none",
      "trade": "Atlantic",
-     "source": "SuperPrime site practice – a fitter without the data sheet is a red flag",
-     "guide": {
-      "title": "Fire door gaps – pass line (tightest)",
-      "rows": [
-       [
-        "Head, jambs, meeting stiles",
-        "3 mm max, even (£1 coin fits snug)"
-       ],
-       [
-        "Threshold",
-        "3 mm max – or a threshold/drop-down smoke seal fitted"
-       ],
-       [
-        "Frame-to-wall mastic depth",
-        "at least 10 mm"
-       ],
-       [
-        "Riser doors (Errigal)",
-        "3 mm ±1 perimeter"
-       ],
-       [
-        "Over the pass line?",
-        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
-       ]
-      ],
-      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
-      "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
-     }
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -160,31 +158,43 @@
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 4.5, 12.1",
      "guide": {
-      "title": "Fire door gaps – pass line (tightest)",
+      "title": "Fire door gaps – SJWS limits",
       "rows": [
        [
-        "Head, jambs, meeting stiles",
-        "3 mm max, even (£1 coin fits snug)"
+        "Pass line (tightest – passes anywhere)",
+        "3 mm max all round, even"
        ],
        [
-        "Threshold",
-        "3 mm max – or a threshold/drop-down smoke seal fitted"
+        "Leaf to frame – head & jambs",
+        "max 4 mm (Kiwa)"
        ],
        [
-        "Frame-to-wall mastic depth",
+        "Meeting stiles (pairs)",
+        "max 4 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire only",
+        "max 6 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire & smoke ('s' doors)",
+        "as tested: drop seal fitted (Lorient LAS8001 – approved)"
+       ],
+       [
+        "Leaf alignment",
+        "flush in the frame when closed; pairs flush at meeting stiles"
+       ],
+       [
+        "Frame-to-wall sealant depth",
         "at least 10 mm"
        ],
        [
-        "Riser doors (Errigal)",
-        "3 mm ±1 perimeter"
-       ],
-       [
-        "Over the pass line?",
-        "Not an automatic fail – check the door's data sheet (typical limits 2–4 mm sides; 8–10 mm threshold on fire-only doors)"
+        "Riser doors (Errigal / Selo)",
+        "3 mm ±1 perimeter; 10 mm internal gap where specified"
        ]
       ],
-      "note": "Ask the fitter: 'What's the max gap and the threshold gap for this door, and what seals does it take?' If they can't answer, flag it – they're fitting without the data sheet.",
-      "src": "BS 8214:2016 (9.5.3); BWF Fire Door Alliance; Atlantic ITP 10.2; Errigal riser door checklist"
+      "note": "Ask the fitter: 'What's the max gap and threshold gap for this door, and which seals does it take?' If they can't answer, flag it.",
+      "src": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60; BS 8214:2016; Atlantic ITP 10.2; Block 5 benchmark BM-55"
      }
     }
    ]
@@ -202,14 +212,14 @@
     },
     {
      "ref": "3.2",
-     "q": "Hinges fixed with all screws (correct fixings), intumescent pads fitted?",
+     "q": "Hinges fixed with every screw (supplied fire-rated screws), intumescent pads behind each hinge?",
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 6.1–6.2"
     },
     {
      "ref": "3.3",
-     "q": "Closer fitted with correct fixings – door closes and latches from fully open?",
+     "q": "Closer fixed with all its screws – door closes and latches from fully open and from 45°?",
      "evidence": "none",
      "trade": "Atlantic",
      "source": "Atlantic fire door ITP ATL-00001 7.1–7.3"
@@ -230,5 +240,40 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Gaps over 4 mm (leaf/frame) or uneven top to bottom; threshold over 6 mm",
+   "n": 168
+  },
+  {
+   "t": "Intumescent strip loose, painted over, cut or missing at corners",
+   "n": 3
+  },
+  {
+   "t": "Door does not close and latch from fully open / rattles in the keep",
+   "n": 6
+  },
+  {
+   "t": "Drop seal set too low (marks the floor) or not dropping",
+   "n": 2
+  },
+  {
+   "t": "Frame-to-wall gap filled with foam or sealant less than 10 mm deep",
+   "n": 55
+  },
+  {
+   "t": "Certification label painted over or removed",
+   "n": 0
+  },
+  {
+   "t": "Ironmongery missing or fixed with wrong screws",
+   "n": 12
+  },
+  {
+   "t": "Shadow gap above the frame uneven or poorly finished",
+   "n": 89
+  }
+ ],
+ "issuesSeen": 215
 }

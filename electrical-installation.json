@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Conduits in the partitions in the right locations, draw wires in where needed?",
+     "q": "Conduits at the coordinated positions in the partitions, draw wires in every conduit?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough apartment ITP (BRS-05) – 1st fix 2.1, 2.3"
@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough apartment ITP (BRS-05) – 1st fix 2.2"
+    },
+    {
+     "q": "Ask the fitter: What bracket centres are you working to, and is the dead test done? Could they answer?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -46,10 +54,10 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Cables secured with metal clips/bands (no plastic-only fixings), correctly spaced?",
+     "q": "Cables on metal clips/bands at max ~300 mm horizontal / 400 mm vertical (no plastic-only fixings)?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough apartment ITP (BRS-05) – 1st fix 2.6"
+     "source": "BS 7671 On-Site Guide typical clip spacing; Borough checklist"
     },
     {
      "ref": "2.2",
@@ -102,5 +110,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Cables loose, not contained or protected at tray edges",
+   "n": 83
+  },
+  {
+   "t": "Missing cable / containment IDs and labels",
+   "n": 80
+  },
+  {
+   "t": "Supplementary bonding missing on tray",
+   "n": 10
+  },
+  {
+   "t": "Trunking lids, end caps, saddles missing",
+   "n": 26
+  },
+  {
+   "t": "Conduit flattened or cable sheath cut",
+   "n": 26
+  },
+  {
+   "t": "Cables through knock-outs with no grommet",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 304
 }

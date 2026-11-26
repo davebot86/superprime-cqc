@@ -37,6 +37,14 @@
      "evidence": "none",
      "trade": "NAL",
      "source": "Neuman Aqua pool ITP NAL-00001 item 8 – hold point"
+    },
+    {
+     "q": "Ask the fitter: When is the 7-day water test starting? Could they answer?",
+     "evidence": "none",
+     "trade": "NAL",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -46,14 +54,14 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Rebar the right size and number, tied, on spacers/chairs, cover right, no heavy rust?",
+     "q": "Rebar size and number as the bar schedule, tied, on chairs, cover to the drawing, no heavy rust?",
      "evidence": "photo",
      "trade": "NAL",
      "source": "Neuman Aqua pool ITP NAL-00001 – pre-pour checklist"
     },
     {
      "ref": "2.2",
-     "q": "Starter bars and splices in the right position, size and number?",
+     "q": "Starter bars and laps as the drawing (lap length per schedule)?",
      "evidence": "photo",
      "trade": "NAL",
      "source": "Neuman Aqua pool ITP NAL-00001 – pre-pour checklist"
@@ -135,5 +143,16 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Upstands with no waterbar",
+   "n": 1
+  },
+  {
+   "t": "Ponding on upstands / blowouts in finishes",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 4
 }

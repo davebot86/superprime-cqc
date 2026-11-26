@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP ITP 00004 1.6"
+    },
+    {
+     "q": "Ask the fitter: What upstand height is achieved at doors and edges? Could they answer?",
+     "evidence": "none",
+     "trade": "LDP",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -46,7 +54,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Backing support set out, level and fixed at correct centres?",
+     "q": "Backing support set out and level, fixed at the LPL drawing centres?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP Trimo ITP 00004 checklist – backing support; ITP 2.1"
@@ -60,7 +68,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Head detail: back-to-back angles and fixings to the slab edge as drawn?",
+     "q": "Head detail: back-to-back angles and fixings to the slab edge per the LPL drawing?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP Trimo ITP 00004 checklist – head detail"
@@ -73,7 +81,7 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Panels in the right location, level, fixed at even centres, not overtightened?",
+     "q": "Panels at the drawing location, level, fixed at the LPL centres, washers not crushed?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP Trimo ITP 00004 checklist – panel installation"
@@ -107,7 +115,7 @@
    "questions": [
     {
      "ref": "4.1",
-     "q": "Correct closure flashings at each location, weathertight?",
+     "q": "Closure flashings match the LPL detail at each location, lapped and sealed?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP Trimo ITP 00004 checklist – flashings; ITP 2.3"
@@ -121,5 +129,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Damaged or misaligned parapet panels",
+   "n": 3
+  },
+  {
+   "t": "Rust marks along trims",
+   "n": 1
+  },
+  {
+   "t": "Interface to smoke duct not waterproofed",
+   "n": 2
+  },
+  {
+   "t": "Sealant spilled on panels; panels dirty",
+   "n": 2
+  },
+  {
+   "t": "600 mm maintenance clearance to services not kept",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 12
 }

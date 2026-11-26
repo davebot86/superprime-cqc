@@ -26,10 +26,10 @@
     },
     {
      "ref": "1.2",
-     "q": "Is pipework level and square, fittings clean and supports at the correct centres?",
+     "q": "Pipework level and square, fittings clean, hangers at max 4 m centres (closer for small bore)?",
      "evidence": "photo",
      "trade": "Argus",
-     "source": "Argus ITP checklist (b)"
+     "source": "BS EN 12845 / LPC typical hanger spacing; Argus ITP"
     },
     {
      "ref": "1.3",
@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus ITP checklist"
+    },
+    {
+     "q": "Ask the fitter: What's the head drop to the ceiling, and where's the nearest support to the penetration? Could they answer?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -108,5 +116,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Sprinkler head too low – red showing through the ceiling",
+   "n": 10
+  },
+  {
+   "t": "Cover caps missing, marked or not level",
+   "n": 10
+  },
+  {
+   "t": "Pipe support over 400 mm from a fire-stopped penetration",
+   "n": 1
+  },
+  {
+   "t": "Services or trays covering / obstructing heads",
+   "n": 6
+  },
+  {
+   "t": "Services below 2650 mm over ramps (ERs)",
+   "n": 1
+  },
+  {
+   "t": "Fittings not painted red",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 66
 }

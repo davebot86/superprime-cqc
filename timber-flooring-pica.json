@@ -43,7 +43,45 @@
      "q": "Expansion gaps kept: 8 mm to other floors, 15 mm at edges?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "Flooring ITP – expansion"
+     "source": "Flooring ITP – expansion",
+     "guide": {
+      "title": "Timber floor – SJWS limits",
+      "rows": [
+       [
+        "Header joints",
+        "max 0.6 mm (BS 8201)"
+       ],
+       [
+        "Lipping between boards",
+        "0.2–0.3 mm, never above 0.5 mm"
+       ],
+       [
+        "Board tolerance",
+        "±0.5 mm"
+       ],
+       [
+        "Expansion",
+        "8 mm to other floors, 15 mm at edges"
+       ],
+       [
+        "Base",
+        "max 65% RH, flat to SR1"
+       ],
+       [
+        "Boards",
+        "knot/sap free as the approved sample; no dark boards side by side"
+       ]
+      ],
+      "src": "Block 5 benchmark BM-ZZ32 (BS 8201); Pica ITP ESC-00035"
+     }
+    },
+    {
+     "q": "Ask the fitter: What header joint and lipping tolerance are you working to? Could they answer?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -74,5 +112,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Scratches, dents, chips and holes",
+   "n": 39
+  },
+  {
+   "t": "Floor boxes higher/lower than the floor or not opening",
+   "n": 14
+  },
+  {
+   "t": "Stains and marks on the floor",
+   "n": 13
+  },
+  {
+   "t": "Header joints over 0.6 mm; lipping over 0.5 mm (BS 8201 – BM-ZZ32)",
+   "n": 16
+  },
+  {
+   "t": "Mastic missing at window frames and terrace doors",
+   "n": 8
+  },
+  {
+   "t": "Colour out of tolerance / poor repairs",
+   "n": 4
+  }
+ ],
+ "issuesSeen": 111
 }

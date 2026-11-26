@@ -37,6 +37,14 @@
      "evidence": "cert",
      "trade": "Argus",
      "source": "Argus ITP 00003 11"
+    },
+    {
+     "q": "Ask the fitter: What insulation thickness is specified for this pipe? Could they answer?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -80,7 +88,7 @@
     },
     {
      "ref": "3.3",
-     "q": "Thermostat/probe in the right location on the pipe?",
+     "q": "Thermostat/probe at the position on the trace heating drawing, under the lagging?",
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus trace heating ITP AFP-00003 3.6"
@@ -94,5 +102,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Lagging missing or incomplete at valves",
+   "n": 42
+  },
+  {
+   "t": "Lagging blocking access to valve sets",
+   "n": 6
+  },
+  {
+   "t": "Inconsistent insulation thickness or gaps",
+   "n": 3
+  },
+  {
+   "t": "Vapour seal missing on chilled pipework",
+   "n": 2
+  },
+  {
+   "t": "Labels missing",
+   "n": 8
+  }
+ ],
+ "issuesSeen": 114
 }

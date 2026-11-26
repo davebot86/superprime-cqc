@@ -37,6 +37,14 @@
      "evidence": "none",
      "trade": "PER",
      "source": "PER ITP 31-0001 – window installation checklist 3.4"
+    },
+    {
+     "q": "Ask the fitter: What tolerance is the frame set to and how is the perimeter sealed? Could they answer?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -176,5 +184,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Scratches, chips and damage to frames and beads",
+   "n": 332
+  },
+  {
+   "t": "Glass scratched or broken",
+   "n": 98
+  },
+  {
+   "t": "Beads too short or misaligned",
+   "n": 110
+  },
+  {
+   "t": "Gaskets damaged or missing",
+   "n": 48
+  },
+  {
+   "t": "Debris trapped in joints / frames not cleaned",
+   "n": 72
+  },
+  {
+   "t": "Handles and escutcheon keeps missing",
+   "n": 10
+  }
+ ],
+ "issuesSeen": 456
 }

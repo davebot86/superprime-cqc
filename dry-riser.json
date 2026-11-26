@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "Argus",
      "source": "Argus drawing notes"
+    },
+    {
+     "q": "Ask the fitter: What did it test to and for how long? Could they answer?",
+     "evidence": "none",
+     "trade": "Argus",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -87,5 +95,28 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Pipe support more than 400 mm from the penetration",
+   "n": 3
+  },
+  {
+   "t": "Outlet not rotated to final position / too low for the core opening",
+   "n": 3
+  },
+  {
+   "t": "Cabinet glass broken or wrong door wording",
+   "n": 4
+  },
+  {
+   "t": "Earth bond / clamp missing",
+   "n": 1
+  },
+  {
+   "t": "Making good around the outlet poor",
+   "n": 3
+  }
+ ],
+ "issuesSeen": 17
 }

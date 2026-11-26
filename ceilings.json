@@ -228,6 +228,14 @@
      "trade": "Errigal",
      "source": "EPR spec SJWS-EPR-06-05-SP-A-35-6001 (B6 penthouse – confirm same for other blocks) – 610 suspension grids",
      "ref": "1.8"
+    },
+    {
+     "q": "Ask the fitter: What are the hanger, primary and ceiling-section centres for this ceiling type? Could they answer?",
+     "evidence": "none",
+     "trade": "Errigal",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.9"
     }
    ]
   },
@@ -573,5 +581,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Primary channel cantilever over 450 mm (700 mm recorded – extra hanger needed)",
+   "n": 3
+  },
+  {
+   "t": "Ceiling tracks cut for downlights without trimming",
+   "n": 21
+  },
+  {
+   "t": "Access panels not flush, gaps uneven, frame bowed, cracks at corners",
+   "n": 173
+  },
+  {
+   "t": "Steps at light coves / shadow gaps uneven",
+   "n": 107
+  },
+  {
+   "t": "Poor cutting in, marks on ceiling",
+   "n": 40
+  },
+  {
+   "t": "Fire stopping or dampers boxed in with no access",
+   "n": 3
+  },
+  {
+   "t": "Grilles not parallel to walls / units",
+   "n": 0
+  }
+ ],
+ "issuesSeen": 582
 }

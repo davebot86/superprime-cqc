@@ -19,10 +19,10 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Ductwork supported rigidly at even centres, joints sealed?",
+     "q": "Ductwork hangers at max 3 m centres, rigid, joints sealed?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough apartment ITP (BRS-05) – ductwork 2.1–2.6"
+     "source": "B&ES DW/144 typical support spacing; Borough checklist"
     },
     {
      "ref": "1.2",
@@ -51,6 +51,14 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough apartment ITP (BRS-05) – fire damper 2.4–2.9; ductwork 2.17–2.20"
+    },
+    {
+     "q": "Ask the fitter: How is the condense drain falling and has it been water tested? Could they answer?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -121,5 +129,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Condense pipe falling the wrong way, unbrazed joints",
+   "n": 8
+  },
+  {
+   "t": "Flex ducts loose / hanging, not taped and sealed to plenums",
+   "n": 56
+  },
+  {
+   "t": "Ducts touching plasterboard (sound transfer)",
+   "n": 6
+  },
+  {
+   "t": "Timber blocks or loose spacers supporting ductwork",
+   "n": 11
+  },
+  {
+   "t": "Exposed insulation that will contaminate the FCU",
+   "n": 26
+  },
+  {
+   "t": "Vent coves not sealed or decorated",
+   "n": 39
+  },
+  {
+   "t": "Grilles not matching the benchmark (colour, strings, dirt)",
+   "n": 12
+  }
+ ],
+ "issuesSeen": 369
 }

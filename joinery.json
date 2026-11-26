@@ -26,10 +26,18 @@
     },
     {
      "ref": "1.2",
-     "q": "Are datum levels set and background surfaces within tolerance?",
+     "q": "Datum levels marked; backgrounds flat to 3 mm in 2 m before fixing?",
      "evidence": "none",
      "trade": "Atlantic",
      "source": "Atlantic ITP – preparation"
+    },
+    {
+     "q": "Ask the fitter: What margins are you working to between doors and panels? Could they answer?",
+     "evidence": "none",
+     "trade": "Atlantic",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.3"
     }
    ]
   },
@@ -39,14 +47,14 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Is joinery plumb, level and in line, within tolerance?",
+     "q": "Joinery plumb, level and in line – within 2 mm over the run?",
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic ITP – fixing"
     },
     {
      "ref": "2.2",
-     "q": "Is there at least a 10 mm perimeter gap (plus 2 mm per metre run) where required?",
+     "q": "Perimeter gap at least 10 mm plus 2 mm per metre run on long runs (movement)?",
      "evidence": "photo",
      "trade": "Atlantic",
      "source": "Atlantic ITP – perimeter gap"
@@ -74,5 +82,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Cabinet or mirror doors missing, misaligned or springing on hinges",
+   "n": 127
+  },
+  {
+   "t": "Unequal margins between doors, drawers and panels",
+   "n": 73
+  },
+  {
+   "t": "Mastic missing to cabinet surrounds",
+   "n": 58
+  },
+  {
+   "t": "Chips, marks or glue on veneer and lacquer",
+   "n": 16
+  },
+  {
+   "t": "Panelling setting out not matching the drawing",
+   "n": 24
+  },
+  {
+   "t": "Shadow gaps to stone and panelling untidy",
+   "n": 53
+  }
+ ],
+ "issuesSeen": 317
 }

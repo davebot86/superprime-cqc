@@ -33,7 +33,7 @@
     },
     {
      "ref": "1.3",
-     "q": "Primer fully covering, dried at least 24 hours, weather suitable?",
+     "q": "Primer fully covering, dried at least 24 hours, no rain or frost forecast?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP roofing ITP 00006 checklist – priming"
@@ -44,6 +44,14 @@
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP ITP 00001 1.5"
+    },
+    {
+     "q": "Ask the fitter: What laps are you working to, and when is the leak test? Could they answer?",
+     "evidence": "none",
+     "trade": "LDP",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -60,7 +68,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Galvanised upstands and tilt fillets installed at upstands as detailed?",
+     "q": "Galvanised upstands and tilt fillets at every upstand on the LPL drawing?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP roofing ITP 00006 checklist – upstands"
@@ -87,14 +95,14 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Underlay and cap sheet laps: side at least 80 mm, end at least 100 mm (150 mm where required)?",
+     "q": "Underlay and cap sheet laps: side at least 80 mm, end at least 100 mm (150 mm where the LPL detail says)?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP roofing ITP 00006 checklist – Eshaflex laps"
     },
     {
      "ref": "3.2",
-     "q": "Upstands, outlets and penetrations fully detailed, upstand boards the correct type?",
+     "q": "Upstands at least 150 mm above finished surface, outlets and penetrations fully detailed?",
      "evidence": "photo",
      "trade": "LDP",
      "source": "LDP roofing ITP 00006 checklist – upstand board; ITP 00006 2.5"
@@ -115,5 +123,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Water ponding – falls not to outlets / outlets set high",
+   "n": 7
+  },
+  {
+   "t": "Membrane damaged by scaffold / stillages with no protection",
+   "n": 3
+  },
+  {
+   "t": "Gaps at corner pieces; membrane peeling",
+   "n": 4
+  },
+  {
+   "t": "Trapped water / bubbles in the system",
+   "n": 1
+  },
+  {
+   "t": "Bleeding of membrane at edges / hotmelt over adjacent works",
+   "n": 2
+  },
+  {
+   "t": "Outlets with debris",
+   "n": 8
+  }
+ ],
+ "issuesSeen": 54
 }

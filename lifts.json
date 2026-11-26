@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "MIT",
      "source": "Mitsubishi ITP – shaft checklist"
+    },
+    {
+     "q": "Ask the fitter: What shadow gap does the landing architrave need? Could they answer?",
+     "evidence": "none",
+     "trade": "MIT",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -46,7 +54,7 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Landing push cut-outs at the drawn positions (from the adjacent wall to centre of plate)?",
+     "q": "Landing push cut-outs at the dimensions on the lift drawing (wall to centre of plate)?",
      "evidence": "photo",
      "trade": "MIT",
      "source": "Mitsubishi ITP – landing checks 3–4"
@@ -60,7 +68,7 @@
     },
     {
      "ref": "2.3",
-     "q": "Opening nibs and heads within tolerance (e.g. nib positive max +25 mm)?",
+     "q": "Opening nibs within +25 mm / −0 of the lift drawing; heads level?",
      "evidence": "photo",
      "trade": "MIT",
      "source": "Mitsubishi ITP – opening survey"
@@ -104,7 +112,29 @@
      "q": "Landing doors in line when closed, even gaps around and under the doors?",
      "evidence": "photo",
      "trade": "MIT",
-     "source": "Mitsubishi lift ITP 66001 – landing door checks"
+     "source": "Mitsubishi lift ITP 66001 – landing door checks",
+     "guide": {
+      "title": "Lift landings – SJWS limits",
+      "rows": [
+       [
+        "Landing architrave shadow gap",
+        "10 mm (Field issue – backing board routed back)"
+       ],
+       [
+        "Landing sill",
+        "at least 25 mm above finished floor"
+       ],
+       [
+        "Clear space in front of lift",
+        "1500 × 1500 mm incl. wall finish"
+       ],
+       [
+        "Doors",
+        "in line closed, even gaps, aligned with jambs open"
+       ]
+      ],
+      "src": "Mitsubishi ITP 66001; Field issues"
+     }
     },
     {
      "ref": "3.4",
@@ -122,5 +152,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Landing architrave clashing with the 10 mm shadow gap",
+   "n": 1
+  },
+  {
+   "t": "Pit / shaft painting incomplete; shaft not cleaned",
+   "n": 8
+  },
+  {
+   "t": "Door protection damaged before handover",
+   "n": 2
+  },
+  {
+   "t": "SWA / glands not terminated or earthed correctly",
+   "n": 3
+  },
+  {
+   "t": "Indicator upside down, COP misaligned, pictograms bent",
+   "n": 4
+  },
+  {
+   "t": "Visible welds or scratches in the car",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 30
 }

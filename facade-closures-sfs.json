@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "VCL taped with the correct tapes, joints sealed?",
+     "q": "VCL laps taped continuously with the specified foil tape – no exposed insulation?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 PUK-QC-41 2.1"
@@ -47,10 +47,18 @@
     },
     {
      "ref": "1.5",
-     "q": "Obex membrane applied at heads, sills and junctions, lapped as drawn?",
+     "q": "Obex membrane lapped at least 50 mm at heads, sills and junctions, fully bonded?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 SWI0032"
+    },
+    {
+     "q": "Ask the fitter: How are the VCL laps and bracket penetrations sealed? Could they answer?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.6"
     }
    ]
   },
@@ -149,5 +157,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "VCL torn, not overlapped or openings left in the SFS/VCL line",
+   "n": 11
+  },
+  {
+   "t": "Unsealed holes in flashings / gaps between flashings",
+   "n": 17
+  },
+  {
+   "t": "Corrosion on galvanised veil steel",
+   "n": 5
+  },
+  {
+   "t": "Water ponding on balconies (no fall to gullies)",
+   "n": 2
+  },
+  {
+   "t": "Textile membrane visible",
+   "n": 8
+  },
+  {
+   "t": "Balcony door furniture missing",
+   "n": 5
+  }
+ ],
+ "issuesSeen": 70
 }

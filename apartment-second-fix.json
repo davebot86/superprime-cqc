@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Fire barriers (putty pads) fitted in back boxes where required?",
+     "q": "Putty pads fitted in every back box in fire and separating walls (triple boxes too)?",
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.4"
@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "Borough",
      "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.5–2.6"
+    },
+    {
+     "q": "Ask the fitter: Which drawing did you set these accessories out from? Could they answer?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -74,10 +82,10 @@
     },
     {
      "ref": "2.5",
-     "q": "Bonding to pipework present and correctly positioned?",
+     "q": "Main bonding clamps within 600 mm of the service entry, labelled \"Safety electrical connection\"?",
      "evidence": "photo",
      "trade": "Borough",
-     "source": "Borough apartment ITP (BRS-05) – 2nd fix 2.14"
+     "source": "BS 7671 (main protective bonding)"
     }
    ]
   },
@@ -129,5 +137,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Sockets and switches not level, not equal height, wonky",
+   "n": 48
+  },
+  {
+   "t": "Face plates missing or wrong type",
+   "n": 55
+  },
+  {
+   "t": "Plastic knockouts left in sockets",
+   "n": 6
+  },
+  {
+   "t": "LEDs and drivers not fitted / not working",
+   "n": 102
+  },
+  {
+   "t": "Accessories not labelled with circuit ID",
+   "n": 11
+  },
+  {
+   "t": "Setting out not from the frozen small power elevation",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 206
 }

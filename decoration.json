@@ -26,7 +26,7 @@
     },
     {
      "ref": "1.2",
-     "q": "Correct number of coats, colour per schedule, no runs, misses or roller marks?",
+     "q": "Colour per the finishes schedule; no runs, misses, roller marks or grinning under raking light?",
      "evidence": "photo",
      "trade": "ODF",
      "source": "Decorating ITPs – application"
@@ -44,6 +44,14 @@
      "evidence": "photo",
      "trade": "ODF",
      "source": "Decorating ITPs – completion"
+    },
+    {
+     "q": "Ask the fitter: What finish level are you working to, and when do shadow gaps get painted? Could they answer?",
+     "evidence": "none",
+     "trade": "ODF",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -74,5 +82,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Shadow gaps not clean, straight and fully painted",
+   "n": 135
+  },
+  {
+   "t": "Grinning filler, rough corners and trims",
+   "n": 119
+  },
+  {
+   "t": "Poor cut-in lines to ceilings, skirting and frames",
+   "n": 50
+  },
+  {
+   "t": "Masking tape, paint or residue left on floors, frames, tiles",
+   "n": 138
+  },
+  {
+   "t": "Scuffs and marks on skirting",
+   "n": 179
+  },
+  {
+   "t": "Paint peeling or damaged",
+   "n": 32
+  },
+  {
+   "t": "Plaster-in fittings painted over so they can't be removed",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 953
 }

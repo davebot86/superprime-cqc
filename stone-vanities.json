@@ -44,6 +44,14 @@
      "evidence": "photo",
      "trade": "ESC",
      "source": "EDM stone ITP 14"
+    },
+    {
+     "q": "Ask the fitter: Which grout and sealant colour is approved here, and how do you repair a chip? Could they answer?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -63,7 +71,33 @@
      "q": "Work within 2 mm (flatness/lippage), joints even?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "EDM stone ITP 14"
+     "source": "EDM stone ITP 14",
+     "guide": {
+      "title": "Stone – SJWS limits",
+      "rows": [
+       [
+        "Flatness / lippage",
+        "within 2 mm (EDM ITP)"
+       ],
+       [
+        "Adhesive coverage",
+        "at least 75% on the back"
+       ],
+       [
+        "Perimeter joint",
+        "to the specified size – 1–2 mm to 20 mm variation was rejected (BM-29)"
+       ],
+       [
+        "Chip repair",
+        "colour-matched resin (Akemi) – never grout infill (BM-26)"
+       ],
+       [
+        "Grout",
+        "approved colour only (e.g. Mapei Jasmine 130 / Moon White 103)"
+       ]
+      ],
+      "src": "EDM ITP ESC-00015; Block 5 benchmarks BM-25/26/28/29"
+     }
     },
     {
      "ref": "2.3",
@@ -95,5 +129,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Grout inconsistent, discoloured or missing; excess grout left",
+   "n": 230
+  },
+  {
+   "t": "Chips repaired with grout infill (resin repair only – BM-26)",
+   "n": 68
+  },
+  {
+   "t": "Gaps between portal and wall / uneven pencil-line gap",
+   "n": 290
+  },
+  {
+   "t": "Mastic missing",
+   "n": 114
+  },
+  {
+   "t": "Stone thickness out of range / lippage",
+   "n": 4
+  },
+  {
+   "t": "Sharp edges, stained or marked stone",
+   "n": 105
+  },
+  {
+   "t": "Perimeter joint varying (1–2 mm up to 20 mm recorded)",
+   "n": 114
+  }
+ ],
+ "issuesSeen": 1169
 }

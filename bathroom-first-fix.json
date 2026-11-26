@@ -33,7 +33,7 @@
     },
     {
      "ref": "1.3",
-     "q": "Are wastes at the correct fall and air tested, with the SVP connection made?",
+     "q": "Wastes falling at least 18 mm per metre (no back-falls), air tested, SVP connection made?",
      "evidence": "cert",
      "trade": "Borough",
      "source": "Borough WP4 ITP 11–12"
@@ -65,8 +65,43 @@
      "evidence": "cert",
      "trade": "Borough",
      "source": "Borough WP4 ITP 11"
+    },
+    {
+     "q": "Ask the fitter: How will the valves and drain cocks be accessed once it's closed up? Could they answer?",
+     "evidence": "none",
+     "trade": "Borough",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.8"
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Valves and drain cocks with no access hatch / labels",
+   "n": 39
+  },
+  {
+   "t": "Lagging over valve sets (blocks access) or damaged",
+   "n": 8
+  },
+  {
+   "t": "WC pan not level, tap sleeves loose",
+   "n": 275
+  },
+  {
+   "t": "Mastic missing around basin, bath, tray",
+   "n": 17
+  },
+  {
+   "t": "Waste holes not fire stopped before back panels",
+   "n": 2
+  },
+  {
+   "t": "Fittings missing at handover: rain head, rails, shelves, seat",
+   "n": 67
+  }
+ ],
+ "issuesSeen": 406
 }

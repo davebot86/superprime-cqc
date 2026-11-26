@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 PUK-QC-05 2.2–2.3"
+    },
+    {
+     "q": "Ask the fitter: Where should the fixing sit in the slot, and what torque are you using? Could they answer?",
+     "evidence": "none",
+     "trade": "PER",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -46,14 +54,14 @@
    "questions": [
     {
      "ref": "2.1",
-     "q": "Brackets the right type in the right position, on line and level (±2 mm)?",
+     "q": "Brackets on setting-out within ±2 mm, matching the bracket code on the installation drawing?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 – bracket installation; SWI0001"
     },
     {
      "ref": "2.2",
-     "q": "Packers/shims within limits, no excessive packing?",
+     "q": "Shims no thicker than the limit on the PER installation drawing; no stacked loose packers?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 – bracket installation"
@@ -87,7 +95,7 @@
     },
     {
      "ref": "3.2",
-     "q": "Rainscreen brackets the correct code, in position and level?",
+     "q": "Rainscreen brackets match the drawing code, on line and level?",
      "evidence": "photo",
      "trade": "PER",
      "source": "PER ITP 31-0001 PUK-QC-40 2.1"
@@ -108,5 +116,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Fixings bottomed out in slotted holes (must sit mid-slot for movement)",
+   "n": 1
+  },
+  {
+   "t": "VCL not sealed at bracket penetrations",
+   "n": 7
+  },
+  {
+   "t": "Brackets through waterproofing with no seal",
+   "n": 1
+  },
+  {
+   "t": "Rust marks / cracked washers",
+   "n": 2
+  },
+  {
+   "t": "Over-drilling damaging precast",
+   "n": 1
+  },
+  {
+   "t": "Visible fixings not colour matched or proud",
+   "n": 2
+  }
+ ],
+ "issuesSeen": 20
 }

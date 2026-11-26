@@ -19,14 +19,14 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Door hardware fitted by others correct and undamaged before connection?",
+     "q": "Door hardware (by others) fitted and undamaged before connection?",
      "evidence": "photo",
      "trade": "LMG",
      "source": "LMG ACS ITP 3.1"
     },
     {
      "ref": "1.2",
-     "q": "Locks, door monitoring and readers fitted and connected with the correct cable?",
+     "q": "Locks, door contacts and readers fitted and connected on the scheduled cable type?",
      "evidence": "photo",
      "trade": "LMG",
      "source": "LMG ACS ITP 3.2–3.6"
@@ -37,6 +37,14 @@
      "evidence": "photo",
      "trade": "LMG",
      "source": "LMG ACS ITP 3.7, 4.1"
+    },
+    {
+     "q": "Ask the fitter: Where does this cable terminate, and is it labelled? Could they answer?",
+     "evidence": "none",
+     "trade": "LMG",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.4"
     }
    ]
   },
@@ -53,7 +61,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Cameras fitted, aimed correctly and undamaged?",
+     "q": "Cameras fitted, aimed at the agreed views, undamaged?",
      "evidence": "cert",
      "trade": "LMG",
      "source": "LMG CCTV ITP 3.5, 4.2–4.3"
@@ -114,5 +122,32 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Cables protruding from containment, not tied or terminated",
+   "n": 14
+  },
+  {
+   "t": "Copex missing at containment ends",
+   "n": 5
+  },
+  {
+   "t": "Box lids / screws missing",
+   "n": 5
+  },
+  {
+   "t": "Wrong back box",
+   "n": 6
+  },
+  {
+   "t": "Metal ties missing (fire support)",
+   "n": 3
+  },
+  {
+   "t": "Containment for door contacts missing",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 85
 }

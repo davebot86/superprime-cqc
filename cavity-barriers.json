@@ -19,7 +19,7 @@
    "questions": [
     {
      "ref": "1.1",
-     "q": "Barrier labelled Siderise, the right type for the location (horizontal/vertical), undamaged?",
+     "q": "Barrier labelled Siderise, horizontal (RH) or vertical (RV) type matching its position, undamaged?",
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM cavity barrier ITP CLM-00002 8.1"
@@ -33,10 +33,10 @@
     },
     {
      "ref": "1.3",
-     "q": "Fixing brackets impaled at even centres, with end brackets within 300 mm of each end?",
+     "q": "Brackets impaled at the Siderise centres for this barrier, end brackets within 300 mm of each end?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "Siderise installation guide (CLM benchmark)"
+     "source": "Siderise installation guide; Field issue (brackets >300 mm from end)"
     },
     {
      "ref": "1.4",
@@ -58,6 +58,14 @@
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM cavity barrier ITP CLM-00002 8.0"
+    },
+    {
+     "q": "Ask the fitter: What's the max distance from the end of a length to the first bracket? Could they answer?",
+     "evidence": "none",
+     "trade": "CLM",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.7"
     }
    ]
   },
@@ -81,5 +89,24 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Siderise brackets more than 300 mm from the end of a length",
+   "n": 2
+  },
+  {
+   "t": "Barrier not tight to both faces / not flush with the slab",
+   "n": 1
+  },
+  {
+   "t": "Foil facing torn or barrier damaged before cover-up",
+   "n": 3
+  },
+  {
+   "t": "Barrier dirty or damaged when the next trade covers it",
+   "n": 1
+  }
+ ],
+ "issuesSeen": 5
 }

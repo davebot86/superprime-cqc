@@ -33,17 +33,103 @@
     },
     {
      "ref": "1.3",
-     "q": "Are head and base track fixings at the correct centres and first fixing distance from the track end?",
+     "q": "Track fixings at max 600 mm centres, first fixing within 50 mm of the end?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – head/base tracks"
+     "source": "Errigal ITP – head/base tracks",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
     },
     {
      "ref": "1.4",
-     "q": "Studs at even centres, with extra studs/framing around openings?",
+     "q": "Studs at max 600 mm centres (400 mm where specified), extra studs and trimmers around openings?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – stud centres"
+     "source": "Errigal ITP – stud centres",
+     "guide": {
+      "title": "Drylining – British Gypsum figures",
+      "rows": [
+       [
+        "Stud centres",
+        "600 mm max (400 mm where specified / tiled)"
+       ],
+       [
+        "Head & floor track fixings",
+        "600 mm max centres"
+       ],
+       [
+        "First track fixing",
+        "max 50 mm from the track end"
+       ],
+       [
+        "Deflection head",
+        "studs NOT screwed to the head track; 15–20 mm gap kept"
+       ],
+       [
+        "Board screws – field",
+        "300 mm centres"
+       ],
+       [
+        "Board screws – external corners",
+        "200 mm centres"
+       ],
+       [
+        "Board joint stagger",
+        "600 mm (between faces and layers)"
+       ],
+       [
+        "Wall tolerance",
+        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+       ]
+      ],
+      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
+      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+     }
+    },
+    {
+     "q": "Ask the fitter: What deflection gap is needed at the head, and should the studs be screwed to the head track? Could they answer?",
+     "evidence": "none",
+     "trade": "Errigal",
+     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
+     "ask": true,
+     "ref": "1.5"
     }
    ]
   },
@@ -60,7 +146,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Are back boxes and hockey sticks in the coordinated positions, with acoustic boxes where required?",
+     "q": "Back boxes and hockey sticks at the coordinated positions; acoustic boxes in separating walls?",
      "evidence": "photo",
      "trade": "Errigal",
      "source": "Errigal ITP – back boxes"
@@ -102,5 +188,36 @@
     }
    ]
   }
- ]
+ ],
+ "notOk": [
+  {
+   "t": "Studs screwed to the head track (kills the deflection)",
+   "n": 21
+  },
+  {
+   "t": "Starter stud fixings missing or first fixing 300+ mm from the end",
+   "n": 21
+  },
+  {
+   "t": "No stud at corners (board will flap)",
+   "n": 6
+  },
+  {
+   "t": "Stud cut through for conduit / service holes damaged",
+   "n": 21
+  },
+  {
+   "t": "GFS1 / pattress plate in the wrong position or on the stud face",
+   "n": 13
+  },
+  {
+   "t": "Head track with a single fixing; conduit inside the deflection head",
+   "n": 31
+  },
+  {
+   "t": "Wrong cloaking channel at shaftwall ends",
+   "n": 3
+  }
+ ],
+ "issuesSeen": 262
 }
