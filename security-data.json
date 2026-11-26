@@ -1,0 +1,44 @@
+{
+ "id": "security-data",
+ "title": "Security & Data (LMG)",
+ "short": "Security & Data",
+ "group": "MEP – electrical",
+ "activity": "CCTV, access control, containment, structured cabling",
+ "fieldOrg": "LMG",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-LMG-ZZ-ZZ-IP-X-00002–00005 C00",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 6 entrance"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Containment fixed, with end caps and edge trim, copex to containment?",
+     "evidence": "photo",
+     "trade": "LMG",
+     "source": "LMG containment ITP 00004"
+    },
+    {
+     "ref": "1.2",
+     "q": "Cameras and readers in the positions on the drawings, working?",
+     "evidence": "photo",
+     "trade": "LMG",
+     "source": "LMG CCTV / ACS ITPs"
+    },
+    {
+     "ref": "1.3",
+     "q": "Structured cabling tested and labelled?",
+     "evidence": "cert",
+     "trade": "LMG",
+     "source": "LMG SCS ITP 00005"
+    }
+   ]
+  }
+ ]
+}

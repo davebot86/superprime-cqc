@@ -1,0 +1,44 @@
+{
+ "id": "smoke-control",
+ "title": "Smoke Control (Colt)",
+ "short": "Smoke Control",
+ "group": "Fire protection systems",
+ "activity": "Smoke shafts, dampers, AOVs",
+ "fieldOrg": "Price Building Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PBS-XX-XX-IP-X-00011 C00",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 6 lobby L04"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are smoke dampers/vents installed to the tested detail and fire stopped?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS Colt ITP"
+    },
+    {
+     "ref": "1.2",
+     "q": "Actuators wired and accessible for maintenance?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS Colt ITP"
+    },
+    {
+     "ref": "1.3",
+     "q": "Cause and effect tested with the fire alarm and witnessed?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS Colt ITP – commissioning"
+    }
+   ]
+  }
+ ]
+}

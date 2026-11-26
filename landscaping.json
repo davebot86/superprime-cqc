@@ -1,0 +1,51 @@
+{
+ "id": "landscaping",
+ "title": "External Landscaping",
+ "short": "Landscaping",
+ "group": "Metalwork & external",
+ "activity": "Hard and soft landscaping",
+ "fieldOrg": "Maylim",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-MAY-ZZ-ZZ-IP-X-00001 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Central square"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "WORKS",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is paving laid to line, level and falls, with joints filled?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – paving"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are kerbs and edgings straight and bedded?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – kerbs"
+    },
+    {
+     "ref": "1.3",
+     "q": "Planting and soils as specified, with trees staked and irrigation where required?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – soft landscaping"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are drainage channels and gullies falling and clear?",
+     "evidence": "photo",
+     "trade": "MAY",
+     "source": "Maylim ITP – drainage"
+    }
+   ]
+  }
+ ]
+}

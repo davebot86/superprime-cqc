@@ -1,0 +1,51 @@
+{
+ "id": "public-health",
+ "title": "Public Health – Drainage & Domestic Water",
+ "short": "Drainage & Water",
+ "group": "MEP – risers & landlord",
+ "activity": "Soil, waste, rainwater and domestic water",
+ "fieldOrg": "Price Building Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PBS-XX-XX-IP-X-00002 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Riser R2 L03"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Pipework supported at the specified centres, with falls on drainage?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS PH ITP"
+    },
+    {
+     "ref": "1.2",
+     "q": "Domestic water pressure tested (1.5× working pressure) with certificate?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS PH ITP"
+    },
+    {
+     "ref": "1.3",
+     "q": "Drainage air/water tested and certified before boxing in?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS PH ITP"
+    },
+    {
+     "ref": "1.4",
+     "q": "Pipe IDs and flow direction labelled; access points accessible?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS PH ITP"
+    }
+   ]
+  }
+ ]
+}

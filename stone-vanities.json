@@ -1,0 +1,51 @@
+{
+ "id": "stone-vanities",
+ "title": "Stone Vanities & Bathroom Stone",
+ "short": "Stone Vanities",
+ "group": "Kitchens, wardrobes & joinery",
+ "activity": "Stone vanity tops, cladding and floors",
+ "fieldOrg": "E.E Smith (ESC)",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ESC-05-XX-IP-X-00015 C01",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.03.01 ensuite"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "STONE",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Was the dry-lay approved before installation?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "EDM stone ITP 9 (A,H)"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is it matching the approved benchmark/sample for colour and veining?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "EDM stone ITP 5 (A,H)"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are joints even, lippage-free, and the vanity level and securely supported?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "EDM stone ITP – installation"
+    },
+    {
+     "ref": "1.4",
+     "q": "Is the stone sealed, undamaged and protected?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "EDM stone ITP – protection"
+    }
+   ]
+  }
+ ]
+}

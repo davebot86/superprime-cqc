@@ -1,0 +1,51 @@
+{
+ "id": "wardrobes",
+ "title": "Wardrobes",
+ "short": "Wardrobes",
+ "group": "Kitchens, wardrobes & joinery",
+ "activity": "Fitted wardrobes and dressing rooms",
+ "fieldOrg": "E.E Smith (ESC)",
+ "version": "0.1 draft",
+ "status": "Draft – no wardrobe ITP in QA Records Task; confirm the right ITP",
+ "itp": "No wardrobe ITP found – based on kitchen & joinery ITPs",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.03.01 master bedroom"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are carcasses level, plumb and securely fixed (into pattresses)?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs – fixing"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are doors aligned with even gaps; soft-close and hinges adjusted?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs – doors"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are internal fittings (rails, drawers, lighting) complete and working?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs"
+    },
+    {
+     "ref": "1.4",
+     "q": "Scribes to walls/ceilings tight, finish undamaged and protected?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs"
+    }
+   ]
+  }
+ ]
+}

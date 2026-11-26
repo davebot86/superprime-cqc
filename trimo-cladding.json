@@ -1,0 +1,44 @@
+{
+ "id": "trimo-cladding",
+ "title": "Trimo Cladding",
+ "short": "Trimo Cladding",
+ "group": "Facade & envelope",
+ "activity": "Trimo panels",
+ "fieldOrg": "Lindner Prater",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-LDP-ZZ-XX-IP-X-00004 C02",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 3 roof plant screen"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are panels undamaged, the right type and colour?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00004"
+    },
+    {
+     "ref": "1.2",
+     "q": "Fixings at the specified centres with washers seated, not overtightened?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00004"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are joints, flashings and seals complete and weathertight?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00004"
+    }
+   ]
+  }
+ ]
+}

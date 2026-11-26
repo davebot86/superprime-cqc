@@ -1,0 +1,51 @@
+{
+ "id": "facade-brackets",
+ "title": "Facade – Brackets & Fixings (PER)",
+ "short": "Facade Brackets",
+ "group": "Facade & envelope",
+ "activity": "Cast-in channels, brackets, torque and pull-out tests",
+ "fieldOrg": "Permasteelisa UK",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PER-XX-XX-IP-X-31-0001 C08",
+ "location": {
+  "areaLabel": "Elevation",
+  "areaHint": "e.g. Block 6 North elevation L04"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BRACKETS",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are cast-in inserts/channels in tolerance, not missing and not filled with concrete?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP pre-installation checklist 6.1–6.2"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are brackets positioned per SWI0001 and within design tolerance?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 4.1; bracket checklist 2.6"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are bracket bolts torqued and marked (line on the nut)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 4.2"
+    },
+    {
+     "ref": "1.4",
+     "q": "Anchor pull-out tests done at the agreed rate and recorded?",
+     "evidence": "cert",
+     "trade": "PER",
+     "source": "PER ITP 4.4"
+    }
+   ]
+  }
+ ]
+}

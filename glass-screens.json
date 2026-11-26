@@ -1,0 +1,51 @@
+{
+ "id": "glass-screens",
+ "title": "Glass – Shower Screens, Mirrors & Balustrades",
+ "short": "Glass",
+ "group": "Bathrooms & wet areas",
+ "activity": "Integrity Glass installations",
+ "fieldOrg": "E.E Smith (ESC)",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ESC-05-XX-IP-X-00026 C00",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.03.01 ensuite"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Glass undamaged, the approved type, with safety marking visible?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Integrity Glass ITP – delivery"
+    },
+    {
+     "ref": "1.2",
+     "q": "Fixings torque-checked (10% of structural fixings)?",
+     "evidence": "cert",
+     "trade": "ESC",
+     "source": "Integrity Glass ITP – torque"
+    },
+    {
+     "ref": "1.3",
+     "q": "Pull-out tests done on 10% of structural fixings?",
+     "evidence": "cert",
+     "trade": "ESC",
+     "source": "Integrity Glass ITP – pull-out"
+    },
+    {
+     "ref": "1.4",
+     "q": "Packers correct and undamaged; seals and silicone neat?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Integrity Glass ITP – packers"
+    }
+   ]
+  }
+ ]
+}

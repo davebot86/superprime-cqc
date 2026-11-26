@@ -1,0 +1,51 @@
+{
+ "id": "facade-windows-doors",
+ "title": "Facade – Windows & Doors (PER)",
+ "short": "Facade Windows",
+ "group": "Facade & envelope",
+ "activity": "Schüco windows and facade doors",
+ "fieldOrg": "Permasteelisa UK",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PER-XX-XX-IP-X-31-0001 C08",
+ "location": {
+  "areaLabel": "Elevation",
+  "areaHint": "e.g. Block 6 East L03 Apt 2"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the window within installation tolerance (line, level, plumb)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER window checklist 2.7; ITP 6.1"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are corner joints sealed and glued to SWI 1002 (sealant visible at the pin holes)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER window checklist 3.2–3.3"
+    },
+    {
+     "ref": "1.3",
+     "q": "Do windows and doors open, close and lock correctly (functionality check)?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.1–6.3, 8.1"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are labels/serials in place and internal closures complete?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.1, 6.4"
+    }
+   ]
+  }
+ ]
+}

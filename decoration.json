@@ -1,0 +1,51 @@
+{
+ "id": "decoration",
+ "title": "Decoration & Wallcoverings",
+ "short": "Decoration",
+ "group": "Floors & finishes",
+ "activity": "Painting and wallcoverings",
+ "fieldOrg": "Oakdene Finishes",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-ESC-05-XX-IP-X-00025 C01; -00065 C00; SJWS-LCG-XX-XX-IP-X-00001 C04",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.03.01"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "FINISH",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Substrate prepared (filled, sanded, clean, dry) before the first coat?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Oakdene / Lucas ITPs – preparation"
+    },
+    {
+     "ref": "1.2",
+     "q": "Correct number of coats, colour per schedule, no runs, misses or roller marks?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Decorating ITPs – application"
+    },
+    {
+     "ref": "1.3",
+     "q": "Wallcoverings set out plumb, pattern matched, seams tight with no bubbles?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Wells Interiors ITP"
+    },
+    {
+     "ref": "1.4",
+     "q": "Clean lines at junctions, and the area protected?",
+     "evidence": "photo",
+     "trade": "ODF",
+     "source": "Decorating ITPs – completion"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "id": "internal-doors-joinery",
+ "title": "Internal Doors & Joinery",
+ "short": "Internal Doors",
+ "group": "Doors & joinery",
+ "activity": "Timber doors, frames, skirtings, cornices",
+ "fieldOrg": "Ruddy Joinery",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-RJL-XX-XX-IP-X-00001 C00; SJWS-SJE-ZZ-ZZ-IP-X-00001; SJWS-ESC-05-XX-IP-X-00005/00006",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 06.03.02"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "DOORS",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are frames plumb and square, leaves hung with even gaps?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "RJL / SJE / ESC 00006 door ITPs"
+    },
+    {
+     "ref": "1.2",
+     "q": "Ironmongery fitted to schedule, doors closing and latching?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "Door ITPs – ironmongery"
+    },
+    {
+     "ref": "1.3",
+     "q": "Fire door labels and seals intact where rated?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "Door ITPs – fire doors"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "TRIMS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Are skirtings, architraves and cornices tight, with clean mitres and no gaps?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "ESC 00005 – skirtings & cornices"
+    },
+    {
+     "ref": "2.2",
+     "q": "Free from damage and ready for decoration?",
+     "evidence": "photo",
+     "trade": "RJL",
+     "source": "Joinery ITPs – completion"
+    }
+   ]
+  }
+ ]
+}

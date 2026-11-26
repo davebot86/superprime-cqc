@@ -1,0 +1,51 @@
+{
+ "id": "fire-alarm",
+ "title": "Fire Alarm & Evacuation Alert (PHF)",
+ "short": "Fire Alarm",
+ "group": "Fire protection systems",
+ "activity": "Fire alarm, EVC, evacuation alert",
+ "fieldOrg": "PHF Fire",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PHF-XX-XX-IP-X-00001 C01",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 6 L04 corridor"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Fire alarm cables on their own supports using metal clips?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF ITP; riser lessons"
+    },
+    {
+     "ref": "1.2",
+     "q": "Devices in the positions on the drawings, heads protected during works?",
+     "evidence": "photo",
+     "trade": "PHF",
+     "source": "PHF ITP"
+    },
+    {
+     "ref": "1.3",
+     "q": "Circuit testing recorded and witnessed?",
+     "evidence": "cert",
+     "trade": "PHF",
+     "source": "PHF ITP 78"
+    },
+    {
+     "ref": "1.4",
+     "q": "Cause and effect tested with smoke control and lifts?",
+     "evidence": "cert",
+     "trade": "PHF",
+     "source": "PHF ITP – commissioning"
+    }
+   ]
+  }
+ ]
+}

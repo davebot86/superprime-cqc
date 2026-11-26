@@ -1,0 +1,51 @@
+{
+ "id": "bathroom-pods",
+ "title": "Bathroom Pods",
+ "short": "Bathroom Pods",
+ "group": "Bathrooms & wet areas",
+ "activity": "Off-site pods delivered and installed",
+ "fieldOrg": "Stone Bathwear",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-SBE-ZZ-ZZ-IP-X-00-001 C06; -00-002 C01; -00003 C01",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 06.03.02 bathroom"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "ON SITE",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Pod delivered undamaged, with its factory QA/test pack?",
+     "evidence": "cert",
+     "trade": "SBE",
+     "source": "SBE off-site ITP"
+    },
+    {
+     "ref": "1.2",
+     "q": "Positioned and levelled to the setting-out, packers as specified?",
+     "evidence": "photo",
+     "trade": "SBE",
+     "source": "SBE on-site ITP 00003"
+    },
+    {
+     "ref": "1.3",
+     "q": "Services connected (water, waste, electrics) and tested after connection?",
+     "evidence": "cert",
+     "trade": "SBE",
+     "source": "SBE on-site ITP 00003"
+    },
+    {
+     "ref": "1.4",
+     "q": "Pod protected and finishes undamaged after connection?",
+     "evidence": "photo",
+     "trade": "SBE",
+     "source": "SBE pod ITP 00002"
+    }
+   ]
+  }
+ ]
+}

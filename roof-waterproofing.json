@@ -1,0 +1,51 @@
+{
+ "id": "roof-waterproofing",
+ "title": "Roofing – Waterproofing (Hotmelt / Radmat)",
+ "short": "Roof Waterproofing",
+ "group": "Roofs & terraces",
+ "activity": "Hotmelt with Foamglas, Radmat warm roof",
+ "fieldOrg": "Lindner Prater",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-LDP-ZZ-XX-IP-X-00001 C02; -00006 C01",
+ "location": {
+  "areaLabel": "Roof",
+  "areaHint": "e.g. Block 3 main roof"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "BEFORE COVERING",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the deck clean, dry and primed before waterproofing?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00001 – substrate"
+    },
+    {
+     "ref": "1.2",
+     "q": "Is the membrane continuous with upstands at the specified height, laps and details complete?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00001/00006 – installation"
+    },
+    {
+     "ref": "1.3",
+     "q": "Is Foamglas/insulation fully bonded with no gaps?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00001 – insulation"
+    },
+    {
+     "ref": "1.4",
+     "q": "Flood or electronic leak test done and passed before covering?",
+     "evidence": "cert",
+     "trade": "LDP",
+     "source": "LDP ITP – testing"
+    }
+   ]
+  }
+ ]
+}

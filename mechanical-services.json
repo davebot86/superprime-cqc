@@ -1,0 +1,51 @@
+{
+ "id": "mechanical-services",
+ "title": "Mechanical Services (PBS)",
+ "short": "Mechanical",
+ "group": "MEP – risers & landlord",
+ "activity": "LTHW/CHW pipework, ductwork, plant",
+ "fieldOrg": "Price Building Services",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PBS-XX-XX-IP-X-00001 C02; -00010 C01",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Basement plant room"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Pipework pressure tested before insulation, with certificate?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS mechanical ITP"
+    },
+    {
+     "ref": "1.2",
+     "q": "Ductwork leakage tested (DW/143) where required?",
+     "evidence": "cert",
+     "trade": "PBS",
+     "source": "PBS ductwork ITP 00010"
+    },
+    {
+     "ref": "1.3",
+     "q": "Insulation complete, valves operable when lagged, drain cocks accessible?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS mechanical ITP"
+    },
+    {
+     "ref": "1.4",
+     "q": "Services labelled and plant accessible for maintenance?",
+     "evidence": "photo",
+     "trade": "PBS",
+     "source": "PBS mechanical ITP"
+    }
+   ]
+  }
+ ]
+}

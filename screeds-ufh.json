@@ -1,0 +1,57 @@
+{
+ "id": "screeds-ufh",
+ "title": "Screeds & Underfloor Heating",
+ "short": "Screed & UFH",
+ "group": "Floors & finishes",
+ "activity": "Floor screeds, UFH and Thermotec floors",
+ "fieldOrg": "Progressive",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PGS-ZZ-ZZ-IP-X-00001 C03; -00002 C05; SJWS-LAC-XX-XX-IP-X-00001 C02; SJWS-ESC-05-XX-IP-X-00013 C01",
+ "location": {
+  "areaLabel": "Apartment",
+  "areaHint": "e.g. 05.03.01"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "UFH",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "UFH pipe layout per the drawing, clipped, and pressure tested before screed?",
+     "evidence": "cert",
+     "trade": "PGS",
+     "source": "PGS UFH ITP 00002"
+    },
+    {
+     "ref": "1.2",
+     "q": "Edge insulation strip and movement joints in place at doorways?",
+     "evidence": "photo",
+     "trade": "PGS",
+     "source": "PGS / LAC screed ITPs"
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "SCREED",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Screed thickness and level to the datum, within surface regularity tolerance?",
+     "evidence": "photo",
+     "trade": "PGS",
+     "source": "PGS 00001 / LAC ITP"
+    },
+    {
+     "ref": "2.2",
+     "q": "Curing and drying protected; moisture tested before floor finishes?",
+     "evidence": "cert",
+     "trade": "PGS",
+     "source": "PGS / LAC ITP – moisture"
+    }
+   ]
+  }
+ ]
+}

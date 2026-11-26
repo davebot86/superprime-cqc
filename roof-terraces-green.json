@@ -1,0 +1,51 @@
+{
+ "id": "roof-terraces-green",
+ "title": "Roof Terraces, Paving & Green Roofs",
+ "short": "Roof Terraces",
+ "group": "Roofs & terraces",
+ "activity": "Insulation, paving, ballast, porcelain tiles, green roof",
+ "fieldOrg": "Lindner Prater",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-LDP-ZZ-XX-IP-X-00002 C03; -00003 C02; -00005 C01",
+ "location": {
+  "areaLabel": "Roof / terrace",
+  "areaHint": "e.g. Block 6 L07 terrace"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "FINISHES",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Are pedestals/paving level, stable and falling to drains?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00002 – paving"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are porcelain tiles laid to pattern, level, with even joints and no lippage?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00003"
+    },
+    {
+     "ref": "1.3",
+     "q": "Is ballast depth/coverage as specified, outlets kept clear with inspection chambers?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00002 – ballast"
+    },
+    {
+     "ref": "1.4",
+     "q": "Green roof build-up, substrate depth and planting as specified?",
+     "evidence": "photo",
+     "trade": "LDP",
+     "source": "LDP ITP 00005"
+    }
+   ]
+  }
+ ]
+}

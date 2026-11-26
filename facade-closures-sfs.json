@@ -1,0 +1,58 @@
+{
+ "id": "facade-closures-sfs",
+ "title": "Facade – SFS, Closures, Gutters & Balconies (PER)",
+ "short": "Facade Closures",
+ "group": "Facade & envelope",
+ "activity": "SFS, Siderise, gutters, veils, spandrels, profiles",
+ "fieldOrg": "Permasteelisa UK",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-PER-XX-XX-IP-X-31-0001 C08",
+ "location": {
+  "areaLabel": "Elevation",
+  "areaHint": "e.g. Block 6 South L05"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "INSTALLATION",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is the SFS (Stanta) plumb, set out and fixed as per installation drawings?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.7"
+    },
+    {
+     "ref": "1.2",
+     "q": "Are fire/acoustic closures (Siderise) continuous and tight at slab edges?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.5"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are gutters falling to outlets, joints sealed, outlets clear?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.6"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are veils, balcony/spandrel panels and bottom profiles fixed and aligned?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER ITP 6.8, 6.9, 6.11"
+    },
+    {
+     "ref": "1.5",
+     "q": "Are waterproofing details at upstands complete before closing?",
+     "evidence": "photo",
+     "trade": "PER",
+     "source": "PER pre-installation checklist 7.3"
+    }
+   ]
+  }
+ ]
+}

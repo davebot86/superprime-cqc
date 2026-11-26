@@ -1,0 +1,65 @@
+{
+ "id": "brick-blockwork",
+ "title": "Brickwork & Blockwork",
+ "short": "Brick & Block",
+ "group": "Facade & envelope",
+ "activity": "Brick and block walls, ties, DPCs, movement joints",
+ "fieldOrg": "Swift Brickwork Contractors",
+ "version": "0.1 draft",
+ "status": "Draft spot check from ITPs – for agreement",
+ "itp": "SJWS-SBC-XX-XX-IP-X-21002 C01",
+ "location": {
+  "areaLabel": "Location",
+  "areaHint": "e.g. Block 8 townhouse rear wall"
+ },
+ "sections": [
+  {
+   "id": "1",
+   "title": "WALLS",
+   "questions": [
+    {
+     "ref": "1.1",
+     "q": "Is there an approved sample panel / benchmark for this wall type?",
+     "evidence": "none",
+     "trade": "SBC",
+     "source": "SBC ITP – sample panel (H)"
+    },
+    {
+     "ref": "1.2",
+     "q": "Line, level and plumb within tolerance: straightness ±5 mm in 5 m, verticality ±10 mm to 3 m?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC ITP – construct walls (NHBC/ spec tolerances)"
+    },
+    {
+     "ref": "1.3",
+     "q": "Are cavities clean, wall ties at the specified spacing and clean, insulation tight?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC ITP – wall ties & cavities"
+    },
+    {
+     "ref": "1.4",
+     "q": "Are DPCs, cavity trays and lintels in place with correct laps and stop ends?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC ITP – DPCs & lintels"
+    },
+    {
+     "ref": "1.5",
+     "q": "Movement joints at the specified spacing, with the correct sealant?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC ITP – movement joints & mastic"
+    },
+    {
+     "ref": "1.6",
+     "q": "Head restraints fitted, and mortar laid at 5°C or above?",
+     "evidence": "photo",
+     "trade": "SBC",
+     "source": "SBC ITP – head restraints, temperature"
+    }
+   ]
+  }
+ ]
+}
