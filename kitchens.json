@@ -54,7 +54,7 @@
     },
     {
      "ref": "2.2",
-     "q": "Doors and drawers aligned, even gaps, soft-close working?",
+     "q": "Door and drawer gaps equal, fronts flush with each other and the island; drawers close fully without bouncing back; soft-close working?",
      "evidence": "none",
      "trade": "ESC",
      "source": "Molteni kitchen ITP ESC-00014 – 1st fix: doors"
@@ -72,6 +72,13 @@
      "evidence": "photo",
      "trade": "ESC",
      "source": "Molteni kitchen ITP ESC-00014 – 1st fix: sockets & gridswitch cut out"
+    },
+    {
+     "ref": "2.5",
+     "q": "Waste and service holes fire stopped and photographed before the back panels go on?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) – \"fit back panel after waste hole is fire stopped\""
     }
    ]
   },
@@ -125,6 +132,13 @@
      "evidence": "photo",
      "trade": "ESC",
      "source": "Molteni kitchen ITP ESC-00014 – splashback"
+    },
+    {
+     "ref": "3.4",
+     "q": "Metal bars and trims fixed straight, level and secure, ends undamaged?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) (loose/uneven bars)"
     }
    ]
   },
@@ -134,7 +148,7 @@
    "questions": [
     {
      "ref": "4.1",
-     "q": "All appliances fitted and level, doors aligned with the furniture (dishwasher, fridge/freezer, ovens, hob, extractor, wine cooler, warming drawer)?",
+     "q": "All appliances fitted and level, integrated doors flush with the furniture; stacked ovens line up with no step?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Molteni kitchen ITP ESC-00014 – 2nd fix components"
@@ -162,7 +176,7 @@
     },
     {
      "ref": "4.5",
-     "q": "Plinths fitted and level, mastic neat and continuous?",
+     "q": "Units cleaned out underneath and photographed before plinths go on; plinths level, flush, mastic neat?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Molteni kitchen ITP ESC-00014 – 2nd fix: plinth, mastic"
@@ -218,21 +232,45 @@
   {
    "t": "Marks, chips or scratches on doors and worktops",
    "n": 39
+  },
+  {
+   "t": "Stacked ovens not lining up – step between top and bottom",
+   "n": 2
+  },
+  {
+   "t": "Drawers bouncing back out or not closing fully",
+   "n": 4
+  },
+  {
+   "t": "Plinths fitted before units cleaned out underneath",
+   "n": 4
+  },
+  {
+   "t": "Back panel fitted before the waste hole was fire stopped",
+   "n": 2
+  },
+  {
+   "t": "Metal bar loose, uneven or missing",
+   "n": 4
   }
  ],
  "issuesSeen": 432,
  "ask": [
   {
-   "q": "What's the gap to flanking joinery?",
-   "a": "About 4 mm – 7–8 mm is rejected."
+   "q": "What gap between worktop/splashback and the joinery?",
+   "a": "About 4 mm – 7–8 mm is rejected (Block 5 benchmark BM-51). Templated on site."
   },
   {
-   "q": "How are worktop joints made?",
-   "a": "Tight, flush and colour-matched; supported both sides."
+   "q": "When do the plinths go on?",
+   "a": "Only after units are cleaned out underneath, with photos."
   },
   {
-   "q": "Who connected the appliances and are they tested?",
-   "a": "The named trade – connections tested, no leaks."
+   "q": "Is the waste hole fire stopped before the back panel?",
+   "a": "Yes – fire stopped and photographed first."
+  },
+  {
+   "q": "How do you check the appliances line up?",
+   "a": "Ovens stacked level with no step; integrated doors flush with the furniture."
   }
  ]
 }

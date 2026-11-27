@@ -15,90 +15,183 @@
  "sections": [
   {
    "id": "1",
-   "title": "INSTALLATION",
+   "title": "BEFORE FITTING",
    "questions": [
     {
      "ref": "1.1",
-     "q": "Are carcasses level, plumb and securely fixed (into pattresses)?",
+     "q": "Pattressing in and photographed before boarding, positions matching the wardrobe elevation?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "Kitchen/joinery ITPs – fixing"
+     "source": "Kitchen/joinery ITPs – fixing; Block 5 snags & lessons (SJWS)"
     },
     {
      "ref": "1.2",
-     "q": "Are doors aligned with even gaps; soft-close and hinges adjusted?",
+     "q": "Access panels behind the units fire-taped and photographed before the unit panel goes on?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "Kitchen/joinery ITPs – doors"
+     "source": "Block 5 snags & lessons (SJWS) – \"only after the wall access panel has been fire taped\""
     },
     {
      "ref": "1.3",
-     "q": "Are internal fittings (rails, drawers, lighting) complete and working?",
-     "evidence": "photo",
-     "trade": "ESC",
-     "source": "Kitchen/joinery ITPs"
-    },
-    {
-     "ref": "1.4",
-     "q": "Scribes to walls/ceilings tight, finish undamaged and protected?",
-     "evidence": "photo",
-     "trade": "ESC",
-     "source": "Kitchen/joinery ITPs"
-    },
-    {
-     "q": "Ask the fitter: What scribe gap are you working to at walls and ceiling? Could they answer?",
+     "q": "Ask the fitter: What gaps are you working to – door to door, and to the wall and ceiling? Could they answer?",
      "evidence": "none",
      "trade": "ESC",
-     "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
-     "ask": true,
-     "ref": "1.5"
+     "source": "SuperPrime site practice – a fitter who can't give the figure is working without the detail",
+     "ask": true
+    }
+   ]
+  },
+  {
+   "id": "2",
+   "title": "CARCASS & FRONTS",
+   "questions": [
+    {
+     "ref": "2.1",
+     "q": "Carcasses level, plumb and fixed into pattresses – no exposed or wrong-colour screws?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs – fixing; Block 5 snags & lessons (SJWS)"
+    },
+    {
+     "ref": "2.2",
+     "q": "Door and drawer gaps equal all round; fronts flush with the cheeks and each other, no proud corners?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs – doors; Block 5 snags & lessons (SJWS) (gaps/alignment ~70 snags)",
+     "guide": {
+      "title": "Wardrobes – what correct looks like (Block 5)",
+      "rows": [
+       [
+        "Door/drawer gaps",
+        "equal and consistent – no wider at one end"
+       ],
+       [
+        "Fronts",
+        "flush with cheeks and each other"
+       ],
+       [
+        "Scribes",
+        "tight to wall, ceiling and floor – nothing visible behind"
+       ],
+       [
+        "Screws",
+        "none exposed; caps colour-matched"
+       ],
+       [
+        "Shelf holes",
+        "spares plugged"
+       ]
+      ],
+      "note": "No wardrobe ITP or installer tolerance on file. Ask the fitter for the figure; if they can't give it, raise it. QualityBot holds the EES/Molteni tech sub.",
+      "src": "Block 5 lessons and snags (SJWS)"
+     }
+    },
+    {
+     "ref": "2.3",
+     "q": "Scribed tight to walls, ceiling and floor – no visible gaps, no white MDF showing; soffit and blind-box panels flush?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) (scribe/gaps ~40 snags)"
+    },
+    {
+     "ref": "2.4",
+     "q": "Doors and drawers open and close fully, soft-close working, nothing bouncing back or rubbing?",
+     "evidence": "none",
+     "trade": "ESC",
+     "source": "Kitchen/joinery ITPs; Block 5 snags & lessons (SJWS)"
+    },
+    {
+     "ref": "2.5",
+     "q": "Every shelf, rail and drawer fitted and fixed; spare shelf holes and screw caps plugged?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) – \"plug spare shelf holes, fix every shelf and front\""
+    }
+   ]
+  },
+  {
+   "id": "3",
+   "title": "FINISH & HANDOVER",
+   "questions": [
+    {
+     "ref": "3.1",
+     "q": "Edges and arrises clean – no chips, fraying laminate, bubbles or filler showing?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) (chips/finish ~85 snags)"
+    },
+    {
+     "ref": "3.2",
+     "q": "Handles, hooks, rails and lighting fitted, secure and working; cables hidden?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS)"
+    },
+    {
+     "ref": "3.3",
+     "q": "Packers removed, units cleaned out (including underneath), no paint on the joinery, protected?",
+     "evidence": "photo",
+     "trade": "ESC",
+     "source": "Block 5 snags & lessons (SJWS) – decorator interface"
     }
    ]
   }
  ],
  "notOk": [
   {
-   "t": "Excessive or uneven gaps to walls, ceiling and floor",
-   "n": 45
+   "t": "Chips, scratches and dents on panels, shelves and arrises",
+   "n": 44
   },
   {
-   "t": "Mirror doors not flush with each other / springing on hinges",
-   "n": 11
+   "t": "Poor edge finish – fraying laminate, bubbles, filler showing, repairs not one-piece veneer",
+   "n": 41
   },
   {
-   "t": "Screw heads visible above or inside wardrobes",
-   "n": 16
+   "t": "Gaps to wall, ceiling or between units – white MDF or what's behind showing",
+   "n": 41
   },
   {
-   "t": "Veneer chipped, glue marks, gaps at corners",
-   "n": 6
+   "t": "Fronts not flush with cheeks; vertical gaps not equal",
+   "n": 26
   },
   {
-   "t": "Paint overruns on wardrobe surfaces",
-   "n": 16
+   "t": "Shelves, drawers or back panels not fitted; spare shelf holes unplugged",
+   "n": 25
   },
   {
-   "t": "Loose shelves, brackets or fronts; lights not fitted",
-   "n": 20
+   "t": "Packers left in, units not cleaned out",
+   "n": 24
   },
   {
-   "t": "Drawer front veining not continuous where specified",
-   "n": 1
+   "t": "Exposed or wrong-colour screws; screw caps missing",
+   "n": 18
+  },
+  {
+   "t": "Paint from the decorator on the joinery",
+   "n": 12
+  },
+  {
+   "t": "Unit panel fitted before the access panel behind was fire-taped and photographed",
+   "n": 2
   }
  ],
- "issuesSeen": 227,
+ "issuesSeen": 230,
  "ask": [
   {
-   "q": "What gap to walls and ceiling?",
-   "a": "Even scribe – as the joinery detail."
+   "q": "What gaps are you working to – door to door, and to the wall and ceiling?",
+   "a": "Equal all round to the EES/Molteni detail – they can give the figure. No visible scribe gaps."
   },
   {
-   "q": "How is it fixed back?",
-   "a": "Concealed fixings into solid background or pattressing."
+   "q": "What are the units fixed into?",
+   "a": "Pattresses, photographed before boarding – not just plasterboard."
   },
   {
-   "q": "Are doors and drawers adjusted?",
-   "a": "Yes – even gaps, close smoothly, no rubbing."
+   "q": "Is the access panel behind fire-taped before the unit panel goes on?",
+   "a": "Yes – taped and photographed first."
+  },
+  {
+   "q": "Who checks for paint on the joinery after decoration?",
+   "a": "The joinery supervisor, before handover – paint and chips logged."
   }
  ]
 }
