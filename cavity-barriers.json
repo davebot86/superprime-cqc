@@ -96,11 +96,23 @@
      "evidence": "photo",
      "trade": "CLM",
      "source": "CLM cavity barrier ITP CLM-00002 8.1"
+    },
+    {
+     "ref": "2.3",
+     "q": "Siderise Inspection App report for this zone submitted by the installer, and any Siderise comments closed?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "Siderise Inspection App – trade QA record (SJWS)",
+     "critical": false
     }
    ]
   }
  ],
  "notOk": [
+  {
+   "t": "Barriers closed in or covered before the Siderise app report has been reviewed",
+   "n": 0
+  },
   {
    "t": "Siderise brackets more than 300 mm from the end of a length",
    "n": 2
@@ -131,6 +143,10 @@
   {
    "q": "What's the max spacing between barriers in this cavity?",
    "a": "Not more than 20 m in any direction (or as the fire strategy)."
+  },
+  {
+   "q": "Show me the Siderise app report for this floor.",
+   "a": "Submitted, reviewed by Siderise, no open comments."
   }
  ]
 }
