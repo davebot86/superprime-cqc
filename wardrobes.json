@@ -33,7 +33,7 @@
     },
     {
      "ref": "1.3",
-     "q": "Ask the fitter: What gaps are you working to – door to door, and to the wall and ceiling? Could they answer?",
+     "q": "Ask the fitter: What gaps are you working to, and where are they on the approved joinery drawing? Could they answer?",
      "evidence": "none",
      "trade": "ESC",
      "source": "SuperPrime site practice – a fitter who can't give the figure is working without the detail",
@@ -54,10 +54,10 @@
     },
     {
      "ref": "2.2",
-     "q": "Door and drawer gaps equal all round; fronts flush with the cheeks and each other, no proud corners?",
+     "q": "Door and drawer gaps equal and as the approved joinery drawing; fronts flush with the cheeks and each other, matching the Block 5 benchmark?",
      "evidence": "photo",
      "trade": "ESC",
-     "source": "Kitchen/joinery ITPs – doors; Block 5 snags & lessons (SJWS) (gaps/alignment ~70 snags)",
+     "source": "Approved joinery drawing + Block 5 benchmark; Kitchen/joinery ITPs – doors; Block 5 snags & lessons (SJWS) (gaps/alignment ~70 snags)",
      "guide": {
       "title": "Wardrobes – what correct looks like (Block 5)",
       "rows": [
@@ -82,13 +82,13 @@
         "spares plugged"
        ]
       ],
-      "note": "No wardrobe ITP or installer tolerance on file. Ask the fitter for the figure; if they can't give it, raise it. QualityBot holds the EES/Molteni tech sub.",
-      "src": "Block 5 lessons and snags (SJWS)"
+      "note": "Gaps, scribes and reveals are as the approved joinery drawing for this unit, and must match the Block 5 benchmark finish. If the fitter can't show the drawing figure, raise it.",
+      "src": "Approved EES/Molteni joinery drawings · Block 5 benchmark"
      }
     },
     {
      "ref": "2.3",
-     "q": "Scribed tight to walls, ceiling and floor – no visible gaps, no white MDF showing; soffit and blind-box panels flush?",
+     "q": "Scribes as the joinery drawing – tight to walls, ceiling and floor, no white MDF showing; soffit and blind-box panels flush?",
      "evidence": "photo",
      "trade": "ESC",
      "source": "Block 5 snags & lessons (SJWS) (scribe/gaps ~40 snags)"
@@ -178,8 +178,8 @@
  "issuesSeen": 230,
  "ask": [
   {
-   "q": "What gaps are you working to – door to door, and to the wall and ceiling?",
-   "a": "Equal all round to the EES/Molteni detail – they can give the figure. No visible scribe gaps."
+   "q": "What gaps are you working to, and where is that on the drawing?",
+   "a": "As the approved joinery drawing for this unit – they can point to it – and matching the Block 5 benchmark."
   },
   {
    "q": "What are the units fixed into?",
