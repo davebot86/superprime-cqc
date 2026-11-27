@@ -220,5 +220,19 @@
    "n": 39
   }
  ],
- "issuesSeen": 432
+ "issuesSeen": 432,
+ "ask": [
+  {
+   "q": "What's the gap to flanking joinery?",
+   "a": "About 4 mm – 7–8 mm is rejected."
+  },
+  {
+   "q": "How are worktop joints made?",
+   "a": "Tight, flush and colour-matched; supported both sides."
+  },
+  {
+   "q": "Who connected the appliances and are they tested?",
+   "a": "The named trade – connections tested, no leaks."
+  }
+ ]
 }

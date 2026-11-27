@@ -86,5 +86,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 227
+ "issuesSeen": 227,
+ "ask": [
+  {
+   "q": "What gap to walls and ceiling?",
+   "a": "Even scribe – as the joinery detail."
+  },
+  {
+   "q": "How is it fixed back?",
+   "a": "Concealed fixings into solid background or pattressing."
+  },
+  {
+   "q": "Are doors and drawers adjusted?",
+   "a": "Yes – even gaps, close smoothly, no rubbing."
+  }
+ ]
 }

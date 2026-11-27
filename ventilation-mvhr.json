@@ -160,5 +160,19 @@
    "n": 12
   }
  ],
- "issuesSeen": 369
+ "issuesSeen": 369,
+ "ask": [
+  {
+   "q": "What hanger centres on the ductwork?",
+   "a": "Max 3 m, rigid, joints sealed."
+  },
+  {
+   "q": "Has the system been balanced?",
+   "a": "Yes – flow rates recorded against the design per room."
+  },
+  {
+   "q": "Where are the access points for the filters?",
+   "a": "Accessible as the drawing – not boxed in."
+  }
+ ]
 }

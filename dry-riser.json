@@ -118,5 +118,19 @@
    "n": 3
   }
  ],
- "issuesSeen": 17
+ "issuesSeen": 17,
+ "ask": [
+  {
+   "q": "What test have you done on this riser?",
+   "a": "Air 0.5 bar for 15 min, then water 12 bar for 10 min, witnessed by MPX."
+  },
+  {
+   "q": "What height are the landing valves?",
+   "a": "At least 750 mm above FFL, labelled 'DRY RISER OUTLET'."
+  },
+  {
+   "q": "How far are the brackets from the joints?",
+   "a": "Within 1 m of each mechanical joint."
+  }
+ ]
 }

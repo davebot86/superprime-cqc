@@ -43,7 +43,47 @@
      "q": "Substrate flat – no more than 3 mm gap under a 2 m straightedge?",
      "evidence": "photo",
      "trade": "AJK",
-     "source": "AJK ITP – flatness"
+     "source": "AJK ITP – flatness",
+     "guide": {
+      "title": "Timber floor – EPR figures",
+      "rows": [
+       [
+        "Substrate",
+        "3 mm max under a 2 m straightedge"
+       ],
+       [
+        "Base RH before laying",
+        "75% or less, all readings"
+       ],
+       [
+        "Edge pieces",
+        "more than 50% of full board width"
+       ]
+      ],
+      "src": "EPR 43 / EPR 74"
+     },
+     "guideRS": {
+      "title": "Riding School – floor finishes",
+      "rows": [
+       [
+        "Finish level",
+        "±3 mm, flush with adjacent finishes"
+       ],
+       [
+        "Step between boards",
+        "±1 mm max"
+       ],
+       [
+        "Timber at fixing",
+        "6–9% moisture"
+       ],
+       [
+        "Base RH",
+        "75% or less"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
+     }
     },
     {
      "q": "Ask the fitter: What moisture readings did you take before laying, and what expansion gap are you leaving? Could they answer?",
@@ -150,5 +190,19 @@
    "n": 10
   }
  ],
- "issuesSeen": 39
+ "issuesSeen": 39,
+ "ask": [
+  {
+   "q": "What moisture readings did you take before laying?",
+   "a": "Sub-floor ≤75% RH; timber 6–9% with a calibrated meter."
+  },
+  {
+   "q": "What expansion gap are you leaving?",
+   "a": "As the AJK detail at all perimeters and thresholds – hidden under skirting/trim."
+  },
+  {
+   "q": "How flat is the substrate?",
+   "a": "No more than 3 mm under a 2 m straightedge."
+  }
+ ]
 }

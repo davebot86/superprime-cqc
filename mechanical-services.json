@@ -175,5 +175,31 @@
    "n": 16
   }
  ],
- "issuesSeen": 242
+ "issuesSeen": 242,
+ "byWorks": {
+  "sc": {
+   "fieldOrg": "Price Building Services"
+  },
+  "fo": {
+   "fieldOrg": "Briggs and Forrester"
+  }
+ },
+ "ask": [
+  {
+   "q": "What bracket centres on this pipework?",
+   "a": "Steel 25–32 mm about 2.4–2.7 m – as the PBS/BAF spec table."
+  },
+  {
+   "q": "What test pressure and is it recorded?",
+   "a": "As the spec – test sheet signed and witnessed."
+  },
+  {
+   "q": "Where are the expansion/anchor points?",
+   "a": "As the drawing – they can point them out."
+  },
+  {
+   "q": "Which works is this – Shell & Core or Fit-out?",
+   "a": "S&C = PBS; Fit-out = BAF. Check the tag matches."
+  }
+ ]
 }

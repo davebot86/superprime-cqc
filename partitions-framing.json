@@ -26,10 +26,10 @@
     },
     {
      "ref": "1.2",
-     "q": "Deflection head fitted with the 20 mm gap kept clear?",
+     "q": "Deflection head fitted with its movement gap kept clear (EPR: ±30 mm), boards not screwed to the head channel?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – deflection head"
+     "source": "EPR 22 Ss_25_10_30/650 + BG tech sub"
     },
     {
      "ref": "1.3",
@@ -219,5 +219,19 @@
    "n": 3
   }
  ],
- "issuesSeen": 262
+ "issuesSeen": 262,
+ "ask": [
+  {
+   "q": "What stud and track fixing centres?",
+   "a": "Studs max 600 mm (400 mm where specified); track fixings max 600 mm, first within 50 mm of the end."
+  },
+  {
+   "q": "What movement does the deflection head allow?",
+   "a": "±30 mm (EPR 22) – boards not screwed into the head channel."
+  },
+  {
+   "q": "What embedment on the track fixings?",
+   "a": "At least 35 mm."
+  }
+ ]
 }

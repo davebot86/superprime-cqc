@@ -153,5 +153,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 27
+ "issuesSeen": 27,
+ "ask": [
+  {
+   "q": "How far from walls and beams do detectors need to be?",
+   "a": "At least 500 mm."
+  },
+  {
+   "q": "How far below the ceiling can a detector be?",
+   "a": "Smoke within 600 mm, heat within 150 mm."
+  },
+  {
+   "q": "What cable and fixings are you using?",
+   "a": "Fire-rated cable on metal fixings, segregated from mains."
+  }
+ ]
 }

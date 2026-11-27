@@ -103,5 +103,19 @@
    "n": 67
   }
  ],
- "issuesSeen": 406
+ "issuesSeen": 406,
+ "ask": [
+  {
+   "q": "What pressure did you test the hot and cold to?",
+   "a": "7 bar, signed off before boxing in."
+  },
+  {
+   "q": "What's the SVP and waste air test?",
+   "a": "SVP 100 mbar for 3 min; waste 38 mbar for 3 min – no drop."
+  },
+  {
+   "q": "How do you know the pod/WC connection positions are right?",
+   "a": "Checked against the pod setting-out drawing (74 series)."
+  }
+ ]
 }

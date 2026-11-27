@@ -43,7 +43,47 @@
      "q": "Gaps between leaf and frame/head 2–4 mm?",
      "evidence": "photo",
      "trade": "RJL",
-     "source": "SJE door checklist 19"
+     "source": "SJE door checklist 19",
+     "guide": {
+      "title": "Internal doors – figures",
+      "rows": [
+       [
+        "Leaf gaps",
+        "2–4 mm, even"
+       ],
+       [
+        "Shadow gap",
+        "10 mm aluminium profile round frames"
+       ],
+       [
+        "Lippings",
+        "hardwood, 12 mm min depth"
+       ]
+      ],
+      "src": "EPR 32 doors"
+     },
+     "guideRS": {
+      "title": "Riding School – doors",
+      "rows": [
+       [
+        "Threshold",
+        "3 mm above floor finish"
+       ],
+       [
+        "Plumb",
+        "±1.5 mm"
+       ],
+       [
+        "Line and level",
+        "±2 mm"
+       ],
+       [
+        "Joint width",
+        "±1 mm of design width"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
+     }
     },
     {
      "ref": "1.5",
@@ -120,5 +160,19 @@
    "n": 77
   }
  ],
- "issuesSeen": 899
+ "issuesSeen": 899,
+ "ask": [
+  {
+   "q": "What gaps around the leaf?",
+   "a": "2–4 mm, even all round."
+  },
+  {
+   "q": "What's the threshold gap above the floor finish?",
+   "a": "As the door schedule (Riding School spec: 3 mm above floor finish)."
+  },
+  {
+   "q": "What's the shadow gap round the frame?",
+   "a": "10 mm aluminium shadow-gap profile, continuous (EPR 32)."
+  }
+ ]
 }

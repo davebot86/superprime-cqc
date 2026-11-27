@@ -179,5 +179,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 30
+ "issuesSeen": 30,
+ "ask": [
+  {
+   "q": "What clear space is needed in front of each entrance?",
+   "a": "1500 × 1500 mm including wall finish."
+  },
+  {
+   "q": "What tolerance on the opening nibs?",
+   "a": "+25 mm / −0 of the lift drawing, heads level."
+  },
+  {
+   "q": "How high are the landing sills above finished floor?",
+   "a": "At least 25 mm."
+  }
+ ]
 }

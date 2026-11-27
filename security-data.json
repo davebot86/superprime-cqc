@@ -149,5 +149,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 85
+ "issuesSeen": 85,
+ "ask": [
+  {
+   "q": "Which drawing revision are you working to?",
+   "a": "They can name the current revision."
+  },
+  {
+   "q": "How are the cables labelled and tested?",
+   "a": "Both ends labelled; tested with results recorded."
+  },
+  {
+   "q": "What's segregating these from power cables?",
+   "a": "Separate containment or a divider, as the spec."
+  }
+ ]
 }

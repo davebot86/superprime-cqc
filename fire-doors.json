@@ -75,6 +75,45 @@
       ],
       "note": "Ask the fitter: 'What's the max gap and threshold gap for this door, and which seals does it take?' If they can't answer, flag it.",
       "src": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60; BS 8214:2016; Atlantic ITP 10.2; Block 5 benchmark BM-55"
+     },
+     "guideRS": {
+      "title": "Fire door gaps – SJWS limits",
+      "rows": [
+       [
+        "Pass line (tightest – passes anywhere)",
+        "3 mm max all round, even"
+       ],
+       [
+        "Leaf to frame – head & jambs",
+        "max 4 mm (Kiwa)"
+       ],
+       [
+        "Meeting stiles (pairs)",
+        "max 4 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire only",
+        "max 6 mm (Kiwa)"
+       ],
+       [
+        "Threshold – fire & smoke ('s' doors)",
+        "as tested: drop seal fitted (Lorient LAS8001 – approved)"
+       ],
+       [
+        "Leaf alignment",
+        "flush in the frame when closed; pairs flush at meeting stiles"
+       ],
+       [
+        "Frame-to-wall sealant depth",
+        "at least 10 mm"
+       ],
+       [
+        "Riser doors (Errigal / Selo)",
+        "3 mm ±1 perimeter; 10 mm internal gap where specified"
+       ]
+      ],
+      "note": "Riding School doors are under the separate WEA spec – check the RS door tech sub before using these Kiwa limits. RS spec: threshold 3 mm above floor finish, plumb ±1.5 mm. Pass line stays 3 mm.",
+      "src": "Kiwa assessment PAR/25955/02 (SJWS-ESC-05-XX-TS-X-00067) – timber FD30/FD60; BS 8214:2016; Atlantic ITP 10.2; Block 5 benchmark BM-55"
      }
     },
     {
@@ -275,5 +314,23 @@
    "n": 89
   }
  ],
- "issuesSeen": 215
+ "issuesSeen": 215,
+ "ask": [
+  {
+   "q": "What's the max gap and threshold gap for this door?",
+   "a": "Gaps 3 mm (Kiwa max 4 mm); threshold 6 mm max (fire), smoke doors need the drop seal."
+  },
+  {
+   "q": "Which seals does it take?",
+   "a": "Intumescent and smoke seals as the certificate – full length, flush in the grooves."
+  },
+  {
+   "q": "How deep is the frame-to-wall sealant?",
+   "a": "At least 10 mm."
+  },
+  {
+   "q": "What screws for the hinges and closer?",
+   "a": "Supplied fire-rated screws, every hole, intumescent pads behind hinges."
+  }
+ ]
 }

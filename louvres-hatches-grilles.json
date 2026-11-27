@@ -148,5 +148,19 @@
    "n": 8
   }
  ],
- "issuesSeen": 87
+ "issuesSeen": 87,
+ "ask": [
+  {
+   "q": "What set-out tolerance are you working to?",
+   "a": "±2 mm on position and level."
+  },
+  {
+   "q": "How do the blades fix?",
+   "a": "Snap connections fully engaged, aligned within ±2 mm."
+  },
+  {
+   "q": "Is there a fire or acoustic rating on this hatch?",
+   "a": "They can say – and the label matches the schedule."
+  }
+ ]
 }

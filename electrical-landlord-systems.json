@@ -78,5 +78,19 @@
    "n": 3
   }
  ],
- "issuesSeen": 42
+ "issuesSeen": 42,
+ "ask": [
+  {
+   "q": "Which board feeds this and is it labelled?",
+   "a": "They can name the board and circuit – labels match the schedule."
+  },
+  {
+   "q": "Has it been tested, and who holds the certificate?",
+   "a": "Yes – test sheets with the supervisor."
+  },
+  {
+   "q": "Is anything temporary still connected?",
+   "a": "No – all temporary supplies removed."
+  }
+ ]
 }

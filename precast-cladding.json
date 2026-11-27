@@ -136,5 +136,19 @@
    "n": 18
   }
  ],
- "issuesSeen": 235
+ "issuesSeen": 235,
+ "ask": [
+  {
+   "q": "What's the joint width?",
+   "a": "Even – GRC max 10 mm."
+  },
+  {
+   "q": "How are the panels fixed and checked?",
+   "a": "As the Thorp fixing drawing – every fixing in, torque recorded."
+  },
+  {
+   "q": "What's the max step between panels?",
+   "a": "Aligned with neighbours – no visible step."
+  }
+ ]
 }

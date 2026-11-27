@@ -61,6 +61,32 @@
       ],
       "note": "Heavier ceilings close the centres up. BG load table (MF5 at 450): 60 kg/m² → hangers 1200 / MF7 600; 40 kg/m² → 1200 / 900; 35 kg/m² → 900 / 1200; 30 kg/m² → 1200 / 1200. Fire-rated ceilings must match the tested system exactly – check the ceiling type on the drawing.",
       "src": "British Gypsum White Book – GypCeiling MF (confirm system on the ceiling type drawing)"
+     },
+     "guideRS": {
+      "title": "Riding School – ceilings",
+      "rows": [
+       [
+        "Plumb",
+        "±2 mm or 0.1% of height – whichever is less"
+       ],
+       [
+        "Level",
+        "±2 mm or 0.1% of length – whichever is less"
+       ],
+       [
+        "Flatness",
+        "2 mm under a 3 m straightedge; 1 mm under 1 m"
+       ],
+       [
+        "Step between adjacent boards/panels",
+        "±1 mm max"
+       ],
+       [
+        "Joint width",
+        "±2 mm of design width"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
      }
     },
     {
@@ -300,6 +326,32 @@
        ]
       ],
       "src": "British Gypsum White Book – GypCeiling MF (confirm system on the ceiling type drawing)"
+     },
+     "guideRS": {
+      "title": "Riding School – ceilings",
+      "rows": [
+       [
+        "Plumb",
+        "±2 mm or 0.1% of height – whichever is less"
+       ],
+       [
+        "Level",
+        "±2 mm or 0.1% of length – whichever is less"
+       ],
+       [
+        "Flatness",
+        "2 mm under a 3 m straightedge; 1 mm under 1 m"
+       ],
+       [
+        "Step between adjacent boards/panels",
+        "±1 mm max"
+       ],
+       [
+        "Joint width",
+        "±2 mm of design width"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
      }
     },
     {
@@ -612,5 +664,23 @@
    "n": 0
   }
  ],
- "issuesSeen": 582
+ "issuesSeen": 582,
+ "ask": [
+  {
+   "q": "What hanger and primary centres does this ceiling need?",
+   "a": "Hangers max 1200 mm; primaries max 1200 mm (900 mm for fire/multi-layer)."
+  },
+  {
+   "q": "What centres are the MF5 sections at?",
+   "a": "Max 450 mm (400 mm for 4-layer fire ceilings)."
+  },
+  {
+   "q": "What screw centres on the boards?",
+   "a": "Max 230 mm in the field, 150 mm at ends and perimeter."
+  },
+  {
+   "q": "What's supporting the services above – the grid or independent?",
+   "a": "Independent supports – nothing hung off the ceiling grid."
+  }
+ ]
 }

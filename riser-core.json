@@ -563,5 +563,23 @@
    "n": 17
   }
  ],
- "issuesSeen": 109
+ "issuesSeen": 109,
+ "ask": [
+  {
+   "q": "What's the riser wall type and rating?",
+   "a": "From the fire strategy – they can name it (e.g. 120 min to the stair lobby)."
+  },
+  {
+   "q": "What gap from services to the opening edges?",
+   "a": "At least 50 mm to the side and bottom, and the CLM matrix gaps between services."
+  },
+  {
+   "q": "What size tolerance on the riser door opening?",
+   "a": "W −0/+10 mm, H −0/+5 mm."
+  },
+  {
+   "q": "Who fire stops the BWIC openings and when?",
+   "a": "CLM, after services are in and before close-up – logged."
+  }
+ ]
 }

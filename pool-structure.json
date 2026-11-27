@@ -154,5 +154,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 4
+ "issuesSeen": 4,
+ "ask": [
+  {
+   "q": "What pressure did the pipework hold before spraying?",
+   "a": "2 bar, recorded."
+  },
+  {
+   "q": "How fast can you fill the pool?",
+   "a": "Max 1.0 m depth per 24 h (Riding School spec 750 mm/24 h), heating max 0.25 °C/h."
+  },
+  {
+   "q": "How flat is the render?",
+   "a": "Within ±3 mm over 1 m."
+  }
+ ]
 }

@@ -109,5 +109,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 99
+ "issuesSeen": 99,
+ "ask": [
+  {
+   "q": "What fixings and how were they tested?",
+   "a": "As the approved detail; 10% torque-checked and pull-tested."
+  },
+  {
+   "q": "What silicone/gaskets go where?",
+   "a": "As the approved glass detail – continuous, neat, no gaps."
+  },
+  {
+   "q": "What's the glass marked as?",
+   "a": "Toughened safety glass mark visible on each pane."
+  }
+ ]
 }

@@ -125,5 +125,19 @@
    "n": 8
   }
  ],
- "issuesSeen": 114
+ "issuesSeen": 114,
+ "ask": [
+  {
+   "q": "Has the trace heating been tested before lagging?",
+   "a": "Yes – insulation resistance and continuity, recorded."
+  },
+  {
+   "q": "What thickness and type is the lagging here?",
+   "a": "As the spec for this pipe size and location – they can say."
+  },
+  {
+   "q": "Is the trace heating labelled?",
+   "a": "Yes – 'Electric trace heated' labels along the run."
+  }
+ ]
 }

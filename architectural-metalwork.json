@@ -113,5 +113,19 @@
    "n": 10
   }
  ],
- "issuesSeen": 300
+ "issuesSeen": 300,
+ "ask": [
+  {
+   "q": "What fixings are you using into this substrate, and how many per bracket?",
+   "a": "As the approved drawing – stainless where external, every hole filled."
+  },
+  {
+   "q": "What setting-out tolerance are you working to?",
+   "a": "±5 mm, plumb and level."
+  },
+  {
+   "q": "Have the fixings been pull-tested?",
+   "a": "Yes – 10% tested, results available."
+  }
+ ]
 }

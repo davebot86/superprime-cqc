@@ -133,5 +133,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 53
+ "issuesSeen": 53,
+ "ask": [
+  {
+   "q": "What gap at edges and balustrade posts?",
+   "a": "10 mm, with 4 mm spacer clips at every cruciform."
+  },
+  {
+   "q": "How deep is the substrate?",
+   "a": "80–150 mm (about 115 mm average); 100 mm min where EPR 27 says."
+  },
+  {
+   "q": "What's around the outlets?",
+   "a": "20–40 mm cobbles to 75 mm depth – outlets left accessible."
+  }
+ ]
 }

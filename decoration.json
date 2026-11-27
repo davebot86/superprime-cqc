@@ -113,5 +113,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 953
+ "issuesSeen": 953,
+ "ask": [
+  {
+   "q": "What light are you checking the finish under?",
+   "a": "Raking/final lighting – no visible defects at normal viewing distance."
+  },
+  {
+   "q": "How many coats, and what's the paint system?",
+   "a": "As the EPR finish schedule – mist coat plus two finish coats."
+  },
+  {
+   "q": "Has the surface been checked as ready before painting?",
+   "a": "Yes – filled, sanded and accepted, dust removed."
+  }
+ ]
 }

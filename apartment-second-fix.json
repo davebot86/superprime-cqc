@@ -164,5 +164,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 206
+ "issuesSeen": 206,
+ "ask": [
+  {
+   "q": "Where is the main bonding clamp and how is it labelled?",
+   "a": "Within 600 mm of the service entry, labelled 'Safety electrical connection – do not remove'."
+  },
+  {
+   "q": "Have you tested this circuit yet, and where are the results?",
+   "a": "Yes – on the test schedule for this apartment, before energising."
+  },
+  {
+   "q": "Who checked the device positions against the latest EPR drawing?",
+   "a": "The supervisor, against the current revision – they can say which."
+  }
+ ]
 }

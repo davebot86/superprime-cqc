@@ -152,5 +152,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 67
+ "issuesSeen": 67,
+ "ask": [
+  {
+   "q": "What test pressure and how long for the water pipework before it's boxed in?",
+   "a": "7 bar, with a signed test sheet – before any boxing in."
+  },
+  {
+   "q": "What fall are you running the wastes at?",
+   "a": "About 18 mm per metre, no back-falls, air tested before boxing in."
+  },
+  {
+   "q": "Who signs off that services are clear of the door head and stud zones?",
+   "a": "BAF supervisor, with photos, before the board goes on."
+  }
+ ]
 }

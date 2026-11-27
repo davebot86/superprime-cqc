@@ -143,5 +143,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 20
+ "issuesSeen": 20,
+ "ask": [
+  {
+   "q": "What setting-out tolerance on the brackets?",
+   "a": "±2 mm, matching the bracket code on the drawing."
+  },
+  {
+   "q": "How do you know the bracket is the right type?",
+   "a": "Bracket code checked against the installation drawing."
+  },
+  {
+   "q": "What's the max step between rainscreen panels?",
+   "a": "2 mm."
+  }
+ ]
 }

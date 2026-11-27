@@ -139,5 +139,19 @@
    "n": 4
   }
  ],
- "issuesSeen": 111
+ "issuesSeen": 111,
+ "ask": [
+  {
+   "q": "What moisture readings on the base?",
+   "a": "Max 65% RH, room humidity 45–65%."
+  },
+  {
+   "q": "What expansion gaps?",
+   "a": "8 mm to other floors, 15 mm at edges."
+  },
+  {
+   "q": "What level is the undercarriage set to?",
+   "a": "SR1 for the 22 mm build-up."
+  }
+ ]
 }

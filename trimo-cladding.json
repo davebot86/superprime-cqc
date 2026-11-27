@@ -152,5 +152,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 12
+ "issuesSeen": 12,
+ "ask": [
+  {
+   "q": "What upstands are needed at doors and windows?",
+   "a": "75 mm at doors and windows, 150 mm elsewhere."
+  },
+  {
+   "q": "How are the panel joints sealed?",
+   "a": "As the Trimo detail – sealant/tapes continuous."
+  },
+  {
+   "q": "What fixings and centres?",
+   "a": "As the Trimo fixing drawing – every fixing in."
+  }
+ ]
 }

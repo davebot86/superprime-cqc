@@ -68,10 +68,32 @@
     },
     {
      "ref": "2.2",
-     "q": "Galvanised upstands and tilt fillets at every upstand on the LPL drawing?",
+     "q": "Upstands at least 150 mm above finished surface, top edge into a chase ≥10 mm deep (or flashed), outlets and penetrations fully detailed?",
      "evidence": "photo",
      "trade": "LDP",
-     "source": "LDP roofing ITP 00006 checklist – upstands"
+     "source": "EPR 27 J41",
+     "guide": {
+      "title": "Roofing – EPR 27",
+      "rows": [
+       [
+        "Upstands",
+        "150 mm min above finished surface"
+       ],
+       [
+        "Chase for top edge",
+        "10 mm min deep"
+       ],
+       [
+        "Gravel ballast",
+        "50 mm min, 25–32 mm aggregate"
+       ],
+       [
+        "Protection/drainage laps",
+        "150 mm"
+       ]
+      ],
+      "src": "EPR 27 roofing spec"
+     }
     },
     {
      "ref": "2.3",
@@ -150,5 +172,19 @@
    "n": 8
   }
  ],
- "issuesSeen": 54
+ "issuesSeen": 54,
+ "ask": [
+  {
+   "q": "What laps on the underlay and cap sheet?",
+   "a": "Side at least 80 mm, end at least 100 mm (150 mm where the detail says)."
+  },
+  {
+   "q": "How high are the upstands?",
+   "a": "At least 150 mm above the finished surface."
+  },
+  {
+   "q": "How is the top edge finished where there's no flashing?",
+   "a": "Into a chase at least 10 mm deep (EPR 27)."
+  }
+ ]
 }

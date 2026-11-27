@@ -65,10 +65,10 @@
     },
     {
      "ref": "1.2",
-     "q": "Screw type, spacing and edge distance to the manufacturer and wall type?",
+     "q": "Screws at 300 mm centres (200 mm at external angles), at least 10 mm from board edges?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – screw fixing"
+     "source": "EPR 22 Ss_25_10_30/660"
     },
     {
      "ref": "1.3",
@@ -153,48 +153,59 @@
     },
     {
      "ref": "2.3",
-     "q": "Wall within ±3 mm in 1.8 m for line and plumb?",
+     "q": "Wall on its setting-out line within ±1 mm, and flat within a 4 mm deviation band?",
      "evidence": "photo",
      "trade": "Errigal",
-     "source": "Errigal ITP – line, level, plumb",
+     "source": "EPR 22 Ss_25_10_30/610 (tighter than BS 8000-8)",
      "guide": {
-      "title": "Drylining – British Gypsum figures",
+      "title": "Drylining – EPR finish tolerances",
       "rows": [
        [
-        "Stud centres",
-        "600 mm max (400 mm where specified / tiled)"
+        "Setting out (line)",
+        "±1 mm, top and bottom"
        ],
        [
-        "Head & floor track fixings",
-        "600 mm max centres"
+        "Finished surface",
+        "4 mm deviation band max"
        ],
        [
-        "First track fixing",
-        "max 50 mm from the track end"
+        "Skimmed finish (where specified)",
+        "Class 5a – 2 mm under a 2 m straightedge"
        ],
        [
-        "Deflection head",
-        "studs NOT screwed to the head track; 15–20 mm gap kept"
+        "Board to floor",
+        "5 mm max gap, filled before skirting"
        ],
        [
-        "Board screws – field",
-        "300 mm centres"
-       ],
-       [
-        "Board screws – external corners",
-        "200 mm centres"
-       ],
-       [
-        "Board joint stagger",
-        "600 mm (between faces and layers)"
-       ],
-       [
-        "Wall tolerance",
-        "±3 mm in 1.8 m (line/plumb) – MEA acceptance"
+        "Screws",
+        "300 mm centres, 200 mm at external angles, ≥10 mm from edges"
        ]
       ],
-      "note": "SJWS Field issues: studs screwed to the head track, corner screws at 290 mm, stagger only 123 mm – all fails.",
-      "src": "British Gypsum White Book (Gypwall / GypLyner) – confirm wall type; MEA ITP acceptance criteria; Field issues"
+      "note": "EPR says these are tighter than BS 8000-8 – EPR governs. The board system follows the approved tech sub.",
+      "src": "EPR 22 partitions spec"
+     },
+     "guideRS": {
+      "title": "Riding School – drylining tolerances",
+      "rows": [
+       [
+        "Plumb",
+        "±2 mm or 0.1% of height – whichever is less"
+       ],
+       [
+        "Level",
+        "±2 mm or 0.1% of length – whichever is less"
+       ],
+       [
+        "Flatness",
+        "2 mm under a 3 m straightedge; 1 mm under 1 m"
+       ],
+       [
+        "Step between adjacent boards/panels",
+        "±1 mm max"
+       ]
+      ],
+      "note": "Riding School is a separate WEA spec – stud centres vary 400/600 mm by wall type and heights go up to 6.1 m. Check the wall type label.",
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
      }
     }
    ]
@@ -303,5 +314,23 @@
    "n": 60
   }
  ],
- "issuesSeen": 539
+ "issuesSeen": 539,
+ "ask": [
+  {
+   "q": "What screw centres and edge distance?",
+   "a": "300 mm centres (200 mm at external angles), at least 10 mm from board edges (EPR 22)."
+  },
+  {
+   "q": "What board stagger does this wall type need?",
+   "a": "Joints staggered 600 mm between layers and sides."
+  },
+  {
+   "q": "What gap at the floor?",
+   "a": "Boards kept up to 5 mm off the floor, filled before skirting."
+  },
+  {
+   "q": "What flatness are you boarding to?",
+   "a": "On the setting-out line ±1 mm, within a 4 mm deviation band (EPR – tighter than BS 8000-8)."
+  }
+ ]
 }

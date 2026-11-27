@@ -109,5 +109,19 @@
    "n": 53
   }
  ],
- "issuesSeen": 317
+ "issuesSeen": 317,
+ "ask": [
+  {
+   "q": "What moisture content is the timber?",
+   "a": "8–12%, with storage conditions logged."
+  },
+  {
+   "q": "What perimeter gap for movement on long runs?",
+   "a": "At least 10 mm plus 2 mm per metre run."
+  },
+  {
+   "q": "How flat is the background before you fix?",
+   "a": "Within 3 mm in 2 m."
+  }
+ ]
 }

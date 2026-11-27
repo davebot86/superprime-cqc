@@ -229,5 +229,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 196
+ "issuesSeen": 196,
+ "ask": [
+  {
+   "q": "What height is the guarding and handrail?",
+   "a": "Guarding at least 1100 mm; stair handrail 900–1000 mm."
+  },
+  {
+   "q": "How are the posts fixed and tested?",
+   "a": "As the approved fixing detail – 10% pull-tested."
+  },
+  {
+   "q": "What gaps are allowed in the infill?",
+   "a": "No opening a 100 mm sphere can pass through."
+  }
+ ]
 }

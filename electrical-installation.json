@@ -137,5 +137,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 304
+ "issuesSeen": 304,
+ "ask": [
+  {
+   "q": "What clip centres are you using on the cables?",
+   "a": "Metal clips/bands about 300 mm horizontal, 400 mm vertical – no plastic-only fixings."
+  },
+  {
+   "q": "What bracket centres on the containment?",
+   "a": "Max 1100 mm."
+  },
+  {
+   "q": "How are cables fixed in escape routes so they don't drop in a fire?",
+   "a": "Metal fixings only (BS 7671 521.10.202)."
+  }
+ ]
 }

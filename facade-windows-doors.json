@@ -211,5 +211,19 @@
    "n": 10
   }
  ],
- "issuesSeen": 456
+ "issuesSeen": 456,
+ "ask": [
+  {
+   "q": "How is the frame sealed to the structure inside and out?",
+   "a": "Air seal inside, weather seal outside, membrane lapped – to the PER detail."
+  },
+  {
+   "q": "Have the opening lights been adjusted?",
+   "a": "Yes – close, lock and seal evenly all round."
+  },
+  {
+   "q": "What's protecting the frames now?",
+   "a": "Protective film/boarding left on until the finishes are complete."
+  }
+ ]
 }

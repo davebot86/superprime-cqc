@@ -151,5 +151,23 @@
    "n": 3
   }
  ],
- "issuesSeen": 140
+ "issuesSeen": 140,
+ "ask": [
+  {
+   "q": "Which system is this – FSi or Quelfire – and why?",
+   "a": "Matches the CLM matrix: FSi tight to soffit, Quelfire where services ≥100 mm from the soffit/wall."
+  },
+  {
+   "q": "What's the gap between these services?",
+   "a": "At least the figure in the CLM spacing matrix for that pair (check the spacing guide)."
+  },
+  {
+   "q": "How is the gas pipe treated through the seal?",
+   "a": "Insulated to the system (FSi 50 mm stone wool / Quelfire 40 mm), sleeved per the Gas rules."
+  },
+  {
+   "q": "Is there a label for this seal?",
+   "a": "Yes – CLM label with system, rating and date."
+  }
+ ]
 }

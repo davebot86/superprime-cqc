@@ -182,5 +182,27 @@
    "n": 1
   }
  ],
- "issuesSeen": 102
+ "issuesSeen": 102,
+ "byWorks": {
+  "sc": {
+   "fieldOrg": "Price Building Services"
+  },
+  "fo": {
+   "fieldOrg": "Briggs and Forrester"
+  }
+ },
+ "ask": [
+  {
+   "q": "What bracket centres on the waste and soil?",
+   "a": "Plastic waste 0.5 m, soil 1.0 m horizontal."
+  },
+  {
+   "q": "What test on the stack?",
+   "a": "Air test to the spec, recorded before boxing in."
+  },
+  {
+   "q": "Which works is this – Shell & Core or Fit-out?",
+   "a": "S&C = PBS; Fit-out = BAF. Check the tag matches."
+  }
+ ]
 }

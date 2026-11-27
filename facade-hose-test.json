@@ -110,5 +110,19 @@
    "n": 6
   }
  ],
- "issuesSeen": 92
+ "issuesSeen": 92,
+ "ask": [
+  {
+   "q": "What test standard and pressure are you using?",
+   "a": "As the approved Permasteelisa test procedure – hose at the set distance/time per joint."
+  },
+  {
+   "q": "What length are you testing and who witnesses?",
+   "a": "The agreed sample length, witnessed by MPX, recorded with photos."
+  },
+  {
+   "q": "What happens if it leaks?",
+   "a": "Fail recorded, fix, retest the same area."
+  }
+ ]
 }

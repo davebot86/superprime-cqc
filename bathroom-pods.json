@@ -29,7 +29,25 @@
      "q": "Positioned and levelled to setting-out, packers solid and fully bearing?",
      "evidence": "photo",
      "trade": "SBE",
-     "source": "SBE on-site ITP 00003"
+     "source": "SBE on-site ITP 00003",
+     "guide": {
+      "title": "Pods – EPR 74",
+      "rows": [
+       [
+        "Pod position",
+        "3 mm max tolerance to setting-out (74 series)"
+       ],
+       [
+        "Finishes",
+        "no lipping or sudden irregularities"
+       ],
+       [
+        "Mirror",
+        "3 mm min gap behind"
+       ]
+      ],
+      "src": "EPR 74 fit-out spec"
+     }
     },
     {
      "q": "Ask the fitter: What's your check before the pod is offered – top cleaned, coves made good, gully clear? Could they answer?",
@@ -130,5 +148,23 @@
    "n": 86
   }
  ],
- "issuesSeen": 1448
+ "issuesSeen": 1448,
+ "ask": [
+  {
+   "q": "What position tolerance does the pod have to sit within?",
+   "a": "3 mm maximum (EPR 74 series)."
+  },
+  {
+   "q": "What drainage test do you do before final connection?",
+   "a": "Air test to 38 mm water gauge, no loss."
+  },
+  {
+   "q": "What test on the manifold and mixer?",
+   "a": "6 bar for 60 minutes."
+  },
+  {
+   "q": "What gap is left behind the mirror?",
+   "a": "At least 3 mm between mirror back and wall."
+  }
+ ]
 }

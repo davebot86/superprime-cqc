@@ -84,7 +84,29 @@
      "q": "Sub-base laid within ±10 mm, basecourse ±6 mm, surfaces ±6 mm of level?",
      "evidence": "photo",
      "trade": "MAY",
-     "source": "Maylim ITP – surface tolerances"
+     "source": "Maylim ITP – surface tolerances",
+     "guide": {
+      "title": "Landscape – EPR 48",
+      "rows": [
+       [
+        "Paving undulation",
+        "3 mm max (5 mm max level difference)"
+       ],
+       [
+        "Edgings",
+        "±10 mm of alignment; ±5 mm in any 10 m"
+       ],
+       [
+        "Gratings (pedestrian)",
+        "heel-proof, openings max 50 × 20 mm"
+       ],
+       [
+        "Fixings",
+        "≤250 mm from ends, ≤600 mm centres"
+       ]
+      ],
+      "src": "EPR 48 external works"
+     }
     }
    ]
   },
@@ -151,5 +173,19 @@
    "n": 5
   }
  ],
- "issuesSeen": 85
+ "issuesSeen": 85,
+ "ask": [
+  {
+   "q": "What levels tolerance on sub-base, basecourse and surface?",
+   "a": "Sub-base ±10 mm, basecourse ±6 mm, surfaces ±6 mm."
+  },
+  {
+   "q": "What's the max undulation on paving?",
+   "a": "3 mm (EPR 48)."
+  },
+  {
+   "q": "What gratings go in pedestrian areas?",
+   "a": "Heel-proof, openings max 50 × 20 mm."
+  }
+ ]
 }

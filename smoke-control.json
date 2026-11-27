@@ -184,5 +184,19 @@
    "n": 25
   }
  ],
- "issuesSeen": 54
+ "issuesSeen": 54,
+ "ask": [
+  {
+   "q": "What height are the fire switches and MCPs?",
+   "a": "About 1.4 m above floor, with covers."
+  },
+  {
+   "q": "How has the system been commissioned?",
+   "a": "Cause-and-effect tested with the fire alarm, witnessed, recorded."
+  },
+  {
+   "q": "What height are the CO detectors?",
+   "a": "1500–1700 mm from FFL, in conduit with guards."
+  }
+ ]
 }

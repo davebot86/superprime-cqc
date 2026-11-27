@@ -73,30 +73,30 @@
      "trade": "ESC",
      "source": "EDM stone ITP 14",
      "guide": {
-      "title": "Stone – SJWS limits",
+      "title": "Stone – EPR 74 figures",
       "rows": [
        [
-        "Flatness / lippage",
-        "within 2 mm (EDM ITP)"
+        "Joints (floor and wall stone)",
+        "2 mm max; control joints 4 mm"
        ],
        [
-        "Adhesive coverage",
-        "at least 75% on the back"
+        "Flatness",
+        "2 mm max under a 2 m straightedge"
        ],
        [
-        "Perimeter joint",
-        "to the specified size – 1–2 mm to 20 mm variation was rejected (BM-29)"
+        "Cutting",
+        "±1.0 mm"
        ],
        [
-        "Chip repair",
-        "colour-matched resin (Akemi) – never grout infill (BM-26)"
+        "Arris",
+        "1 mm min (or bevel per detail)"
        ],
        [
-        "Grout",
-        "approved colour only (e.g. Mapei Jasmine 130 / Moon White 103)"
+        "Setting bed (20 mm stone)",
+        "50 mm min"
        ]
       ],
-      "src": "EDM ITP ESC-00015; Block 5 benchmarks BM-25/26/28/29"
+      "src": "EPR 74 fit-out spec"
      }
     },
     {
@@ -160,5 +160,19 @@
    "n": 114
   }
  ],
- "issuesSeen": 1169
+ "issuesSeen": 1169,
+ "ask": [
+  {
+   "q": "What adhesive coverage on the back?",
+   "a": "At least 75%."
+  },
+  {
+   "q": "What flatness and lippage?",
+   "a": "Within 2 mm; joints max 2 mm (control joints 4 mm) – EPR 74."
+  },
+  {
+   "q": "How is the stone sealed?",
+   "a": "As the EPR finish – sealed before grouting/silicone."
+  }
+ ]
 }

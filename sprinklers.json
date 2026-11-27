@@ -143,5 +143,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 66
+ "issuesSeen": 66,
+ "ask": [
+  {
+   "q": "What tests and in what order?",
+   "a": "Air 0.5 bar for 15 min, then hydraulic 15 bar, before boxing in."
+  },
+  {
+   "q": "What hanger centres?",
+   "a": "Max 4 m (closer for small bore)."
+  },
+  {
+   "q": "How far are heads from obstructions?",
+   "a": "As the sprinkler design – they can say for this head type."
+  }
+ ]
 }

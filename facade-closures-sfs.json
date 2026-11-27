@@ -184,5 +184,19 @@
    "n": 5
   }
  ],
- "issuesSeen": 70
+ "issuesSeen": 70,
+ "ask": [
+  {
+   "q": "What's the lap on the Obex membrane?",
+   "a": "At least 50 mm at heads, sills and junctions, fully bonded."
+  },
+  {
+   "q": "Where are the cavity barriers in this zone?",
+   "a": "They can point to them on the drawing – each floor line and compartment."
+  },
+  {
+   "q": "How are the SFS fixings checked?",
+   "a": "Every fixing in, torque/pull test as the approved method statement."
+  }
+ ]
 }

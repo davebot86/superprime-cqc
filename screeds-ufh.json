@@ -82,17 +82,57 @@
     },
     {
      "ref": "2.3",
-     "q": "No significant cracks or hollowness; moisture tested before floor finishes?",
+     "q": "No significant cracks or hollowness; moisture 75% RH or less before floor finishes?",
      "evidence": "cert",
      "trade": "PGS",
-     "source": "PGS / LAC screed ITPs"
+     "source": "EPR 43 / BS 8203"
     },
     {
      "ref": "2.4",
      "q": "Surface regularity: gap under a 2 m straightedge no more than 3 mm; level within ±7 mm of datum?",
      "evidence": "photo",
      "trade": "PGS",
-     "source": "PGS screed ITP"
+     "source": "PGS screed ITP",
+     "guide": {
+      "title": "Screed – EPR figures",
+      "rows": [
+       [
+        "Flatness",
+        "3 mm max under a 2 m straightedge (anywhere)"
+       ],
+       [
+        "Surface category",
+        "C (5 mm indentation); plant rooms/storage B (4 mm)"
+       ],
+       [
+        "Over 50 mm thick",
+        "laid in two layers, lower one roughened"
+       ],
+       [
+        "Before floor finishes",
+        "75% RH or less on every reading"
+       ]
+      ],
+      "src": "EPR 33 screeds, EPR 43 floor finishes"
+     },
+     "guideRS": {
+      "title": "Riding School – screed",
+      "rows": [
+       [
+        "Level",
+        "±3 mm of datum"
+       ],
+       [
+        "Flatness",
+        "2 mm under 3 m / 1 mm under 1 m"
+       ],
+       [
+        "Before finishes",
+        "75% RH or less"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
+     }
     },
     {
      "ref": "2.5",
@@ -130,5 +170,19 @@
    "n": 4
   }
  ],
- "issuesSeen": 25
+ "issuesSeen": 25,
+ "ask": [
+  {
+   "q": "What flatness and level are you laying to?",
+   "a": "3 mm under a 2 m straightedge; level as the datum (Riding School ±3 mm)."
+  },
+  {
+   "q": "When was the UFH pressure tested and is it still under pressure?",
+   "a": "6 bar water, kept under pressure during screeding."
+  },
+  {
+   "q": "When can floor finishes go on?",
+   "a": "Only when moisture readings show 75% RH or less."
+  }
+ ]
 }

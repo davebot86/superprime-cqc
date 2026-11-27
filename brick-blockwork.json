@@ -64,7 +64,56 @@
      "q": "Bed joints level within ±11 mm over 5 m; wall thickness within ±10 mm?",
      "evidence": "photo",
      "trade": "SBC",
-     "source": "SBC ITP – tolerances"
+     "source": "SBC ITP – tolerances",
+     "guide": {
+      "title": "Brick/block – EPR tolerances",
+      "rows": [
+       [
+        "Straightness",
+        "±5 mm in any 5 m"
+       ],
+       [
+        "Verticality",
+        "±10 mm up to 3 m; ±14 mm up to 7 m"
+       ],
+       [
+        "Bed joint level (5 m)",
+        "brick ±11 mm; block ±13 mm"
+       ],
+       [
+        "Wall thickness",
+        "±10 mm"
+       ],
+       [
+        "Movement joints",
+        "not more than 6 m centres"
+       ],
+       [
+        "DPC",
+        "150–225 mm above ground; kept back 20 mm ext / 12 mm int"
+       ]
+      ],
+      "src": "EPR 21 / EPR 93 masonry"
+     },
+     "guideRS": {
+      "title": "Riding School – brick/block",
+      "rows": [
+       [
+        "Bed joint level (5 m)",
+        "brick ±10 mm; block ±13 mm"
+       ],
+       [
+        "Verticality",
+        "±10 mm up to 3 m; ±14 mm up to 7 m"
+       ],
+       [
+        "Openings (to 3 m)",
+        "width ±5 mm; height ±5 mm"
+       ]
+      ],
+      "note": "Riding School brick bed joints are tighter (±10 mm) than the main site (±11 mm).",
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026)"
+     }
     },
     {
      "ref": "2.4",
@@ -88,10 +137,10 @@
    "questions": [
     {
      "ref": "3.1",
-     "q": "Movement joints in, clean and sealed?",
+     "q": "Movement joints in at no more than 6 m centres (or as drawn), clean and sealed?",
      "evidence": "photo",
      "trade": "SBC",
-     "source": "SBC ITP – movement joints"
+     "source": "EPR 21 F30"
     },
     {
      "ref": "3.2",
@@ -159,5 +208,23 @@
    "n": 9
   }
  ],
- "issuesSeen": 142
+ "issuesSeen": 142,
+ "ask": [
+  {
+   "q": "How far apart are the movement joints?",
+   "a": "Not more than 6 m centres (EPR), or as the drawing."
+  },
+  {
+   "q": "What's your verticality tolerance on this wall?",
+   "a": "±10 mm up to 3 m, ±14 mm up to 7 m."
+  },
+  {
+   "q": "How high above ground does the DPC sit?",
+   "a": "150–225 mm above adjacent ground."
+  },
+  {
+   "q": "What's the wall tie spacing?",
+   "a": "900 mm horizontal × 450 mm vertical; 300 mm vertical within 225 mm of openings."
+  }
+ ]
 }

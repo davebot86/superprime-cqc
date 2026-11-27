@@ -22,7 +22,17 @@
      "q": "Barrier labelled Siderise, horizontal (RH) or vertical (RV) type matching its position, undamaged?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM cavity barrier ITP CLM-00002 8.1"
+     "source": "CLM cavity barrier ITP CLM-00002 8.1",
+     "guideRS": {
+      "title": "Riding School – cavity barriers",
+      "rows": [
+       [
+        "Spacing",
+        "max 20 m in any direction"
+       ]
+      ],
+      "src": "WEA Riding School spec SJWS-WEA-RS-XX-SP-A (C00, 16-03-2026) P12"
+     }
     },
     {
      "ref": "1.2",
@@ -108,5 +118,19 @@
    "n": 1
   }
  ],
- "issuesSeen": 5
+ "issuesSeen": 5,
+ "ask": [
+  {
+   "q": "What bracket centres does this Siderise barrier need?",
+   "a": "As the Siderise data for this barrier; end brackets within 300 mm of each end."
+  },
+  {
+   "q": "How do the joints and ends get sealed?",
+   "a": "Butted tight and taped/foil-sealed to the Siderise detail – no gaps."
+  },
+  {
+   "q": "What's the max spacing between barriers in this cavity?",
+   "a": "Not more than 20 m in any direction (or as the fire strategy)."
+  }
+ ]
 }

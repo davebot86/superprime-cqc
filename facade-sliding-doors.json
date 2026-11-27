@@ -276,5 +276,19 @@
    "n": 2
   }
  ],
- "issuesSeen": 85
+ "issuesSeen": 85,
+ "ask": [
+  {
+   "q": "What tolerance on frame square?",
+   "a": "Diagonals equal within 1 mm, frame level and plumb."
+  },
+  {
+   "q": "How have the automation and safety sensors been commissioned?",
+   "a": "To PER TS 31-7070/7068 – sensors and stop/reverse tested, record sheet signed."
+  },
+  {
+   "q": "Has the threshold been water tested?",
+   "a": "Yes – to the PER water test procedure, recorded."
+  }
+ ]
 }
