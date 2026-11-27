@@ -22,7 +22,8 @@
      "q": "Seal matches the benchmark for this seal type?",
      "evidence": "none",
      "trade": "CLM",
-     "source": "CLM ITP 8.0 (H&A)"
+     "source": "CLM ITP 8.0 (H&A)",
+     "tool": "spacing"
     },
     {
      "ref": "1.2",
@@ -37,8 +38,7 @@
      "q": "Are services clear of the 200 mm door head zone and the critical stud zones?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "BPG001 / project no-go zones",
-     "tool": "spacing"
+     "source": "BPG001 / project no-go zones"
     },
     {
      "ref": "1.4",
@@ -54,7 +54,8 @@
      "trade": "CLM",
      "source": "SuperPrime site practice – a fitter who can't answer is a red flag",
      "ask": true,
-     "ref": "1.5"
+     "ref": "1.5",
+     "tool": "spacing"
     }
    ]
   },
@@ -67,7 +68,8 @@
      "q": "Is the batt tight around every service and sealed on both sides, with no gaps?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 8.1"
+     "source": "CLM ITP 8.1",
+     "tool": "spacing"
     },
     {
      "ref": "2.2",
@@ -81,7 +83,16 @@
      "q": "Collar or wrap matches the CLM schedule for this pipe (size, material, insulation)?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP 8.3–8.4"
+     "source": "CLM ITP 8.3–8.4",
+     "tool": "spacing"
+    },
+    {
+     "q": "Gas pipe through the seal: insulation to the system (FSi 50 mm stone wool / Quelfire 40 mm 45 kg/m³ for 500 mm), ≥80 mm to cast iron and sprinklers in Quelfire, sleeved, gas specialist happy?",
+     "evidence": "photo",
+     "trade": "CLM",
+     "source": "CLM schedule SH-X-00003 C00; CLM Golden Rules K; BS 6891",
+     "ref": "2.4",
+     "tool": "spacing"
     }
    ]
   },

@@ -80,7 +80,8 @@
      "q": "Each BWIC at the drawing size and position (±10 mm), lined for the fire stopper, oversize holes pattressed?",
      "evidence": "photo",
      "trade": "MEA",
-     "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; PBS acoustic TS [SJWS-PBS-R...-00037_C00]"
+     "source": "MEA ITP [SJWS-MEA-X...-00001-C03]; PBS acoustic TS [SJWS-PBS-R...-00037_C00]",
+     "tool": "spacing"
     },
     {
      "ref": "2.2",
@@ -223,7 +224,8 @@
      "q": "Is each smoke or fire damper supported at every corner, fire stopped to the Mandik tested detail, with its actuator cover removable?",
      "evidence": "photo",
      "trade": "PBS / CLM",
-     "source": "Mandik SEDM TS [SJWS-PBS-X...-00263_C01]"
+     "source": "Mandik SEDM TS [SJWS-PBS-X...-00263_C01]",
+     "tool": "spacing"
     },
     {
      "ref": "6.3",
@@ -291,7 +293,8 @@
      "q": "Are cables tested before covering or fire stopping?",
      "evidence": "cert",
      "trade": "PHF",
-     "source": "PHF ITP items 78 [SJWS-PHF-X...-00001-C01]"
+     "source": "PHF ITP items 78 [SJWS-PHF-X...-00001-C01]",
+     "tool": "spacing"
     }
    ]
   },
@@ -304,7 +307,8 @@
      "q": "Is the opening ready for fire stopping (services complete, supported, gaps right)?",
      "evidence": "photo",
      "trade": "All",
-     "source": "Proposed hold point"
+     "source": "Proposed hold point",
+     "tool": "spacing"
     },
     {
      "ref": "9.2",
@@ -318,21 +322,24 @@
      "q": "Does the fire stopping match the benchmark, with the seal label fitted?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "CLM ITP [SJWS-CLM-X...00001[C02]]"
+     "source": "CLM ITP [SJWS-CLM-X...00001[C02]]",
+     "tool": "spacing"
     },
     {
      "ref": "9.4",
      "q": "Where the riser meets a floating floor or the top of a void, is the void fire stopped?",
      "evidence": "photo",
      "trade": "CLM",
-     "source": "Field 5043, 4004 [Issues Exp...5_08_14_44]"
+     "source": "Field 5043, 4004 [Issues Exp...5_08_14_44]",
+     "tool": "spacing"
     },
     {
      "ref": "9.5",
      "q": "Is every penetration in an AV or ELV riser sealed, with no unsealed re-entry?",
      "evidence": "photo",
      "trade": "CLM / Borough",
-     "source": "Field 10808 [Issues Exp...5_08_14_44]"
+     "source": "Field 10808 [Issues Exp...5_08_14_44]",
+     "tool": "spacing"
     }
    ]
   },

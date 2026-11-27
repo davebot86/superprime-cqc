@@ -1,5 +1,5 @@
-const C='sp-cqc-v31';
-const FILES=['./','index.html','manifest.webmanifest','jspdf.umd.min.js','jszip.min.js','icon-180.png','icon-192.png','icon-512.png'];
+const C='sp-cqc-v32';
+const FILES=['./','index.html','manifest.webmanifest','jspdf.umd.min.js','jszip.min.js','icon-180.png','icon-192.png','icon-512.png','hero.jpg','slats.jpg','marble.jpg','onyx.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;
