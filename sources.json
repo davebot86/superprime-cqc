@@ -23,12 +23,34 @@
   "id": "epr-62-2000",
   "kind": "doc",
   "publisher": "EPR Architects (SJWS)",
-  "title": "Typical detail 1 'Switches Setting Out' SJWS-EPR-ZZ-ZZ-DR-A-62-2000 + EPR 62 small power plan general notes",
-  "rev": "As current on Aconex",
+  "title": "Small Power Apartment Legend incl. detail 1 'Switches Setting Out' – SJWS-EPR-ZZ-ZZ-DR-A-62-2000",
+  "rev": "C03 (Status A, 15 Oct 2026)",
   "url": "",
   "verified": "2026-11-28",
-  "used": "Small power setting out guide; Electrical installation 1.3; Apartment 2nd fix 2.1, 3.4; Partitions – framing 2.2",
-  "note": "Project document – check Aconex for a newer revision of 62-2000 and the block 62 plans"
+  "used": "Small power & heights guide (Rules, Apartment); Electrical installation 1.3; Apartment 2nd fix 2.1, 3.4; Partitions – framing 2.2",
+  "note": "Project document – check Aconex for a newer revision"
+ },
+ {
+  "id": "epr-62-2002",
+  "kind": "doc",
+  "publisher": "EPR Architects (SJWS)",
+  "title": "Apartment Kitchens Legend – SJWS-EPR-ZZ-ZZ-DR-A-62-2002 (+ islands 62-2004 P03)",
+  "rev": "P04 (S2 For Information)",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Small power & heights guide (Kitchen)",
+  "note": "Issued for information only – ask EPR for the construction issue; check Aconex monthly"
+ },
+ {
+  "id": "epr-62-2006",
+  "kind": "doc",
+  "publisher": "EPR Architects (SJWS)",
+  "title": "Small Power in Apartment Walls – SJWS-EPR-ZZ-ZZ-DR-A-62-2006",
+  "rev": "P01 (S2 For Information)",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Small power & heights guide (In walls)",
+  "note": "Issued for information only – ask EPR for the construction issue; check Aconex monthly"
  },
  {
   "id": "kiwa-par25955",
