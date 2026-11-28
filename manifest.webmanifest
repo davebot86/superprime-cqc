@@ -1,6 +1,6 @@
 {
- "name": "SuperPrime Critical Quality Check",
- "short_name": "SuperPrime CQC",
+ "name": "SPS Critical Quality Check",
+ "short_name": "SPS CQC",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
