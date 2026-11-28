@@ -83,5 +83,27 @@
   "url": "https://selo.global/library/how-to-install-an-arriva-doorset/",
   "verified": "2026-11-28",
   "used": "Ready for the Arriva guide (apartment MEP cupboard doors, Types 71/72)"
+ },
+ {
+  "id": "epr-32-1027",
+  "kind": "doc",
+  "publisher": "EPR Architects (SJWS)",
+  "title": "Apartment Selo door schedules SJWS-EPR-xx-XX-SH-A-32-1027",
+  "rev": "B02 C00 · B03 C03 · B06 C01 · B4A P01",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Which Selo door is this?",
+  "note": "4A only P01 (for information) and B02 returned Status B – check Aconex for reissues"
+ },
+ {
+  "id": "epr-32-0010",
+  "kind": "doc",
+  "publisher": "EPR Architects (SJWS)",
+  "title": "Communal door & access panel schedule SJWS-EPR-06-XX-SH-A-32-0010 + doors spec 32-0001",
+  "rev": "C04 · spec P02",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Which Selo door is this?",
+  "note": "Project documents – check Aconex for newer revisions"
  }
 ]
