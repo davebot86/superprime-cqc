@@ -1,0 +1,65 @@
+[
+ {
+  "id": "bg-bpg001",
+  "kind": "doc",
+  "publisher": "British Gypsum",
+  "title": "BPG001 Openings within fire-rated systems",
+  "rev": "19 February 2025",
+  "url": "https://www.british-gypsum.com/documents/best-practice-guidance/british-gypsum-bpg001-openings-within-fire-rated-systems.pdf",
+  "verified": "2026-11-28",
+  "used": "Forming openings guide; Riser & Core 2.1, 2.2, 2.4; Fire stopping – penetrations 1.3"
+ },
+ {
+  "id": "bg-bpg002",
+  "kind": "doc",
+  "publisher": "British Gypsum",
+  "title": "BPG002 Deflection heads",
+  "rev": "31 October 2025",
+  "url": "https://www.british-gypsum.com/documents/best-practice-guidance/british-gypsum-bpg002-deflection-heads.pdf",
+  "verified": "2026-11-28",
+  "used": "Deflection heads guide; Partitions – framing 1.2; Riser & Core 1.2, 1.3"
+ },
+ {
+  "id": "epr-62-2000",
+  "kind": "doc",
+  "publisher": "EPR Architects (SJWS)",
+  "title": "Typical detail 1 'Switches Setting Out' SJWS-EPR-ZZ-ZZ-DR-A-62-2000 + EPR 62 small power plan general notes",
+  "rev": "As current on Aconex",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Small power setting out guide; Electrical installation 1.3; Apartment 2nd fix 2.1, 3.4; Partitions – framing 2.2",
+  "note": "Project document – check Aconex for a newer revision of 62-2000 and the block 62 plans"
+ },
+ {
+  "id": "kiwa-par25955",
+  "kind": "doc",
+  "publisher": "Kiwa (KFS) via SJWS tech sub",
+  "title": "Assessment PAR/25955/02 – timber FD30/FD60 (SJWS-ESC-05-XX-TS-X-00067)",
+  "rev": "As approved on Aconex",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Fire doors guide; Fire doors 1.3, 1.5",
+  "note": "Project document – check Aconex for a newer tech sub revision"
+ },
+ {
+  "id": "atl-itp",
+  "kind": "doc",
+  "publisher": "Atlantic (SJWS ITP)",
+  "title": "Fire door ITP ATL-00001",
+  "rev": "As approved on Aconex",
+  "url": "",
+  "verified": "2026-11-28",
+  "used": "Fire doors guide; Fire doors checks",
+  "note": "Project document – check Aconex for a newer revision"
+ },
+ {
+  "id": "selo-arriva-video",
+  "kind": "video",
+  "publisher": "Selo",
+  "title": "How to Install an Arriva Doorset (Selo video library)",
+  "rev": "Web page",
+  "url": "https://selo.global/library/how-to-install-an-arriva-doorset/",
+  "verified": "2026-11-28",
+  "used": "Ready for the Arriva guide (apartment MEP cupboard doors, Types 71/72)"
+ }
+]
